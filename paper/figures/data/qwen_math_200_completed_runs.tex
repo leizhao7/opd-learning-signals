@@ -1,0 +1,21 @@
+% Data: figures/data/qwen_math_200_completed_runs.json
+\begin{table}[htbp]
+\centering
+\normalsize
+\setlength{\tabcolsep}{5pt}
+\caption{Completed 200-update \QwenOneSevenNT{} math runs. $n$ is the number of training rollouts per prompt; validation always uses eight responses per problem. Accuracies are percentages and gain is in percentage points. Final loss reduction is $(1-\widehat{\mathcal L}_{200}/\widehat{\mathcal L}_1)\times100\%$, using each run's own objective. Each row is one training run.}
+  \label{tab:qwen-math-200-ablation}
+  \begin{tabular}{llrrrrr}
+\hline
+Teacher & Support & $n$ & $\mathrm{Acc}_0$ & $\mathrm{Acc}_{200}$ & Gain & \shortstack{Final loss\\reduction} \\
+\hline
+\QwenRLMath{} & Top-16 & 1 & 21.10 & 43.94 & 22.83 & 55.37\% \\
+\QwenFourNT{} & Top-16 & 1 & 20.66 & 22.74 & 2.07 & 6.24\% \\
+\QwenRLMath{} & Full logits & 1 & 20.55 & 46.36 & 25.81 & 54.85\% \\
+\QwenFourNT{} & Full logits & 1 & 21.66 & 22.88 & 1.22 & 11.60\% \\
+\QwenFourNT{} & Top-16 & 8 & 21.85 & 24.87 & 3.02 & 9.89\% \\
+\hline
+\end{tabular}
+
+
+\end{table}

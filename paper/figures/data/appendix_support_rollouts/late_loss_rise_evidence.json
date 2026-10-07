@@ -1,0 +1,500 @@
+{
+  "run": "r1_justrl_top16_g8",
+  "source_metrics_sha256": "98e0b1ee7c7b8c1200a76f77022d6d89851dc877391c17bde4ca63ad3e39480b",
+  "late_updates": [
+    {
+      "step": 180,
+      "opd/loss_token_mean": 0.039612624794244766,
+      "critic/advantages/mean_sum_over_k": -0.039612624794244766,
+      "actor/grad_norm": 0.1754378229379654,
+      "response_length/mean": 6571.265625,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 180,
+      "perf/total_num_tokens": 3434432
+    },
+    {
+      "step": 181,
+      "opd/loss_token_mean": 0.029483074322342873,
+      "critic/advantages/mean_sum_over_k": -0.029483074322342873,
+      "actor/grad_norm": 0.2583577632904053,
+      "response_length/mean": 5485.025390625,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 181,
+      "perf/total_num_tokens": 2883269
+    },
+    {
+      "step": 182,
+      "opd/loss_token_mean": 0.04613182693719864,
+      "critic/advantages/mean_sum_over_k": -0.04613182693719864,
+      "actor/grad_norm": 0.2552914023399353,
+      "response_length/mean": 6377.33203125,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 182,
+      "perf/total_num_tokens": 3346058
+    },
+    {
+      "step": 183,
+      "opd/loss_token_mean": 0.04393764212727547,
+      "critic/advantages/mean_sum_over_k": -0.04393764212727547,
+      "actor/grad_norm": 0.2693888247013092,
+      "response_length/mean": 6306.408203125,
+      "response_length/clip_ratio": 0.001953125,
+      "training/epoch": 0,
+      "training/global_step": 183,
+      "perf/total_num_tokens": 3305273
+    },
+    {
+      "step": 184,
+      "opd/loss_token_mean": 0.03577573224902153,
+      "critic/advantages/mean_sum_over_k": -0.03577573224902153,
+      "actor/grad_norm": 0.22626915574073792,
+      "response_length/mean": 6317.234375,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 184,
+      "perf/total_num_tokens": 3314792
+    },
+    {
+      "step": 185,
+      "opd/loss_token_mean": 0.04651256278157234,
+      "critic/advantages/mean_sum_over_k": -0.04651256278157234,
+      "actor/grad_norm": 0.19631169736385345,
+      "response_length/mean": 5758.6796875,
+      "response_length/clip_ratio": 0.001953125,
+      "training/epoch": 0,
+      "training/global_step": 185,
+      "perf/total_num_tokens": 3027540
+    },
+    {
+      "step": 186,
+      "opd/loss_token_mean": 0.05895979702472687,
+      "critic/advantages/mean_sum_over_k": -0.05895979702472687,
+      "actor/grad_norm": 0.20955047011375427,
+      "response_length/mean": 5851.556640625,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 186,
+      "perf/total_num_tokens": 3071925
+    },
+    {
+      "step": 187,
+      "opd/loss_token_mean": 0.04297436773777008,
+      "critic/advantages/mean_sum_over_k": -0.04297436773777008,
+      "actor/grad_norm": 0.1786118894815445,
+      "response_length/mean": 5937.474609375,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 187,
+      "perf/total_num_tokens": 3113155
+    },
+    {
+      "step": 188,
+      "opd/loss_token_mean": 0.04384702071547508,
+      "critic/advantages/mean_sum_over_k": -0.04384702071547508,
+      "actor/grad_norm": 0.2612890303134918,
+      "response_length/mean": 6246.337890625,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 188,
+      "perf/total_num_tokens": 3274781
+    },
+    {
+      "step": 189,
+      "opd/loss_token_mean": 0.04351511225104332,
+      "critic/advantages/mean_sum_over_k": -0.04351511225104332,
+      "actor/grad_norm": 0.2241525799036026,
+      "response_length/mean": 6202.814453125,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 189,
+      "perf/total_num_tokens": 3256225
+    },
+    {
+      "step": 190,
+      "opd/loss_token_mean": 0.043403033167123795,
+      "critic/advantages/mean_sum_over_k": -0.043403033167123795,
+      "actor/grad_norm": 0.28403240442276,
+      "response_length/mean": 6663.982421875,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 190,
+      "perf/total_num_tokens": 3490823
+    },
+    {
+      "step": 191,
+      "opd/loss_token_mean": 0.03733167052268982,
+      "critic/advantages/mean_sum_over_k": -0.03733167052268982,
+      "actor/grad_norm": 0.2409612387418747,
+      "response_length/mean": 6041.638671875,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 191,
+      "perf/total_num_tokens": 3168783
+    },
+    {
+      "step": 192,
+      "opd/loss_token_mean": 0.03671414032578468,
+      "critic/advantages/mean_sum_over_k": -0.03671414032578468,
+      "actor/grad_norm": 0.2364567667245865,
+      "response_length/mean": 5797.759765625,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 192,
+      "perf/total_num_tokens": 3044525
+    },
+    {
+      "step": 193,
+      "opd/loss_token_mean": 0.032950252294540405,
+      "critic/advantages/mean_sum_over_k": -0.032950252294540405,
+      "actor/grad_norm": 0.2327236533164978,
+      "response_length/mean": 5781.90625,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 193,
+      "perf/total_num_tokens": 3033240
+    },
+    {
+      "step": 194,
+      "opd/loss_token_mean": 0.04292004927992821,
+      "critic/advantages/mean_sum_over_k": -0.04292004927992821,
+      "actor/grad_norm": 0.3171456754207611,
+      "response_length/mean": 5890.373046875,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 194,
+      "perf/total_num_tokens": 3085207
+    },
+    {
+      "step": 195,
+      "opd/loss_token_mean": 0.07724326848983765,
+      "critic/advantages/mean_sum_over_k": -0.07724326848983765,
+      "actor/grad_norm": 0.6859238147735596,
+      "response_length/mean": 6348.017578125,
+      "response_length/clip_ratio": 0.001953125,
+      "training/epoch": 0,
+      "training/global_step": 195,
+      "perf/total_num_tokens": 3320881
+    },
+    {
+      "step": 196,
+      "opd/loss_token_mean": 0.05608893558382988,
+      "critic/advantages/mean_sum_over_k": -0.05608893558382988,
+      "actor/grad_norm": 0.6194650530815125,
+      "response_length/mean": 5824.162109375,
+      "response_length/clip_ratio": 0.0,
+      "training/epoch": 0,
+      "training/global_step": 196,
+      "perf/total_num_tokens": 3054835
+    },
+    {
+      "step": 197,
+      "opd/loss_token_mean": 0.19715413451194763,
+      "critic/advantages/mean_sum_over_k": -0.19715413451194763,
+      "actor/grad_norm": 2.276583433151245,
+      "response_length/mean": 6228.8125,
+      "response_length/clip_ratio": 0.01171875,
+      "training/epoch": 0,
+      "training/global_step": 197,
+      "perf/total_num_tokens": 3259592
+    },
+    {
+      "step": 198,
+      "opd/loss_token_mean": 0.39835941791534424,
+      "critic/advantages/mean_sum_over_k": -0.39835941791534424,
+      "actor/grad_norm": 5.1347270011901855,
+      "response_length/mean": 6889.16015625,
+      "response_length/clip_ratio": 0.041015625,
+      "training/epoch": 0,
+      "training/global_step": 198,
+      "perf/total_num_tokens": 3598970
+    },
+    {
+      "step": 199,
+      "opd/loss_token_mean": 0.31536245346069336,
+      "critic/advantages/mean_sum_over_k": -0.31536245346069336,
+      "actor/grad_norm": 8.566793441772461,
+      "response_length/mean": 7311.251953125,
+      "response_length/clip_ratio": 0.060546875,
+      "training/epoch": 0,
+      "training/global_step": 199,
+      "perf/total_num_tokens": 3819393
+    },
+    {
+      "step": 200,
+      "opd/loss_token_mean": 0.31592413783073425,
+      "critic/advantages/mean_sum_over_k": -0.31592413783073425,
+      "actor/grad_norm": 17.05386734008789,
+      "response_length/mean": 9744.900390625,
+      "response_length/clip_ratio": 0.1328125,
+      "training/epoch": 0,
+      "training/global_step": 200,
+      "perf/total_num_tokens": 5071261
+    }
+  ],
+  "interpretation": "The epoch counter remains 0; native loss matches the negative advantage statistic. This documents a late rise, not its cause.",
+  "recovery": {
+    "recovery_plan.json": {
+      "order": [
+        5
+      ],
+      "jobs": {
+        "5": {
+          "key": "r1_justrl_top16_g8",
+          "job_sha256": "ecb2082d1178821e165dec8e9a8808b541dc608e86bf36351211219783aa8e3b",
+          "config_sha256": "c88ffbc341398840adc578496a74f9fc641a0988d67f01eb8c73e81e6f62c00d",
+          "script_sha256": "96121d05511878fedcdc7ea2ab7572e0d5cb44e879fbf064bcfec1723136bbb5",
+          "wandb_id": "69d0cd18",
+          "cli_overrides": [],
+          "resume_step": 0,
+          "archive": "[cluster-source]",
+          "prior_logged_updates": 1,
+          "unsaved_updates_discarded_from_canonical": 1,
+          "prior_metrics_sha256": "15d782f2e054a35771916b51b470fa83801c60e17c2dce66629aa0b50147f783",
+          "cloud_history_note": "Prior W&B records for unsaved updates remain historical. Local canonical metrics after recovery and final uploaded artifact define the valid trajectory; do not overwrite or conceal failed attempt history.",
+          "source_job": {
+            "number": 5,
+            "key": "r1_justrl_top16_g8",
+            "target": "six_sz_a",
+            "root": "[cluster-source]",
+            "base": "[cluster-source]",
+            "gpus": 2,
+            "devices": "0,1",
+            "student": "[cluster-source]",
+            "teacher": "[cluster-source]",
+            "k": 16,
+            "rollout_n": 8,
+            "train_response_cap": 21000,
+            "run_tag": "opd6_5_r1_justrl_top16_g8_p64_tr21000_val31744_s200_2xh200_20260919",
+            "run_root": "[cluster-source]",
+            "wandb_id": "69d0cd18",
+            "wandb_url": "https://wandb.ai/orchestration/opd_analysis/runs/69d0cd18",
+            "engine": "vllm",
+            "data_profile": "r1_modal",
+            "priority": 2,
+            "planned_trajectories": 102400,
+            "vllm_site": "[cluster-source]",
+            "assets": [
+              "r1_student",
+              "justrl_teacher",
+              "vllm011",
+              "r1_validation"
+            ]
+          },
+          "source_config_sha256": "7ec90a68476a8a44eb94279c11b9571b6540a76bab8d97827a51c19e9d11de23",
+          "allowed_changes": [
+            "base[cluster-source]"
+          ]
+        }
+      },
+      "reason": "Isolate run5 from shared SZ host after OOM; smart3 Pod/cgroup now both256GiB",
+      "activation_required": true
+    },
+    "recovery_gate.json": {
+      "passed": true,
+      "number": 5,
+      "checked_at": 1789845203.2794623,
+      "job_sha256": "ecb2082d1178821e165dec8e9a8808b541dc608e86bf36351211219783aa8e3b",
+      "original_config_sha256": "c88ffbc341398840adc578496a74f9fc641a0988d67f01eb8c73e81e6f62c00d",
+      "cli_overrides": [],
+      "all_other_config_fields_equal": true,
+      "model_data_scorer_hashes_verified": true
+    },
+    "failed_attempt_provenance.json": {
+      "key": "r1_justrl_top16_g8",
+      "job_sha256": "ceedf50d35fe2cca8b982300283cb0c35cb4fc759af277ec0a62d4c7229c3ebe",
+      "config_sha256": "7ec90a68476a8a44eb94279c11b9571b6540a76bab8d97827a51c19e9d11de23",
+      "script_sha256": "3fbddea484e852940f205292c1eba337fe283b557ffbed43d5353dda159b21e1",
+      "wandb_id": "69d0cd18",
+      "cli_overrides": [],
+      "resume_step": 0,
+      "archive": "[cluster-source]",
+      "prior_logged_updates": 1,
+      "unsaved_updates_discarded_from_canonical": 1,
+      "prior_metrics_sha256": "15d782f2e054a35771916b51b470fa83801c60e17c2dce66629aa0b50147f783",
+      "cloud_history_note": "Prior W&B records for unsaved updates remain historical. Local canonical metrics after recovery and final uploaded artifact define the valid trajectory; do not overwrite or conceal failed attempt history."
+    },
+    "recovery_effective_baseline_isolated_run5.json": {
+      "kind": "effective_baseline_after_isolated_run5_recovery",
+      "created_at": "2026-09-19T19:53:11.694814+00:00",
+      "wandb_id": "69d0cd18",
+      "run_tag": "opd6_5_r1_justrl_top16_g8_p64_tr21000_val31744_s200_2xh200_20260919",
+      "run_root": "[cluster-source]",
+      "active_train_identity": {
+        "pid": 28145,
+        "start_ticks": "211328278"
+      },
+      "active_controller_identity": {
+        "pid": 27631,
+        "start_ticks": "211309717",
+        "job_sha256": "ecb2082d1178821e165dec8e9a8808b541dc608e86bf36351211219783aa8e3b",
+        "time": 1789845138.0841572
+      },
+      "config_sha256": "c88ffbc341398840adc578496a74f9fc641a0988d67f01eb8c73e81e6f62c00d",
+      "sampling": {
+        "n": 8,
+        "max_tokens": 31744,
+        "temperature": 0.7,
+        "top_p": 0.95
+      },
+      "data": [
+        {
+          "benchmark": "AIME24",
+          "path": "[cluster-source]",
+          "sha256": "96e8f70ebaab8a82f624cea63e0316cb32cd33f380488f08673e075ba164f66c",
+          "rows": 30,
+          "rendered_prompt_sha256": "7542036f6b1ff8ab9837aabb5f00c7861e7993cee6b27bbffefda5d5874b5e8c"
+        },
+        {
+          "benchmark": "AIME25",
+          "path": "[cluster-source]",
+          "sha256": "77b134c34fd332401a194160726b3421d3c4aad754db9f3883d40b9c7a349ad6",
+          "rows": 30,
+          "rendered_prompt_sha256": "d86f1e20bd4cf783dc0ca4811b69db72f3db62c15b2c5bfce5a3e93b4c645ec2"
+        },
+        {
+          "benchmark": "AMC23",
+          "path": "[cluster-source]",
+          "sha256": "7a3498387133b2d5adcdd25e54b746e607aa60280b5e8cbe59ae85cf8f5241b2",
+          "rows": 83,
+          "rendered_prompt_sha256": "a4a9a2aa142da3c7c1690b6f9eb67e889ec22f05dd638fb16c99ce9b339a712a"
+        }
+      ],
+      "effective_validation0": {
+        "step": 0,
+        "rows": 1144,
+        "questions": 143,
+        "samples_each": 8,
+        "prompt_and_ground_truth_match_original": true,
+        "scores": {
+          "AIME24": 0.2916666666666667,
+          "AIME25": 0.24583333333333332,
+          "AMC23": 0.6581325301204819
+        },
+        "mean8": 0.39854417670682735,
+        "sha256": "a39e12f5293a33ecfc46f1d45906191e2023007ffe9ea0b53afd357441d72bda"
+      },
+      "first_update_logged": {
+        "step": 1,
+        "actor/grad_norm": 2.7186965942382812,
+        "timing_s/update_actor": 144.9925109152682,
+        "timing_s/step": 662.6058887937106,
+        "opd/loss_token_mean": 0.4584561884403229
+      },
+      "native_counter_audit_pending_until_checkpoint10": true,
+      "failed_attempt": {
+        "location": "[cluster-source]",
+        "logged_updates": 1,
+        "saved_checkpoints": 0,
+        "excluded_from_current_valid_optimizer_sequence": true
+      },
+      "history_policy": "Preserve the earlier failed attempt and existing W&B history. Use this effective val0 and the current canonical local checkpoint chain for analysis. At final completion additionally upload canonical metrics, plots and full recovery provenance and verify downloaded hashes. This preliminary baseline file does not satisfy final completion audits."
+    }
+  },
+  "counter_audit": {
+    "passed": true,
+    "world_size": 2,
+    "checkpoints": [
+      {
+        "step": 190,
+        "path": "[cluster-source]",
+        "resolved_path": "[cluster-source]",
+        "data_sha256": "610b8f29d3158d8857c824e190932307cd01327050ad41a64aa9353a8f0ef80b",
+        "data_snapshot_step": 190,
+        "yielded_batches": 190,
+        "yielded_prompts": 12160,
+        "ranks": [
+          {
+            "rank": 0,
+            "optimizer_states": 29,
+            "optimizer_step_min": 190.0,
+            "optimizer_step_max": 190.0,
+            "scheduler_last_epoch": 190,
+            "scheduler_step_count": 191,
+            "rng_keys": [
+              "cpu",
+              "cuda",
+              "numpy",
+              "random"
+            ],
+            "extra_sha256": "1a18f159ecdd742fb6f4ac6730fe2fb706c2519f607c56e468afc75784f03ce2",
+            "optimizer_bytes": 7108485732,
+            "model_bytes": 3554363243,
+            "model_storage_count": 340,
+            "model_storage_bytes": 3554176008
+          },
+          {
+            "rank": 1,
+            "optimizer_states": 29,
+            "optimizer_step_min": 190.0,
+            "optimizer_step_max": 190.0,
+            "scheduler_last_epoch": 190,
+            "scheduler_step_count": 191,
+            "rng_keys": [
+              "cpu",
+              "cuda",
+              "numpy",
+              "random"
+            ],
+            "extra_sha256": "57a5e6eccc3282e5da1f4c2f1be99640a8ebb33e7e8e1e0e031f5f9573f12e48",
+            "optimizer_bytes": 7108485732,
+            "model_bytes": 3554363243,
+            "model_storage_count": 340,
+            "model_storage_bytes": 3554176008
+          }
+        ]
+      },
+      {
+        "step": 200,
+        "path": "[cluster-source]",
+        "resolved_path": "[cluster-source]",
+        "data_sha256": "a15f14e138c3a6d7c249988db2cf87267eec884e94f2f6ae2ec15821dae9dfa0",
+        "data_snapshot_step": 200,
+        "yielded_batches": 200,
+        "yielded_prompts": 12800,
+        "ranks": [
+          {
+            "rank": 0,
+            "optimizer_states": 29,
+            "optimizer_step_min": 200.0,
+            "optimizer_step_max": 200.0,
+            "scheduler_last_epoch": 200,
+            "scheduler_step_count": 201,
+            "rng_keys": [
+              "cpu",
+              "cuda",
+              "numpy",
+              "random"
+            ],
+            "extra_sha256": "994ad595d14a2cd7d2594307f921f05031faba9fab2a0f09e08faa83476348e1",
+            "optimizer_bytes": 7108485732,
+            "model_bytes": 3554363243,
+            "model_storage_count": 340,
+            "model_storage_bytes": 3554176008
+          },
+          {
+            "rank": 1,
+            "optimizer_states": 29,
+            "optimizer_step_min": 200.0,
+            "optimizer_step_max": 200.0,
+            "scheduler_last_epoch": 200,
+            "scheduler_step_count": 201,
+            "rng_keys": [
+              "cpu",
+              "cuda",
+              "numpy",
+              "random"
+            ],
+            "extra_sha256": "ae63467c44e8b9a2822b65ae33916e347c5669fd70110bdda5bdce9d3684c67c",
+            "optimizer_bytes": 7108485732,
+            "model_bytes": 3554363243,
+            "model_storage_count": 340,
+            "model_storage_bytes": 3554176008
+          }
+        ]
+      }
+    ]
+  }
+}

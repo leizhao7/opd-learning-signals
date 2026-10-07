@@ -1,0 +1,6 @@
+pandas>=2.2,<3
+pyarrow>=19
+nltk>=3.9
+langdetect==1.0.9
+pythainlp>=5
+emoji>=2

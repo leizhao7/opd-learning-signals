@@ -1,0 +1,54 @@
+% Audited settings and source provenance: opd_training_config_source.json.
+\begin{table}[htbp]
+  \centering
+  \normalsize
+  \setlength{\tabcolsep}{4pt}
+  \renewcommand{\arraystretch}{1.08}
+  \caption{Training configurations for the seven main OPD runs. Each teacher
+  condition is one training run; the three columns contain two, two, and
+  three teacher conditions, respectively.}
+  \label{tab:opd-training-config}
+  \begin{tabular}{@{}lccc@{}}
+    \hline
+    \textbf{Setting} & \shortstack{\textbf{Code}\\Qwen3-4B\\(Non-thinking)}
+      & \shortstack{\textbf{Math}\\Qwen3-1.7B\\(Non-thinking)}
+      & \shortstack{\textbf{Math}\\R1-Distill-1.5B\\\strut} \\
+    \hline
+    OPD objective & \multicolumn{3}{c}{Reverse KL, Eq~\eqref{eq:online-loss}} \\
+    Vocabulary approximation & \multicolumn{3}{c}{Student's top 16 tokens} \\
+    Token weights & \multicolumn{3}{c}{Student probabilities} \\
+    Loss normalization & \multicolumn{3}{c}{Global mean over valid response tokens} \\
+    \hline
+    Optimizer & AdamW & AdamW & AdamW \\
+    Learning rate & $10^{-6}$ & $10^{-6}$ & $10^{-6}$ \\
+    Learning-rate schedule & constant & constant & constant \\
+    Warmup fraction & 0 & 0 & 0 \\
+    Adam $(\beta_1,\beta_2)$ & $(0.9, 0.999)$ & $(0.9, 0.999)$ & $(0.9, 0.999)$ \\
+    Weight decay & 0.01 & 0.01 & 0.01 \\
+    Gradient clipping ($\ell_2$ norm) & 1 & 1 & 1 \\
+    Prompt batch size & 64 & 64 & 64 \\
+    Optimization minibatch size & 64 & 64 & 64 \\
+    Training rollouts per prompt & 1 & 1 & 1 \\
+    Optimization epochs per batch & 1 & 1 & 1 \\
+    Maximum prompt tokens & 2,048 & 1,024 & 1,024 \\
+    Maximum response tokens & 16,384 & 7,168 & 21,000 \\
+    Student sampling temperature & 1 & 1 & 1 \\
+    Teacher temperature & 1 & 1 & 1 \\
+    Student sampling top-$p$ & 1 & 1 & 1 \\
+    Configured training updates & 200 & 200 & 200 \\
+    Validation interval (updates) & 10 & 10 & 10 \\
+    Checkpoint interval (updates) & 10 & 10 & 10 \\
+    \hline
+    Common comparison endpoint & 200 & 200 & 200 \\
+    \hline
+  \end{tabular}
+  \par\vspace{3pt}
+  \begin{minipage}{\linewidth}
+    \normalsize
+    Student rollouts provide the prefixes; the teacher is fixed during training.
+    Merged entries apply to all three groups. The configured budget is 200 updates
+    in every run, and all seven comparisons use the complete 200-update window.
+    The Code run with \QwenRLCode{} is the completed reproduction described in
+    the comparison-scope discussion below.
+  \end{minipage}
+\end{table}

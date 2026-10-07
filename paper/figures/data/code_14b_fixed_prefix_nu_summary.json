@@ -1,0 +1,13 @@
+{
+  "definition": "Projected fixed-prefix nu_hat = unbiased squared norm of the mean proper-top16 KL gradient divided by twice the proper-top16 KL.",
+  "parameter_subspace": "last transformer block plus final norm",
+  "prefixes": "same 64 frozen validation trajectories at every checkpoint",
+  "b14_initial_nu_unbiased": 0.9153431990687431,
+  "b14_minimum_nu_unbiased": 0.8489895252595145,
+  "b14_minimum_step": 50,
+  "b14_final_nu_unbiased": 1.5354930633867359,
+  "rl_step0_nu_unbiased": 3.7484723684953942,
+  "rl_over_b14_step0_ratio": 4.095155098447266,
+  "rl_over_b14_minimum_ratio": 4.415216274134338,
+  "warning": "The biased/unbiased estimator gap is a finite-sample sensitivity comparison, not a confidence interval. RL is measured only at step 0."
+}

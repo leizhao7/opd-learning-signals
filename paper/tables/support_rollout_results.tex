@@ -1,0 +1,41 @@
+% Generated from support_rollout_metrics.json; values use unsmoothed native losses.
+\begin{table}[tbp]
+\centering
+\normalsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\caption{Support and rollout comparisons after 200 updates. Accuracy is
+macro-averaged $\mathrm{avg}@8$. Maximum and final loss reduction use
+$(1-\widehat{\mathcal L}_{\min}/\widehat{\mathcal L}_1)\times100\%$ and
+$(1-\widehat{\mathcal L}_{200}/\widehat{\mathcal L}_1)\times100\%$,
+respectively. Each uses its own run's objective. The four top-16, $n=1$
+rows are the main-run baselines; the other eight rows are additional runs.}
+\label{tab:support-rollout-results}
+\begin{tabular}{@{}llcrrrr@{}}
+\toprule
+Teacher & Support & $n$ & \multicolumn{2}{c}{Accuracy} & \multicolumn{2}{c}{Loss reduction} \\
+\cmidrule(lr){4-5}\cmidrule(l){6-7}
+ & & & Initial & Final & Maximum & Final \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{Student: Qwen3-1.7B (Non-thinking)}} \\
+\addlinespace[2pt]
+\QwenRLMath{} & Top-16 & 1 & 21.10\% & 43.94\% & 65.08\% & 55.37\% \\
+ & Full & 1 & 20.55\% & 46.36\% & 62.68\% & 54.85\% \\
+ & Top-16 & 8 & 22.95\% & 45.21\% & 60.62\% & 51.29\% \\
+\addlinespace[3pt]
+Qwen3-4B & Top-16 & 1 & 20.66\% & 22.74\% & 30.36\% & 6.24\% \\
+ & Full & 1 & 21.66\% & 22.88\% & 37.52\% & 11.60\% \\
+ & Top-16 & 8 & 21.85\% & 24.87\% & 33.02\% & 9.89\% \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{Student: R1-Distill-1.5B}} \\
+\addlinespace[2pt]
+JustRL-1.5B & Top-16 & 1 & 39.85\% & 51.88\% & 96.29\% & 92.95\% \\
+ & Full & 1 & 39.85\% & 50.46\% & 96.22\% & 91.80\% \\
+ & Top-16 & 8 & 39.85\% & 51.93\% & 96.18\% & 31.09\% \\
+\addlinespace[3pt]
+R1-Distill-7B & Top-16 & 1 & 39.85\% & 42.66\% & 34.35\% & 13.94\% \\
+ & Full & 1 & 39.85\% & 40.32\% & 30.77\% & -7.05\% \\
+ & Top-16 & 8 & 40.39\% & 38.87\% & 35.03\% & 18.29\% \\
+\bottomrule
+\end{tabular}
+\end{table}

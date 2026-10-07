@@ -1,0 +1,20 @@
+\begin{tabular}{@{}lllcccc@{}}
+\toprule
+ & & & \multicolumn{2}{c}{\textbf{OPD student}} & \multicolumn{2}{c}{\textbf{Teacher}} \\
+\cmidrule(lr){4-5}\cmidrule(l){6-7}
+\textbf{Task} & \textbf{Student} & \textbf{Teacher}
+ & $d_{\mathrm{par}}$ & Min.\ CKA & $d_{\mathrm{par}}$ & Min.\ CKA \\
+\midrule
+Code & Qwen3-4B & \QwenRLCode{}$^{\dagger}$ & 0.032\% & 0.9979 & 0.030\% & 0.9993 \\
+     &          & Qwen3-14B                 & 0.063\% & 0.9850 & --      & --     \\
+\midrule
+Math & Qwen3-1.7B & \QwenRLMath{}          & 0.031\% & 0.9939 & --      & --     \\
+     &            & Qwen3-4B                  & 0.025\% & 0.9973 & --      & --     \\
+\midrule
+Math & R1-Distill-1.5B & JustRL-1.5B$^{\dagger}$       & 0.098\% & 0.9904 & 0.497\% & 0.9674 \\
+     &                 & \SkyworkTeacher{}             & 0.063\% & 0.9988 & --      & --     \\
+     &                 & R1-Distill-7B                 & 0.050\% & 0.9986 & --      & --     \\
+\midrule
+IF   & R1-Distill-1.5B & UltraData-IF-1.5B$^{\dagger}$ & 0.026\% & 0.9999 & 0.037\% & 0.9998 \\
+\bottomrule
+\end{tabular}

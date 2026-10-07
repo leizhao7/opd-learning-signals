@@ -1,0 +1,485 @@
+teacher_key,teacher,step,metric,value
+justrl,JustRL-1.5B,5,loss,0.4108
+justrl,JustRL-1.5B,5,learning_rate,2.666666666666667e-06
+justrl,JustRL-1.5B,10,loss,0.4028
+justrl,JustRL-1.5B,10,learning_rate,6e-06
+justrl,JustRL-1.5B,15,loss,0.3592
+justrl,JustRL-1.5B,15,learning_rate,9.333333333333334e-06
+justrl,JustRL-1.5B,20,loss,0.3421
+justrl,JustRL-1.5B,20,learning_rate,9.995036481411005e-06
+justrl,JustRL-1.5B,25,loss,0.3291
+justrl,JustRL-1.5B,25,learning_rate,9.97488907544252e-06
+justrl,JustRL-1.5B,30,loss,0.3156
+justrl,JustRL-1.5B,30,learning_rate,9.939310009499348e-06
+justrl,JustRL-1.5B,35,loss,0.3129
+justrl,JustRL-1.5B,35,learning_rate,9.888409646654818e-06
+justrl,JustRL-1.5B,40,loss,0.308
+justrl,JustRL-1.5B,40,learning_rate,9.822345875271884e-06
+justrl,JustRL-1.5B,45,loss,0.3061
+justrl,JustRL-1.5B,45,learning_rate,9.741323619247575e-06
+justrl,JustRL-1.5B,50,loss,0.301
+justrl,JustRL-1.5B,50,learning_rate,9.645594202357438e-06
+justrl,JustRL-1.5B,55,loss,0.2973
+justrl,JustRL-1.5B,55,learning_rate,9.535454568671705e-06
+justrl,JustRL-1.5B,60,loss,0.299
+justrl,JustRL-1.5B,60,learning_rate,9.41124636146141e-06
+justrl,JustRL-1.5B,65,loss,0.2975
+justrl,JustRL-1.5B,65,learning_rate,9.273354863451589e-06
+justrl,JustRL-1.5B,70,loss,0.3015
+justrl,JustRL-1.5B,70,learning_rate,9.122207801708802e-06
+justrl,JustRL-1.5B,75,loss,0.3107
+justrl,JustRL-1.5B,75,learning_rate,8.958274020870107e-06
+justrl,JustRL-1.5B,80,loss,0.3008
+justrl,JustRL-1.5B,80,learning_rate,8.782062028829028e-06
+justrl,JustRL-1.5B,85,loss,0.3044
+justrl,JustRL-1.5B,85,learning_rate,8.594118419389648e-06
+justrl,JustRL-1.5B,90,loss,0.3034
+justrl,JustRL-1.5B,90,learning_rate,8.395026176781627e-06
+justrl,JustRL-1.5B,95,loss,0.2969
+justrl,JustRL-1.5B,95,learning_rate,8.185402867295373e-06
+justrl,JustRL-1.5B,100,loss,0.2948
+justrl,JustRL-1.5B,100,learning_rate,7.965898723646777e-06
+justrl,JustRL-1.5B,100,eval_loss,0.29620030522346497
+justrl,JustRL-1.5B,105,loss,0.3001
+justrl,JustRL-1.5B,105,learning_rate,7.7371946280136e-06
+justrl,JustRL-1.5B,110,loss,0.304
+justrl,JustRL-1.5B,110,learning_rate,7.500000000000001e-06
+justrl,JustRL-1.5B,115,loss,0.3029
+justrl,JustRL-1.5B,115,learning_rate,7.25505059608051e-06
+justrl,JustRL-1.5B,120,loss,0.3018
+justrl,JustRL-1.5B,120,learning_rate,7.003106227349399e-06
+justrl,JustRL-1.5B,125,loss,0.2907
+justrl,JustRL-1.5B,125,learning_rate,6.7449484026547705e-06
+justrl,JustRL-1.5B,130,loss,0.2986
+justrl,JustRL-1.5B,130,learning_rate,6.481377904428171e-06
+justrl,JustRL-1.5B,135,loss,0.2931
+justrl,JustRL-1.5B,135,learning_rate,6.213212304729259e-06
+justrl,JustRL-1.5B,140,loss,0.2905
+justrl,JustRL-1.5B,140,learning_rate,5.941283429210568e-06
+justrl,JustRL-1.5B,145,loss,0.2974
+justrl,JustRL-1.5B,145,learning_rate,5.666434776868895e-06
+justrl,JustRL-1.5B,150,loss,0.3106
+justrl,JustRL-1.5B,150,learning_rate,5.389518903587016e-06
+justrl,JustRL-1.5B,155,loss,0.2879
+justrl,JustRL-1.5B,155,learning_rate,5.111394777581769e-06
+justrl,JustRL-1.5B,160,loss,0.2926
+justrl,JustRL-1.5B,160,learning_rate,4.832925114961629e-06
+justrl,JustRL-1.5B,165,loss,0.298
+justrl,JustRL-1.5B,165,learning_rate,4.554973703658676e-06
+justrl,JustRL-1.5B,170,loss,0.2998
+justrl,JustRL-1.5B,170,learning_rate,4.278402724035868e-06
+justrl,JustRL-1.5B,175,loss,0.3026
+justrl,JustRL-1.5B,175,learning_rate,4.004070074480821e-06
+justrl,JustRL-1.5B,180,loss,0.2918
+justrl,JustRL-1.5B,180,learning_rate,3.732826710281923e-06
+justrl,JustRL-1.5B,185,loss,0.2894
+justrl,JustRL-1.5B,185,learning_rate,3.465514004041301e-06
+justrl,JustRL-1.5B,190,loss,0.2954
+justrl,JustRL-1.5B,190,learning_rate,3.202961135812437e-06
+justrl,JustRL-1.5B,195,loss,0.2977
+justrl,JustRL-1.5B,195,learning_rate,2.9459825210579534e-06
+justrl,JustRL-1.5B,200,loss,0.2982
+justrl,JustRL-1.5B,200,learning_rate,2.69537528440586e-06
+justrl,JustRL-1.5B,200,eval_loss,0.2945355772972107
+justrl,JustRL-1.5B,205,loss,0.2957
+justrl,JustRL-1.5B,205,learning_rate,2.4519167870404126e-06
+justrl,JustRL-1.5B,210,loss,0.2893
+justrl,JustRL-1.5B,210,learning_rate,2.216362215397393e-06
+justrl,JustRL-1.5B,215,loss,0.3052
+justrl,JustRL-1.5B,215,learning_rate,1.989442238643478e-06
+justrl,JustRL-1.5B,220,loss,0.2977
+justrl,JustRL-1.5B,220,learning_rate,1.771860742205988e-06
+justrl,JustRL-1.5B,225,loss,0.2903
+justrl,JustRL-1.5B,225,learning_rate,1.56429264438338e-06
+justrl,JustRL-1.5B,230,loss,0.2942
+justrl,JustRL-1.5B,230,learning_rate,1.367381802809185e-06
+justrl,JustRL-1.5B,235,loss,0.298
+justrl,JustRL-1.5B,235,learning_rate,1.1817390172633402e-06
+justrl,JustRL-1.5B,240,loss,0.2897
+justrl,JustRL-1.5B,240,learning_rate,1.0079401350260288e-06
+justrl,JustRL-1.5B,245,loss,0.2976
+justrl,JustRL-1.5B,245,learning_rate,8.46524264651028e-07
+justrl,JustRL-1.5B,250,loss,0.296
+justrl,JustRL-1.5B,250,learning_rate,6.979921036993042e-07
+justrl,JustRL-1.5B,255,loss,0.2901
+justrl,JustRL-1.5B,255,learning_rate,5.628043856200543e-07
+justrl,JustRL-1.5B,260,loss,0.2976
+justrl,JustRL-1.5B,260,learning_rate,4.413804505968533e-07
+justrl,JustRL-1.5B,265,loss,0.297
+justrl,JustRL-1.5B,265,learning_rate,3.340969447919873e-07
+justrl,JustRL-1.5B,270,loss,0.2971
+justrl,JustRL-1.5B,270,learning_rate,2.4128665202382327e-07
+justrl,JustRL-1.5B,275,loss,0.2959
+justrl,JustRL-1.5B,275,learning_rate,1.6323746150123e-07
+justrl,JustRL-1.5B,280,loss,0.2963
+justrl,JustRL-1.5B,280,learning_rate,1.0019147481706626e-07
+justrl,JustRL-1.5B,285,loss,0.308
+justrl,JustRL-1.5B,285,learning_rate,5.234425497072981e-08
+justrl,JustRL-1.5B,290,loss,0.291
+justrl,JustRL-1.5B,290,learning_rate,1.984421974927375e-08
+justrl,JustRL-1.5B,295,loss,0.2951
+justrl,JustRL-1.5B,295,learning_rate,2.792181348726941e-09
+justrl,JustRL-1.5B,297,eval_loss,0.2942136228084564
+r1_7b,R1-Distill-7B,5,loss,0.3711
+r1_7b,R1-Distill-7B,5,learning_rate,2.666666666666667e-06
+r1_7b,R1-Distill-7B,10,loss,0.3747
+r1_7b,R1-Distill-7B,10,learning_rate,6e-06
+r1_7b,R1-Distill-7B,15,loss,0.3728
+r1_7b,R1-Distill-7B,15,learning_rate,9.333333333333334e-06
+r1_7b,R1-Distill-7B,20,loss,0.3501
+r1_7b,R1-Distill-7B,20,learning_rate,9.995036481411005e-06
+r1_7b,R1-Distill-7B,25,loss,0.3537
+r1_7b,R1-Distill-7B,25,learning_rate,9.97488907544252e-06
+r1_7b,R1-Distill-7B,30,loss,0.3614
+r1_7b,R1-Distill-7B,30,learning_rate,9.939310009499348e-06
+r1_7b,R1-Distill-7B,35,loss,0.3593
+r1_7b,R1-Distill-7B,35,learning_rate,9.888409646654818e-06
+r1_7b,R1-Distill-7B,40,loss,0.3511
+r1_7b,R1-Distill-7B,40,learning_rate,9.822345875271884e-06
+r1_7b,R1-Distill-7B,45,loss,0.3537
+r1_7b,R1-Distill-7B,45,learning_rate,9.741323619247575e-06
+r1_7b,R1-Distill-7B,50,loss,0.3677
+r1_7b,R1-Distill-7B,50,learning_rate,9.645594202357438e-06
+r1_7b,R1-Distill-7B,55,loss,0.3614
+r1_7b,R1-Distill-7B,55,learning_rate,9.535454568671705e-06
+r1_7b,R1-Distill-7B,60,loss,0.3543
+r1_7b,R1-Distill-7B,60,learning_rate,9.41124636146141e-06
+r1_7b,R1-Distill-7B,65,loss,0.3644
+r1_7b,R1-Distill-7B,65,learning_rate,9.273354863451589e-06
+r1_7b,R1-Distill-7B,70,loss,0.3571
+r1_7b,R1-Distill-7B,70,learning_rate,9.122207801708802e-06
+r1_7b,R1-Distill-7B,75,loss,0.3621
+r1_7b,R1-Distill-7B,75,learning_rate,8.958274020870107e-06
+r1_7b,R1-Distill-7B,80,loss,0.3635
+r1_7b,R1-Distill-7B,80,learning_rate,8.782062028829028e-06
+r1_7b,R1-Distill-7B,85,loss,0.3558
+r1_7b,R1-Distill-7B,85,learning_rate,8.594118419389648e-06
+r1_7b,R1-Distill-7B,90,loss,0.3593
+r1_7b,R1-Distill-7B,90,learning_rate,8.395026176781627e-06
+r1_7b,R1-Distill-7B,95,loss,0.3584
+r1_7b,R1-Distill-7B,95,learning_rate,8.185402867295373e-06
+r1_7b,R1-Distill-7B,100,loss,0.3636
+r1_7b,R1-Distill-7B,100,learning_rate,7.965898723646777e-06
+r1_7b,R1-Distill-7B,100,eval_loss,0.3549107611179352
+r1_7b,R1-Distill-7B,105,loss,0.3575
+r1_7b,R1-Distill-7B,105,learning_rate,7.7371946280136e-06
+r1_7b,R1-Distill-7B,110,loss,0.3494
+r1_7b,R1-Distill-7B,110,learning_rate,7.500000000000001e-06
+r1_7b,R1-Distill-7B,115,loss,0.3455
+r1_7b,R1-Distill-7B,115,learning_rate,7.25505059608051e-06
+r1_7b,R1-Distill-7B,120,loss,0.3621
+r1_7b,R1-Distill-7B,120,learning_rate,7.003106227349399e-06
+r1_7b,R1-Distill-7B,125,loss,0.3574
+r1_7b,R1-Distill-7B,125,learning_rate,6.7449484026547705e-06
+r1_7b,R1-Distill-7B,130,loss,0.3562
+r1_7b,R1-Distill-7B,130,learning_rate,6.481377904428171e-06
+r1_7b,R1-Distill-7B,135,loss,0.3473
+r1_7b,R1-Distill-7B,135,learning_rate,6.213212304729259e-06
+r1_7b,R1-Distill-7B,140,loss,0.3602
+r1_7b,R1-Distill-7B,140,learning_rate,5.941283429210568e-06
+r1_7b,R1-Distill-7B,145,loss,0.367
+r1_7b,R1-Distill-7B,145,learning_rate,5.666434776868895e-06
+r1_7b,R1-Distill-7B,150,loss,0.3446
+r1_7b,R1-Distill-7B,150,learning_rate,5.389518903587016e-06
+r1_7b,R1-Distill-7B,155,loss,0.3429
+r1_7b,R1-Distill-7B,155,learning_rate,5.111394777581769e-06
+r1_7b,R1-Distill-7B,160,loss,0.3539
+r1_7b,R1-Distill-7B,160,learning_rate,4.832925114961629e-06
+r1_7b,R1-Distill-7B,165,loss,0.3496
+r1_7b,R1-Distill-7B,165,learning_rate,4.554973703658676e-06
+r1_7b,R1-Distill-7B,170,loss,0.3509
+r1_7b,R1-Distill-7B,170,learning_rate,4.278402724035868e-06
+r1_7b,R1-Distill-7B,175,loss,0.3741
+r1_7b,R1-Distill-7B,175,learning_rate,4.004070074480821e-06
+r1_7b,R1-Distill-7B,180,loss,0.3496
+r1_7b,R1-Distill-7B,180,learning_rate,3.732826710281923e-06
+r1_7b,R1-Distill-7B,185,loss,0.3525
+r1_7b,R1-Distill-7B,185,learning_rate,3.465514004041301e-06
+r1_7b,R1-Distill-7B,190,loss,0.3471
+r1_7b,R1-Distill-7B,190,learning_rate,3.202961135812437e-06
+r1_7b,R1-Distill-7B,195,loss,0.3551
+r1_7b,R1-Distill-7B,195,learning_rate,2.9459825210579534e-06
+r1_7b,R1-Distill-7B,200,loss,0.3492
+r1_7b,R1-Distill-7B,200,learning_rate,2.69537528440586e-06
+r1_7b,R1-Distill-7B,200,eval_loss,0.35390278697013855
+r1_7b,R1-Distill-7B,205,loss,0.3702
+r1_7b,R1-Distill-7B,205,learning_rate,2.4519167870404126e-06
+r1_7b,R1-Distill-7B,210,loss,0.3588
+r1_7b,R1-Distill-7B,210,learning_rate,2.216362215397393e-06
+r1_7b,R1-Distill-7B,215,loss,0.3431
+r1_7b,R1-Distill-7B,215,learning_rate,1.989442238643478e-06
+r1_7b,R1-Distill-7B,220,loss,0.3515
+r1_7b,R1-Distill-7B,220,learning_rate,1.771860742205988e-06
+r1_7b,R1-Distill-7B,225,loss,0.3507
+r1_7b,R1-Distill-7B,225,learning_rate,1.56429264438338e-06
+r1_7b,R1-Distill-7B,230,loss,0.3507
+r1_7b,R1-Distill-7B,230,learning_rate,1.367381802809185e-06
+r1_7b,R1-Distill-7B,235,loss,0.3381
+r1_7b,R1-Distill-7B,235,learning_rate,1.1817390172633402e-06
+r1_7b,R1-Distill-7B,240,loss,0.3537
+r1_7b,R1-Distill-7B,240,learning_rate,1.0079401350260288e-06
+r1_7b,R1-Distill-7B,245,loss,0.3622
+r1_7b,R1-Distill-7B,245,learning_rate,8.46524264651028e-07
+r1_7b,R1-Distill-7B,250,loss,0.3573
+r1_7b,R1-Distill-7B,250,learning_rate,6.979921036993042e-07
+r1_7b,R1-Distill-7B,255,loss,0.3541
+r1_7b,R1-Distill-7B,255,learning_rate,5.628043856200543e-07
+r1_7b,R1-Distill-7B,260,loss,0.3661
+r1_7b,R1-Distill-7B,260,learning_rate,4.413804505968533e-07
+r1_7b,R1-Distill-7B,265,loss,0.3677
+r1_7b,R1-Distill-7B,265,learning_rate,3.340969447919873e-07
+r1_7b,R1-Distill-7B,270,loss,0.3503
+r1_7b,R1-Distill-7B,270,learning_rate,2.4128665202382327e-07
+r1_7b,R1-Distill-7B,275,loss,0.3626
+r1_7b,R1-Distill-7B,275,learning_rate,1.6323746150123e-07
+r1_7b,R1-Distill-7B,280,loss,0.3573
+r1_7b,R1-Distill-7B,280,learning_rate,1.0019147481706626e-07
+r1_7b,R1-Distill-7B,285,loss,0.3548
+r1_7b,R1-Distill-7B,285,learning_rate,5.234425497072981e-08
+r1_7b,R1-Distill-7B,290,loss,0.3604
+r1_7b,R1-Distill-7B,290,learning_rate,1.984421974927375e-08
+r1_7b,R1-Distill-7B,295,loss,0.3459
+r1_7b,R1-Distill-7B,295,learning_rate,2.792181348726941e-09
+r1_7b,R1-Distill-7B,297,eval_loss,0.3536541163921356
+qwen_math_rl,Qwen3-4B-RL-Math,5,loss,0.4262
+qwen_math_rl,Qwen3-4B-RL-Math,5,learning_rate,2.666666666666667e-06
+qwen_math_rl,Qwen3-4B-RL-Math,10,loss,0.3917
+qwen_math_rl,Qwen3-4B-RL-Math,10,learning_rate,6e-06
+qwen_math_rl,Qwen3-4B-RL-Math,15,loss,0.3782
+qwen_math_rl,Qwen3-4B-RL-Math,15,learning_rate,9.333333333333334e-06
+qwen_math_rl,Qwen3-4B-RL-Math,20,loss,0.3548
+qwen_math_rl,Qwen3-4B-RL-Math,20,learning_rate,9.995036481411005e-06
+qwen_math_rl,Qwen3-4B-RL-Math,25,loss,0.3458
+qwen_math_rl,Qwen3-4B-RL-Math,25,learning_rate,9.97488907544252e-06
+qwen_math_rl,Qwen3-4B-RL-Math,30,loss,0.3361
+qwen_math_rl,Qwen3-4B-RL-Math,30,learning_rate,9.939310009499348e-06
+qwen_math_rl,Qwen3-4B-RL-Math,35,loss,0.3322
+qwen_math_rl,Qwen3-4B-RL-Math,35,learning_rate,9.888409646654818e-06
+qwen_math_rl,Qwen3-4B-RL-Math,40,loss,0.3339
+qwen_math_rl,Qwen3-4B-RL-Math,40,learning_rate,9.822345875271884e-06
+qwen_math_rl,Qwen3-4B-RL-Math,45,loss,0.3316
+qwen_math_rl,Qwen3-4B-RL-Math,45,learning_rate,9.741323619247575e-06
+qwen_math_rl,Qwen3-4B-RL-Math,50,loss,0.3286
+qwen_math_rl,Qwen3-4B-RL-Math,50,learning_rate,9.645594202357438e-06
+qwen_math_rl,Qwen3-4B-RL-Math,55,loss,0.335
+qwen_math_rl,Qwen3-4B-RL-Math,55,learning_rate,9.535454568671705e-06
+qwen_math_rl,Qwen3-4B-RL-Math,60,loss,0.3376
+qwen_math_rl,Qwen3-4B-RL-Math,60,learning_rate,9.41124636146141e-06
+qwen_math_rl,Qwen3-4B-RL-Math,65,loss,0.3372
+qwen_math_rl,Qwen3-4B-RL-Math,65,learning_rate,9.273354863451589e-06
+qwen_math_rl,Qwen3-4B-RL-Math,70,loss,0.3432
+qwen_math_rl,Qwen3-4B-RL-Math,70,learning_rate,9.122207801708802e-06
+qwen_math_rl,Qwen3-4B-RL-Math,75,loss,0.3299
+qwen_math_rl,Qwen3-4B-RL-Math,75,learning_rate,8.958274020870107e-06
+qwen_math_rl,Qwen3-4B-RL-Math,80,loss,0.3306
+qwen_math_rl,Qwen3-4B-RL-Math,80,learning_rate,8.782062028829028e-06
+qwen_math_rl,Qwen3-4B-RL-Math,85,loss,0.3315
+qwen_math_rl,Qwen3-4B-RL-Math,85,learning_rate,8.594118419389648e-06
+qwen_math_rl,Qwen3-4B-RL-Math,90,loss,0.3268
+qwen_math_rl,Qwen3-4B-RL-Math,90,learning_rate,8.395026176781627e-06
+qwen_math_rl,Qwen3-4B-RL-Math,95,loss,0.3391
+qwen_math_rl,Qwen3-4B-RL-Math,95,learning_rate,8.185402867295373e-06
+qwen_math_rl,Qwen3-4B-RL-Math,100,loss,0.3287
+qwen_math_rl,Qwen3-4B-RL-Math,100,learning_rate,7.965898723646777e-06
+qwen_math_rl,Qwen3-4B-RL-Math,100,eval_loss,0.32975053787231445
+qwen_math_rl,Qwen3-4B-RL-Math,105,loss,0.3307
+qwen_math_rl,Qwen3-4B-RL-Math,105,learning_rate,7.7371946280136e-06
+qwen_math_rl,Qwen3-4B-RL-Math,110,loss,0.3378
+qwen_math_rl,Qwen3-4B-RL-Math,110,learning_rate,7.500000000000001e-06
+qwen_math_rl,Qwen3-4B-RL-Math,115,loss,0.3341
+qwen_math_rl,Qwen3-4B-RL-Math,115,learning_rate,7.25505059608051e-06
+qwen_math_rl,Qwen3-4B-RL-Math,120,loss,0.3248
+qwen_math_rl,Qwen3-4B-RL-Math,120,learning_rate,7.003106227349399e-06
+qwen_math_rl,Qwen3-4B-RL-Math,125,loss,0.3245
+qwen_math_rl,Qwen3-4B-RL-Math,125,learning_rate,6.7449484026547705e-06
+qwen_math_rl,Qwen3-4B-RL-Math,130,loss,0.3223
+qwen_math_rl,Qwen3-4B-RL-Math,130,learning_rate,6.481377904428171e-06
+qwen_math_rl,Qwen3-4B-RL-Math,135,loss,0.3366
+qwen_math_rl,Qwen3-4B-RL-Math,135,learning_rate,6.213212304729259e-06
+qwen_math_rl,Qwen3-4B-RL-Math,140,loss,0.3337
+qwen_math_rl,Qwen3-4B-RL-Math,140,learning_rate,5.941283429210568e-06
+qwen_math_rl,Qwen3-4B-RL-Math,145,loss,0.3149
+qwen_math_rl,Qwen3-4B-RL-Math,145,learning_rate,5.666434776868895e-06
+qwen_math_rl,Qwen3-4B-RL-Math,150,loss,0.3303
+qwen_math_rl,Qwen3-4B-RL-Math,150,learning_rate,5.389518903587016e-06
+qwen_math_rl,Qwen3-4B-RL-Math,155,loss,0.3257
+qwen_math_rl,Qwen3-4B-RL-Math,155,learning_rate,5.111394777581769e-06
+qwen_math_rl,Qwen3-4B-RL-Math,160,loss,0.3325
+qwen_math_rl,Qwen3-4B-RL-Math,160,learning_rate,4.832925114961629e-06
+qwen_math_rl,Qwen3-4B-RL-Math,165,loss,0.3313
+qwen_math_rl,Qwen3-4B-RL-Math,165,learning_rate,4.554973703658676e-06
+qwen_math_rl,Qwen3-4B-RL-Math,170,loss,0.3336
+qwen_math_rl,Qwen3-4B-RL-Math,170,learning_rate,4.278402724035868e-06
+qwen_math_rl,Qwen3-4B-RL-Math,175,loss,0.3252
+qwen_math_rl,Qwen3-4B-RL-Math,175,learning_rate,4.004070074480821e-06
+qwen_math_rl,Qwen3-4B-RL-Math,180,loss,0.3333
+qwen_math_rl,Qwen3-4B-RL-Math,180,learning_rate,3.732826710281923e-06
+qwen_math_rl,Qwen3-4B-RL-Math,185,loss,0.333
+qwen_math_rl,Qwen3-4B-RL-Math,185,learning_rate,3.465514004041301e-06
+qwen_math_rl,Qwen3-4B-RL-Math,190,loss,0.322
+qwen_math_rl,Qwen3-4B-RL-Math,190,learning_rate,3.202961135812437e-06
+qwen_math_rl,Qwen3-4B-RL-Math,195,loss,0.3359
+qwen_math_rl,Qwen3-4B-RL-Math,195,learning_rate,2.9459825210579534e-06
+qwen_math_rl,Qwen3-4B-RL-Math,200,loss,0.3267
+qwen_math_rl,Qwen3-4B-RL-Math,200,learning_rate,2.69537528440586e-06
+qwen_math_rl,Qwen3-4B-RL-Math,200,eval_loss,0.32622766494750977
+qwen_math_rl,Qwen3-4B-RL-Math,205,loss,0.3207
+qwen_math_rl,Qwen3-4B-RL-Math,205,learning_rate,2.4519167870404126e-06
+qwen_math_rl,Qwen3-4B-RL-Math,210,loss,0.3278
+qwen_math_rl,Qwen3-4B-RL-Math,210,learning_rate,2.216362215397393e-06
+qwen_math_rl,Qwen3-4B-RL-Math,215,loss,0.3257
+qwen_math_rl,Qwen3-4B-RL-Math,215,learning_rate,1.989442238643478e-06
+qwen_math_rl,Qwen3-4B-RL-Math,220,loss,0.3229
+qwen_math_rl,Qwen3-4B-RL-Math,220,learning_rate,1.771860742205988e-06
+qwen_math_rl,Qwen3-4B-RL-Math,225,loss,0.326
+qwen_math_rl,Qwen3-4B-RL-Math,225,learning_rate,1.56429264438338e-06
+qwen_math_rl,Qwen3-4B-RL-Math,230,loss,0.3315
+qwen_math_rl,Qwen3-4B-RL-Math,230,learning_rate,1.367381802809185e-06
+qwen_math_rl,Qwen3-4B-RL-Math,235,loss,0.3224
+qwen_math_rl,Qwen3-4B-RL-Math,235,learning_rate,1.1817390172633402e-06
+qwen_math_rl,Qwen3-4B-RL-Math,240,loss,0.3294
+qwen_math_rl,Qwen3-4B-RL-Math,240,learning_rate,1.0079401350260288e-06
+qwen_math_rl,Qwen3-4B-RL-Math,245,loss,0.3306
+qwen_math_rl,Qwen3-4B-RL-Math,245,learning_rate,8.46524264651028e-07
+qwen_math_rl,Qwen3-4B-RL-Math,250,loss,0.3357
+qwen_math_rl,Qwen3-4B-RL-Math,250,learning_rate,6.979921036993042e-07
+qwen_math_rl,Qwen3-4B-RL-Math,255,loss,0.3291
+qwen_math_rl,Qwen3-4B-RL-Math,255,learning_rate,5.628043856200543e-07
+qwen_math_rl,Qwen3-4B-RL-Math,260,loss,0.3294
+qwen_math_rl,Qwen3-4B-RL-Math,260,learning_rate,4.413804505968533e-07
+qwen_math_rl,Qwen3-4B-RL-Math,265,loss,0.3227
+qwen_math_rl,Qwen3-4B-RL-Math,265,learning_rate,3.340969447919873e-07
+qwen_math_rl,Qwen3-4B-RL-Math,270,loss,0.3193
+qwen_math_rl,Qwen3-4B-RL-Math,270,learning_rate,2.4128665202382327e-07
+qwen_math_rl,Qwen3-4B-RL-Math,275,loss,0.3212
+qwen_math_rl,Qwen3-4B-RL-Math,275,learning_rate,1.6323746150123e-07
+qwen_math_rl,Qwen3-4B-RL-Math,280,loss,0.3241
+qwen_math_rl,Qwen3-4B-RL-Math,280,learning_rate,1.0019147481706626e-07
+qwen_math_rl,Qwen3-4B-RL-Math,285,loss,0.3266
+qwen_math_rl,Qwen3-4B-RL-Math,285,learning_rate,5.234425497072981e-08
+qwen_math_rl,Qwen3-4B-RL-Math,290,loss,0.3275
+qwen_math_rl,Qwen3-4B-RL-Math,290,learning_rate,1.984421974927375e-08
+qwen_math_rl,Qwen3-4B-RL-Math,295,loss,0.3229
+qwen_math_rl,Qwen3-4B-RL-Math,295,learning_rate,2.792181348726941e-09
+qwen_math_rl,Qwen3-4B-RL-Math,297,eval_loss,0.3251802325248718
+qwen4b_nt,Qwen3-4B (Non-thinking),5,loss,0.2764
+qwen4b_nt,Qwen3-4B (Non-thinking),5,learning_rate,2.666666666666667e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),10,loss,0.2621
+qwen4b_nt,Qwen3-4B (Non-thinking),10,learning_rate,6e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),15,loss,0.2441
+qwen4b_nt,Qwen3-4B (Non-thinking),15,learning_rate,9.333333333333334e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),20,loss,0.2408
+qwen4b_nt,Qwen3-4B (Non-thinking),20,learning_rate,9.995036481411005e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),25,loss,0.2363
+qwen4b_nt,Qwen3-4B (Non-thinking),25,learning_rate,9.97488907544252e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),30,loss,0.2444
+qwen4b_nt,Qwen3-4B (Non-thinking),30,learning_rate,9.939310009499348e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),35,loss,0.2349
+qwen4b_nt,Qwen3-4B (Non-thinking),35,learning_rate,9.888409646654818e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),40,loss,0.2295
+qwen4b_nt,Qwen3-4B (Non-thinking),40,learning_rate,9.822345875271884e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),45,loss,0.2273
+qwen4b_nt,Qwen3-4B (Non-thinking),45,learning_rate,9.741323619247575e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),50,loss,0.2242
+qwen4b_nt,Qwen3-4B (Non-thinking),50,learning_rate,9.645594202357438e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),55,loss,0.2405
+qwen4b_nt,Qwen3-4B (Non-thinking),55,learning_rate,9.535454568671705e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),60,loss,0.2396
+qwen4b_nt,Qwen3-4B (Non-thinking),60,learning_rate,9.41124636146141e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),65,loss,0.2255
+qwen4b_nt,Qwen3-4B (Non-thinking),65,learning_rate,9.273354863451589e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),70,loss,0.2269
+qwen4b_nt,Qwen3-4B (Non-thinking),70,learning_rate,9.122207801708802e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),75,loss,0.2281
+qwen4b_nt,Qwen3-4B (Non-thinking),75,learning_rate,8.958274020870107e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),80,loss,0.2245
+qwen4b_nt,Qwen3-4B (Non-thinking),80,learning_rate,8.782062028829028e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),85,loss,0.2294
+qwen4b_nt,Qwen3-4B (Non-thinking),85,learning_rate,8.594118419389648e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),90,loss,0.2342
+qwen4b_nt,Qwen3-4B (Non-thinking),90,learning_rate,8.395026176781627e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),95,loss,0.2198
+qwen4b_nt,Qwen3-4B (Non-thinking),95,learning_rate,8.185402867295373e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),100,loss,0.2302
+qwen4b_nt,Qwen3-4B (Non-thinking),100,learning_rate,7.965898723646777e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),100,eval_loss,0.23768600821495056
+qwen4b_nt,Qwen3-4B (Non-thinking),105,loss,0.2168
+qwen4b_nt,Qwen3-4B (Non-thinking),105,learning_rate,7.7371946280136e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),110,loss,0.2281
+qwen4b_nt,Qwen3-4B (Non-thinking),110,learning_rate,7.500000000000001e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),115,loss,0.2282
+qwen4b_nt,Qwen3-4B (Non-thinking),115,learning_rate,7.25505059608051e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),120,loss,0.2223
+qwen4b_nt,Qwen3-4B (Non-thinking),120,learning_rate,7.003106227349399e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),125,loss,0.2314
+qwen4b_nt,Qwen3-4B (Non-thinking),125,learning_rate,6.7449484026547705e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),130,loss,0.2379
+qwen4b_nt,Qwen3-4B (Non-thinking),130,learning_rate,6.481377904428171e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),135,loss,0.2385
+qwen4b_nt,Qwen3-4B (Non-thinking),135,learning_rate,6.213212304729259e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),140,loss,0.2301
+qwen4b_nt,Qwen3-4B (Non-thinking),140,learning_rate,5.941283429210568e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),145,loss,0.2231
+qwen4b_nt,Qwen3-4B (Non-thinking),145,learning_rate,5.666434776868895e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),150,loss,0.2378
+qwen4b_nt,Qwen3-4B (Non-thinking),150,learning_rate,5.389518903587016e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),155,loss,0.2163
+qwen4b_nt,Qwen3-4B (Non-thinking),155,learning_rate,5.111394777581769e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),160,loss,0.2331
+qwen4b_nt,Qwen3-4B (Non-thinking),160,learning_rate,4.832925114961629e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),165,loss,0.2222
+qwen4b_nt,Qwen3-4B (Non-thinking),165,learning_rate,4.554973703658676e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),170,loss,0.2303
+qwen4b_nt,Qwen3-4B (Non-thinking),170,learning_rate,4.278402724035868e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),175,loss,0.2287
+qwen4b_nt,Qwen3-4B (Non-thinking),175,learning_rate,4.004070074480821e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),180,loss,0.2259
+qwen4b_nt,Qwen3-4B (Non-thinking),180,learning_rate,3.732826710281923e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),185,loss,0.2301
+qwen4b_nt,Qwen3-4B (Non-thinking),185,learning_rate,3.465514004041301e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),190,loss,0.2203
+qwen4b_nt,Qwen3-4B (Non-thinking),190,learning_rate,3.202961135812437e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),195,loss,0.2283
+qwen4b_nt,Qwen3-4B (Non-thinking),195,learning_rate,2.9459825210579534e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),200,loss,0.223
+qwen4b_nt,Qwen3-4B (Non-thinking),200,learning_rate,2.69537528440586e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),200,eval_loss,0.23430196940898895
+qwen4b_nt,Qwen3-4B (Non-thinking),205,loss,0.2351
+qwen4b_nt,Qwen3-4B (Non-thinking),205,learning_rate,2.4519167870404126e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),210,loss,0.2278
+qwen4b_nt,Qwen3-4B (Non-thinking),210,learning_rate,2.216362215397393e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),215,loss,0.2304
+qwen4b_nt,Qwen3-4B (Non-thinking),215,learning_rate,1.989442238643478e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),220,loss,0.2483
+qwen4b_nt,Qwen3-4B (Non-thinking),220,learning_rate,1.771860742205988e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),225,loss,0.2338
+qwen4b_nt,Qwen3-4B (Non-thinking),225,learning_rate,1.56429264438338e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),230,loss,0.211
+qwen4b_nt,Qwen3-4B (Non-thinking),230,learning_rate,1.367381802809185e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),235,loss,0.2309
+qwen4b_nt,Qwen3-4B (Non-thinking),235,learning_rate,1.1817390172633402e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),240,loss,0.2236
+qwen4b_nt,Qwen3-4B (Non-thinking),240,learning_rate,1.0079401350260288e-06
+qwen4b_nt,Qwen3-4B (Non-thinking),245,loss,0.233
+qwen4b_nt,Qwen3-4B (Non-thinking),245,learning_rate,8.46524264651028e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),250,loss,0.2297
+qwen4b_nt,Qwen3-4B (Non-thinking),250,learning_rate,6.979921036993042e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),255,loss,0.2304
+qwen4b_nt,Qwen3-4B (Non-thinking),255,learning_rate,5.628043856200543e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),260,loss,0.2258
+qwen4b_nt,Qwen3-4B (Non-thinking),260,learning_rate,4.413804505968533e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),265,loss,0.234
+qwen4b_nt,Qwen3-4B (Non-thinking),265,learning_rate,3.340969447919873e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),270,loss,0.2284
+qwen4b_nt,Qwen3-4B (Non-thinking),270,learning_rate,2.4128665202382327e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),275,loss,0.2345
+qwen4b_nt,Qwen3-4B (Non-thinking),275,learning_rate,1.6323746150123e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),280,loss,0.2275
+qwen4b_nt,Qwen3-4B (Non-thinking),280,learning_rate,1.0019147481706626e-07
+qwen4b_nt,Qwen3-4B (Non-thinking),285,loss,0.2341
+qwen4b_nt,Qwen3-4B (Non-thinking),285,learning_rate,5.234425497072981e-08
+qwen4b_nt,Qwen3-4B (Non-thinking),290,loss,0.2269
+qwen4b_nt,Qwen3-4B (Non-thinking),290,learning_rate,1.984421974927375e-08
+qwen4b_nt,Qwen3-4B (Non-thinking),295,loss,0.2368
+qwen4b_nt,Qwen3-4B (Non-thinking),295,learning_rate,2.792181348726941e-09
+qwen4b_nt,Qwen3-4B (Non-thinking),297,eval_loss,0.2332080751657486

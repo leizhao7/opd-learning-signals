@@ -1,0 +1,40 @@
+{
+  "source": "output/qwen30b_math_rerun_20260902/logs/train.log",
+  "source_sha256": "bcd498940eba715f7d1efb11b60e81d334342b712cf0a89908594356758e9365",
+  "training_steps": 200,
+  "validation_steps": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200
+  ],
+  "loss_metric": "-critic/advantages/mean_sum_over_k",
+  "loss_step_1": 0.31356582045555115,
+  "loss_step_200": 0.14008669555187225,
+  "loss_min": 0.14008669555187225,
+  "loss_min_step": 200,
+  "validation_step_200": {
+    "AIME24": 62.916666666666664,
+    "AIME25": 55.00000000000001,
+    "AMC23": 81.62650602409639,
+    "Macro": 66.51439089692103
+  },
+  "best_macro": 70.09203480589024,
+  "best_macro_step": 20
+}

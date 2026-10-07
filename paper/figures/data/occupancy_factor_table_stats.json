@@ -1,0 +1,43 @@
+{
+  "definition": "Median and linear-interpolated IQR of 1+alpha at all checkpoints, steps 10 through 200 every 10 updates.",
+  "windows": {
+    "Code": [
+      10,
+      200
+    ],
+    "Math": [
+      10,
+      200
+    ]
+  },
+  "runs": {
+    "Code/Qwen3-14B": {
+      "n_checkpoints": 20,
+      "median": 1.0961254922951271,
+      "q25": 0.6745863467036813,
+      "q75": 1.3820966600617715,
+      "nonpositive": 1
+    },
+    "Math/JustRL": {
+      "n_checkpoints": 20,
+      "median": 1.418369717301073,
+      "q25": -0.3713568513636809,
+      "q75": 2.5776997307359646,
+      "nonpositive": 7
+    },
+    "Math/Skywork": {
+      "n_checkpoints": 20,
+      "median": 0.13118242101421485,
+      "q25": -2.279058334627815,
+      "q75": 1.4842914564519472,
+      "nonpositive": 8
+    },
+    "Math/R1-Distill-7B": {
+      "n_checkpoints": 20,
+      "median": 0.40644033197976887,
+      "q25": -0.8269794510016322,
+      "q75": 1.3674635525166647,
+      "nonpositive": 7
+    }
+  }
+}

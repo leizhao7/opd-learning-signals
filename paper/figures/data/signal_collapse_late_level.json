@@ -1,0 +1,83 @@
+{
+ "definitions": "Numbers quoted in Section 3.2 / Table 3 for the learning signal (no plotting dependencies).\n\nPer run, with a task-level split step s (Code: 15, Math: 30):\n  before_signal    : median of nu_train over steps 1..s\n  post_signal      : median of nu_train over the 30 steps after s (s+1 .. s+30)\n  drop             : before_signal / post_signal\n  remaining_at_s   : centered 9-step rolling median of remaining_loss_fraction at step s, in percent\n  last50_signal    : median of nu_train over the run's last 50 steps\nPer task: gap of the successful run's signal over each unsuccessful run, before s (medians over steps 1..s)\n  and after s (medians over s+1 .. s+30).\nOutput: figures/data/signal_collapse_late_level.json",
+ "split_step": {
+  "Code": 15,
+  "Math": 30
+ },
+ "runs": {
+  "Code/RL-Code": {
+   "split_step": 15,
+   "before_signal": 272.10710807031666,
+   "post_signal": 40.85327213809022,
+   "drop": 6.660595194200201,
+   "remaining_at_s_pct": 12.612131521281118,
+   "last50_signal": 2.372372606629364,
+   "steps": [
+    1,
+    200
+   ]
+  },
+  "Code/Qwen3-14B": {
+   "split_step": 15,
+   "before_signal": 60.677330447364554,
+   "post_signal": 5.049480297785799,
+   "drop": 12.01654959896994,
+   "remaining_at_s_pct": 98.75834857275888,
+   "last50_signal": 3.7837728047330677,
+   "steps": [
+    1,
+    200
+   ]
+  },
+  "Math/JustRL": {
+   "split_step": 30,
+   "before_signal": 7.107343037052121,
+   "post_signal": 3.3745500843565805,
+   "drop": 2.1061601871015836,
+   "remaining_at_s_pct": 72.98099063829342,
+   "last50_signal": 0.5626645301731982,
+   "steps": [
+    1,
+    200
+   ]
+  },
+  "Math/Skywork": {
+   "split_step": 30,
+   "before_signal": 3.7267450778486797,
+   "post_signal": 0.38087819370995546,
+   "drop": 9.784611299345357,
+   "remaining_at_s_pct": 86.50898737274395,
+   "last50_signal": 0.0895583691543071,
+   "steps": [
+    1,
+    200
+   ]
+  },
+  "Math/R1-Distill-7B": {
+   "split_step": 30,
+   "before_signal": 1.1388811242215624,
+   "post_signal": 0.12063825159272747,
+   "drop": 9.440464439640623,
+   "remaining_at_s_pct": 86.47818721577774,
+   "last50_signal": 0.05585959502787853,
+   "steps": [
+    1,
+    200
+   ]
+  }
+ },
+ "gaps": {
+  "Code/RL-Code vs Qwen3-14B": {
+   "before_s": 4.4844937320761,
+   "after_s": 8.090589472347167
+  },
+  "Math/JustRL vs Skywork": {
+   "before_s": 1.907118112075147,
+   "after_s": 8.859919365523854
+  },
+  "Math/JustRL vs R1-Distill-7B": {
+   "before_s": 6.240636433332818,
+   "after_s": 27.972471747592962
+  }
+ }
+}

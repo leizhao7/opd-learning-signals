@@ -1,0 +1,26 @@
+{
+  "python_version": "3.12",
+  "python_files_checked": 1468,
+  "syntax_errors": [],
+  "credential_pattern_findings": [],
+  "gpu_training_rerun": false,
+  "generated_pdf_figures": 11,
+  "unit_tests": {
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "includes": [
+      "11 historical recipe equivalence checks and dry runs",
+      "frozen vendor file hash equivalence",
+      "Hydra scalar/list parsing and CLI compatibility",
+      "launch history preservation",
+      "21-checkpoint avg@4 audit",
+      "full-logit CPU value and gradient equivalence"
+    ]
+  },
+  "organization": {
+    "common_settings": 57,
+    "recipes": 11,
+    "entry_point": "python -m opd"
+  }
+}

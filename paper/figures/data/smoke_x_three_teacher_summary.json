@@ -1,0 +1,121 @@
+{
+  "status": "complete",
+  "estimator": "within-prompt 4+4 cross-fit over 64 prompts and 8 rollouts",
+  "top_k": 16,
+  "teachers": {
+    "JustRL": {
+      "teacher_key": "justrl",
+      "series_label": "smoke_x_justrl_steps10_200_p64x8_l21000_top16_lei",
+      "source": "figures/data/raw/smoke_x/smoke_x_justrl_steps10_200_p64x8_l21000_top16_lei/series.json",
+      "source_sha256": "e957ec837a3b98d0c58bba509dacbfb0e0f21bd467e5d984754ff2c216e02a48",
+      "num_measurements": 20,
+      "X_dot_initial": 15.865266036131441,
+      "X_dot_final": -0.4867714005642557,
+      "chi_initial": 3.1440760312287135,
+      "chi_final": -8.408257763507219,
+      "nu_initial": 7.484768079879005,
+      "nu_final": 1.1268863669552864,
+      "mu_initial": 31.017447999132347,
+      "mu_final": -8.348264676586945,
+      "negative_X_dot_steps": [
+        40,
+        90,
+        100,
+        130,
+        160,
+        170,
+        180,
+        200
+      ],
+      "negative_mu_steps": [
+        40,
+        90,
+        100,
+        130,
+        160,
+        170,
+        200
+      ]
+    },
+    "Skywork": {
+      "teacher_key": "skywork",
+      "series_label": "lei_smoke_2",
+      "source": "figures/data/raw/smoke_x/lei_smoke_2/series.json",
+      "source_sha256": "d4462ffa5877939bca5655ee9eec9b2e0ff5f528b2ae271eaef5b423a0671f7d",
+      "num_measurements": 20,
+      "X_dot_initial": -1.501089918510918,
+      "X_dot_final": -0.12146393559609432,
+      "chi_initial": -0.9344473366675005,
+      "chi_final": -0.9710786909305028,
+      "nu_initial": 4.0510985494527825,
+      "nu_final": 0.436445069980654,
+      "mu_initial": 0.2655602993390555,
+      "mu_final": 0.012622562760768825,
+      "negative_X_dot_steps": [
+        10,
+        40,
+        50,
+        90,
+        100,
+        120,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200
+      ],
+      "negative_mu_steps": [
+        40,
+        50,
+        100,
+        120,
+        140,
+        150,
+        160,
+        170
+      ]
+    },
+    "R1-Distill-7B": {
+      "teacher_key": "r1_7b",
+      "series_label": "smoke_x_r1_7b_steps10_200_p64x8_l21000_top16_lei",
+      "source": "figures/data/raw/smoke_x/smoke_x_r1_7b_steps10_200_p64x8_l21000_top16_lei/series.json",
+      "source_sha256": "8f98c2f87bc3e10091821d7a3a34b14d458811758f3fdc6d4b1e3c9400ce91f8",
+      "num_measurements": 20,
+      "X_dot_initial": -0.29728918509276014,
+      "X_dot_final": -0.07263428016307177,
+      "chi_initial": -0.9320248377613631,
+      "chi_final": -2.9076585057723543,
+      "nu_initial": 1.348767665711158,
+      "nu_final": 0.12149182610426097,
+      "mu_initial": 0.0916827008989435,
+      "mu_final": -0.2317649154496092,
+      "negative_X_dot_steps": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        110,
+        140,
+        150,
+        170,
+        200
+      ],
+      "negative_mu_steps": [
+        40,
+        80,
+        90,
+        110,
+        140,
+        170,
+        200
+      ]
+    }
+  }
+}

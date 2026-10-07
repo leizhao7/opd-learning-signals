@@ -1,0 +1,22 @@
+% Source: figures/data/occupancy_factor_table_stats.json (from {code,math}_signal_collapse_occupancy.csv, column one_plus_chi; Code and Math windows steps 10-200).
+\begin{table}[htbp]
+  \centering
+  \normalsize
+  \caption{Occupancy factor $1+\widehat\alpha_m$ for larger-scale teachers:
+  median, interquartile range (IQR), and counts above zero across 20
+  checkpoints (steps 10--200, every 10 steps). The estimator is given in
+  Appendix~\ref{app:teacher-comparison-details}.}
+  \label{tab:occupancy-factor}
+  \begin{tabular}{@{}llccc@{}}
+    \toprule
+    & & \multicolumn{3}{c}{$1+\widehat\alpha_m$} \\
+    \cmidrule(l){3-5}
+    \textbf{Task} & \textbf{Teacher} & \textbf{Median} & \textbf{IQR} & \textbf{Positive} \\
+    \midrule
+    Code & Qwen3-14B & $1.10$ & $[0.67,\,1.38]$ & 19/20 \\
+    \midrule
+    Math & \SkyworkTeacher{} & $0.13$ & $[-2.31,\,1.70]$ & 12/20 \\
+         & R1-Distill-7B & $0.41$ & $[-1.16,\,1.69]$ & 13/20 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

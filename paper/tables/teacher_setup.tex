@@ -1,0 +1,39 @@
+% Setup metadata; sources are mapped in plan/evidence-map.md (S21-*).
+\begin{table}[htbp]
+ \centering
+ \normalsize
+ \setlength{\tabcolsep}{3pt}
+ \renewcommand{\arraystretch}{1.15}
+ \caption{Student--teacher groups and OPD training data. Qwen3
+ models~\citep{yang2025qwen3} use non-thinking mode; R1-Distill abbreviates
+ DeepSeek-R1-Distill-Qwen~\citep{guo2025deepseek}.}
+ \label{tab:teacher-setup}
+ \begin{tabular}{@{}p{0.20\linewidth}p{0.56\linewidth}p{0.21\linewidth}@{}}
+  \hline
+  \textbf{Task / student} & \textbf{Teachers} & \textbf{OPD data} \\
+  \hline
+  \raggedright Code /\newline Qwen3-4B\newline (Non-thinking)
+   & \QwenFourteenNT{}\newline \QwenRLCode{}~\citep{yang2026learning}
+   & \raggedright Eurus-2-RL-Data (code)~\citep{cui2025process} \tabularnewline
+  \hline
+  \raggedright Math /\newline Qwen3-1.7B\newline (Non-thinking)
+   & \QwenFourNT{}\newline \QwenRLMath{}~\citep{yang2026learning}
+   & \raggedright DAPO-Math-17K~\citep{yu2026dapo} \tabularnewline
+  \hline
+  Math /\newline R1-Distill-1.5B
+   & R1-Distill-7B\newline
+     JustRL-DeepSeek-1.5B~\citep{he2025justrl}\newline
+     Skywork-OR1-Math-7B~\citep{he2025skywork}
+   & \raggedright DAPO-Math-17K \tabularnewline
+  \hline
+ \end{tabular}
+ \par\vspace{3pt}
+ \begin{minipage}{\linewidth}
+  \normalsize
+  \textit{RL provenance.} \QwenRLCode{} and \QwenRLMath{} are GRPO checkpoints of
+  Qwen3-4B trained on ${\sim}25$K Eurus coding problems and 57K
+  DeepMath problems~\citep{he2026deepmath} (difficulty $\geq6$), respectively.
+  JustRL-1.5B and \SkyworkTeacher{} are RL-post-trained from R1-Distill-1.5B and
+  R1-Distill-7B, respectively.
+ \end{minipage}
+\end{table}
