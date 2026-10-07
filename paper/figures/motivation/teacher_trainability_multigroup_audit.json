@@ -1,0 +1,145 @@
+{
+  "data_sha256": "4953ebe18d05279d8baa7109b02156af2e895e1c9b3cb7a538af28f3d242787a",
+  "summary_sha256": "39dff3023c8c3dbbb5bc142b29eec47ab440b43eb876757482fb837a50b28f76",
+  "transformations": [
+    "accuracy shown as percent",
+    "raw loss shown faintly with centered 9-step rolling medians",
+    "column-specific linear loss axes, each with numeric tick labels",
+    "matched teacher accuracy shown as directly labeled dashed reference lines"
+  ],
+  "runs": [
+    {
+      "group": "code_qwen4b",
+      "teacher": "rl4b",
+      "loss_points": 200,
+      "accuracy_points": 21,
+      "first_accuracy_step": 0,
+      "first_accuracy": 52.69364765772946,
+      "native_first_accuracy_step": 0,
+      "shared_initial_evaluation": true,
+      "last_step": 200,
+      "initial_loss": 0.11997062712907791,
+      "last_loss": 0.0006960757891647518,
+      "loss_axis_limits": [
+        0,
+        0.22
+      ],
+      "last_accuracy": 60.394292442560925,
+      "teacher_reference": 62.64526827232406
+    },
+    {
+      "group": "code_qwen4b",
+      "teacher": "qwen14b",
+      "loss_points": 200,
+      "accuracy_points": 21,
+      "first_accuracy_step": 0,
+      "first_accuracy": 52.69364765772946,
+      "native_first_accuracy_step": 10,
+      "shared_initial_evaluation": true,
+      "last_step": 200,
+      "initial_loss": 0.1357598453760147,
+      "last_loss": 0.10064544528722763,
+      "loss_axis_limits": [
+        0,
+        0.22
+      ],
+      "last_accuracy": 53.44240018493727,
+      "teacher_reference": 58.44851071647758
+    },
+    {
+      "group": "math_qwen1p7b",
+      "teacher": "rlmath4b",
+      "loss_points": 200,
+      "accuracy_points": 21,
+      "first_accuracy_step": 0,
+      "first_accuracy": 21.104417670682732,
+      "native_first_accuracy_step": 0,
+      "shared_initial_evaluation": false,
+      "last_step": 200,
+      "initial_loss": 0.2634744942188263,
+      "last_loss": 0.11760024726390839,
+      "loss_axis_limits": [
+        0,
+        0.3
+      ],
+      "last_accuracy": 43.93741633199465,
+      "teacher_reference": 69.17
+    },
+    {
+      "group": "math_qwen1p7b",
+      "teacher": "qwen4b",
+      "loss_points": 200,
+      "accuracy_points": 21,
+      "first_accuracy_step": 0,
+      "first_accuracy": 20.664323962516733,
+      "native_first_accuracy_step": 0,
+      "shared_initial_evaluation": false,
+      "last_step": 200,
+      "initial_loss": 0.09871328622102737,
+      "last_loss": 0.0925554409623146,
+      "loss_axis_limits": [
+        0,
+        0.3
+      ],
+      "last_accuracy": 22.737617135207497,
+      "teacher_reference": 35.13
+    },
+    {
+      "group": "math_r1_1p5b",
+      "teacher": "justrl1p5b",
+      "loss_points": 200,
+      "accuracy_points": 21,
+      "first_accuracy_step": 0,
+      "first_accuracy": 39.85441767068273,
+      "native_first_accuracy_step": 10,
+      "shared_initial_evaluation": true,
+      "last_step": 200,
+      "initial_loss": 0.455453097820282,
+      "last_loss": 0.03212021291255951,
+      "loss_axis_limits": [
+        0,
+        0.5
+      ],
+      "last_accuracy": 51.88420348058903,
+      "teacher_reference": 56.86244979919679
+    },
+    {
+      "group": "math_r1_1p5b",
+      "teacher": "skywork7b",
+      "loss_points": 200,
+      "accuracy_points": 21,
+      "first_accuracy_step": 0,
+      "first_accuracy": 39.85441767068273,
+      "native_first_accuracy_step": 10,
+      "shared_initial_evaluation": true,
+      "last_step": 200,
+      "initial_loss": 0.21041400730609894,
+      "last_loss": 0.16015581786632538,
+      "loss_axis_limits": [
+        0,
+        0.5
+      ],
+      "last_accuracy": 46.12115127175368,
+      "teacher_reference": 70.85341365461846
+    },
+    {
+      "group": "math_r1_1p5b",
+      "teacher": "r1_7b",
+      "loss_points": 200,
+      "accuracy_points": 21,
+      "first_accuracy_step": 0,
+      "first_accuracy": 39.85441767068273,
+      "native_first_accuracy_step": 10,
+      "shared_initial_evaluation": true,
+      "last_step": 200,
+      "initial_loss": 0.13586676120758057,
+      "last_loss": 0.1169317439198494,
+      "loss_axis_limits": [
+        0,
+        0.5
+      ],
+      "last_accuracy": 42.65562248995983,
+      "teacher_reference": 57.79953145917002
+    }
+  ]
+}

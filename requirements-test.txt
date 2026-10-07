@@ -1,0 +1,2 @@
+# Parse actual Hydra overrides in configuration regression tests.
+hydra-core==1.3.2

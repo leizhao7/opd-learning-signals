@@ -1,0 +1,194 @@
+{
+  "status": "real_data",
+  "definitions": {
+    "training_loss": "-critic/advantages/mean_sum_over_k",
+    "nu_train": "actor/grad_norm^2 / (2 * training_loss)",
+    "nu_train_clip1": "min(actor/grad_norm, 1)^2 / (2 * training_loss)",
+    "X_dot": "cross-fitted <h_occ, g_det>",
+    "chi": "X_dot / g2_crossfit",
+    "occupancy_cancellation_threshold": "1 + chi = 0"
+  },
+  "training": {
+    "steps": [
+      1,
+      200
+    ],
+    "rows": 400,
+    "grad_clip": 1.0,
+    "run_statistics": {
+      "Code/RL-Code": {
+        "split_step": 15,
+        "before_signal": 272.10710807031666,
+        "post_signal": 40.85327213809022,
+        "drop": 6.660595194200201,
+        "remaining_at_s_pct": 12.612131521281118,
+        "last50_signal": 2.372372606629364,
+        "steps": [
+          1,
+          200
+        ]
+      },
+      "Code/Qwen3-14B": {
+        "split_step": 15,
+        "before_signal": 60.677330447364554,
+        "post_signal": 5.049480297785799,
+        "drop": 12.01654959896994,
+        "remaining_at_s_pct": 98.75834857275888,
+        "last50_signal": 3.7837728047330677,
+        "steps": [
+          1,
+          200
+        ]
+      }
+    }
+  },
+  "occupancy": {
+    "checkpoints": 20,
+    "num_prompts": 16,
+    "rollouts_per_prompt": 8,
+    "trajectories_per_checkpoint": 128,
+    "chi_median": 0.09612549229512724,
+    "chi_q25": -0.3254136532963186,
+    "chi_q75": 0.38209666006177134,
+    "one_plus_chi_median": 1.0961254922951271,
+    "nonpositive_factor_count": 1,
+    "positive_factor_count": 19
+  },
+  "math_training": {
+    "steps": [
+      1,
+      200
+    ],
+    "rows": 600,
+    "window_medians": {
+      "steps_1_20": {
+        "JustRL": {
+          "nu_train": 7.344804287393293,
+          "nu_train_clip1": 1.2009288773935536
+        },
+        "Skywork": {
+          "nu_train": 4.014917542034945,
+          "nu_train_clip1": 2.481088461339021
+        },
+        "R1-Distill-7B": {
+          "nu_train": 1.2701177529954397,
+          "nu_train_clip1": 1.2701177529954397
+        }
+      },
+      "steps_21_50": {
+        "JustRL": {
+          "nu_train": 4.1190721757086415,
+          "nu_train_clip1": 1.9215592452862724
+        },
+        "Skywork": {
+          "nu_train": 0.5177449927951864,
+          "nu_train_clip1": 0.5177449927951864
+        },
+        "R1-Distill-7B": {
+          "nu_train": 0.1493161473275333,
+          "nu_train_clip1": 0.1493161473275333
+        }
+      }
+    },
+    "first_nu_train_le_0p5": {
+      "JustRL": {
+        "step": 128,
+        "nu_train": 0.46204538715717386,
+        "remaining_loss_fraction": 0.11563282964075833
+      },
+      "Skywork": {
+        "step": 35,
+        "nu_train": 0.4559862993728395,
+        "remaining_loss_fraction": 0.7825559668131307
+      },
+      "R1-Distill-7B": {
+        "step": 17,
+        "nu_train": 0.4129233123133998,
+        "remaining_loss_fraction": 0.8556463992005146
+      }
+    }
+  },
+  "math_occupancy": {
+    "JustRL": {
+      "checkpoints": 20,
+      "num_prompts": 64,
+      "rollouts_per_prompt": 8,
+      "one_plus_chi_median": 1.418369717301073,
+      "positive_factor_count": 13,
+      "nonpositive_factor_count": 7
+    },
+    "Skywork": {
+      "checkpoints": 20,
+      "num_prompts": 64,
+      "rollouts_per_prompt": 8,
+      "one_plus_chi_median": 0.13118242101421485,
+      "positive_factor_count": 12,
+      "nonpositive_factor_count": 8
+    },
+    "R1-Distill-7B": {
+      "checkpoints": 20,
+      "num_prompts": 64,
+      "rollouts_per_prompt": 8,
+      "one_plus_chi_median": 0.40644033197976887,
+      "positive_factor_count": 13,
+      "nonpositive_factor_count": 7
+    }
+  },
+  "projected_consistency_step0": {
+    "rl_code": 0.1546271598883057,
+    "qwen3_14b": 0.04746323277311623,
+    "rl_over_14b": 3.2578303426455277
+  },
+  "sources": {
+    "training_logs": [
+      {
+        "path": "figures/data/raw/code_200_20260925/rlcode200-training.csv",
+        "sha256": "da5d7657e8d48e456a618e5bb0709fe3dd49a2733c77296265e7ed444b48a0d0"
+      },
+      {
+        "path": "figures/data/raw/code_200_20260925/qwen14b-full200.json",
+        "sha256": "594d03a0f25239afcebbc645a52f20cfa8f20f43e235f7d265a1d01dc9c96144"
+      }
+    ],
+    "occupancy_series": {
+      "path": "figures/data/raw/smoke_x/b14_series_p16x8_l16384_mb64_top16_lei/series.json",
+      "sha256": "fedc5f2cb33652264dbf72118da67f5f58a0c7fe4f2a18accbc3cc8bb04f5222"
+    },
+    "projected_diagnostic": {
+      "path": "figures/data/code_14b_fixed_prefix_nu.csv",
+      "sha256": "b5e922748fa00c174f6fa2b1b2a013cd0384d23b1f5707c07cca16fe668734b0"
+    },
+    "math_training_exports": {
+      "JustRL": {
+        "path": "figures/data/raw/wandb_g1/opd_analysis/zd36kge3.json",
+        "sha256": "c2577d8229af8ecf79457a49fd68dbe5f6a52ddd89e6930fd560fa719f7d4778"
+      },
+      "Skywork": {
+        "path": "figures/data/raw/wandb_g1/opd_analysis/hzihv2gn.json",
+        "sha256": "a30adeac9ae17da894c52a8a4957508aa6463ea30e87ee4760397fd3c8dd0b1e"
+      },
+      "R1-Distill-7B": {
+        "path": "figures/data/raw/wandb_g1/opd_analysis/g2mzepcb.json",
+        "sha256": "eca04991c4f7da30299fb436a2bcc6d1682be2374a16925f2cd3846537620b17"
+      }
+    },
+    "math_occupancy_series": {
+      "path": "figures/data/smoke_x_three_teacher.csv",
+      "sha256": "875d59c4463c510650353594105633da971568c7a32020df2f771f5ec4f3a0a8"
+    }
+  },
+  "outputs": {
+    "training_csv": "figures/data/code_signal_collapse_training.csv",
+    "occupancy_csv": "figures/data/code_signal_collapse_occupancy.csv",
+    "math_training_csv": "figures/data/math_signal_collapse_training.csv",
+    "math_occupancy_csv": "figures/data/math_signal_collapse_occupancy.csv"
+  },
+  "boundaries": [
+    "actor/grad_norm is the logged pre-clip norm; clip-one is a robustness proxy",
+    "nu_train is an empirical training-log ratio, not the population vanilla-flow nu_T",
+    "the 14B occupancy series uses 16 prompts and does not prove X_dot is zero",
+    "mechanistic explanations for signal collapse remain hypotheses",
+    "Code and Math nu magnitudes are not compared across students or parameterizations"
+  ],
+  "data_version": "20260925-complete200"
+}

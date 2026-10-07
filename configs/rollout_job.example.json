@@ -1,0 +1,33 @@
+{
+  "authorized": true,
+  "config_resolved": true,
+  "devices": [
+    0,
+    1
+  ],
+  "run_dir": "/results/sft-rollouts",
+  "prompt_file": "/data/prompts.jsonl",
+  "prompt_sha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "reference_rollout": "/path/to/repository/data_pipeline/generate_teacher_responses.py",
+  "student": "/models/student",
+  "teacher": "/models/teacher",
+  "model_family": "r1",
+  "teacher_enable_thinking": true,
+  "quantity_mode": "accepted_rows",
+  "target_rows": 20000,
+  "sft_config": {
+    "template": "REPLACE_WITH_MATCHING_RECORDED_SFT_TEMPLATE",
+    "enable_thinking": true,
+    "cutoff_len": 14336
+  },
+  "rollout": {
+    "max_model_len": 32768,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "top_k": -1,
+    "max_tokens": 12288,
+    "max_attempts": 3,
+    "generation_batch_size": 8
+  }
+}

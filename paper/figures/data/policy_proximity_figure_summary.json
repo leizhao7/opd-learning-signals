@@ -1,0 +1,76 @@
+{
+  "status": "real_data",
+  "data": "figures/data/policy_proximity_comparison.csv",
+  "data_sha256": "729095bfa622b47acf776d71494c18fbfb558b43bb2433fc9df0ba6d0fa150a5",
+  "source_summary": "figures/data/policy_proximity_comparison_summary.json",
+  "source_summary_sha256": "6521c5ed69cc9223c5368eb87612e3832c68ac30e04249574fcd8111d8f8777f",
+  "encoding": {
+    "x": "target teacher",
+    "y": "empirical full-vocabulary token-weighted reverse KL, D_KL^(rho_pi)",
+    "interval": "95% prompt-bootstrap CI",
+    "mark": "grouped bars; solid blue RL witness and lightly hatched rose OPD endpoint; no in-panel numeric annotations",
+    "lower_is_closer": true
+  },
+  "boundary": "candidate-specific on-policy occupancy; not a shared-prefix pointwise distance",
+  "rows": [
+    {
+      "group": "code_qwen14b",
+      "target_teacher": "Qwen3-14B",
+      "rl_witness": "Qwen3-4B-RL-Code",
+      "n_prompts": "673",
+      "rl_reverse_kl": 0.1665482997508877,
+      "rl_ci95_low": 0.16108970157598346,
+      "rl_ci95_high": 0.17268001282383036,
+      "opd_final_reverse_kl": 0.2136129032615547,
+      "opd_final_ci95_low": 0.20472035640161296,
+      "opd_final_ci95_high": 0.22308881661706922,
+      "opd_final_minus_rl": "0.04706460351066699",
+      "opd_final_over_rl": 1.2825883157081952,
+      "closer_candidate": "RL witness"
+    },
+    {
+      "group": "math_qwen4b_nt",
+      "target_teacher": "Qwen3-4B (Non-thinking)",
+      "rl_witness": "Qwen3-4B-RL-Math",
+      "n_prompts": "143",
+      "rl_reverse_kl": 0.08124388871080289,
+      "rl_ci95_low": 0.07753661827093646,
+      "rl_ci95_high": 0.08560683646912218,
+      "opd_final_reverse_kl": 0.07367084822009387,
+      "opd_final_ci95_low": 0.059946004440426394,
+      "opd_final_ci95_high": 0.08987223307665912,
+      "opd_final_minus_rl": "-0.007573040490709018",
+      "opd_final_over_rl": 0.9067863366601501,
+      "closer_candidate": "OPD final"
+    },
+    {
+      "group": "math_r1_7b",
+      "target_teacher": "R1-Distill-7B",
+      "rl_witness": "Skywork-OR1-Math-7B",
+      "n_prompts": "143",
+      "rl_reverse_kl": 0.10175370754067459,
+      "rl_ci95_low": 0.09593848594829812,
+      "rl_ci95_high": 0.10760224440053397,
+      "opd_final_reverse_kl": 0.12056534104617678,
+      "opd_final_ci95_low": 0.1133756120740142,
+      "opd_final_ci95_high": 0.1272439303043403,
+      "opd_final_minus_rl": "0.01881163350550219",
+      "opd_final_over_rl": 1.1848741825744533,
+      "closer_candidate": "RL witness"
+    }
+  ],
+  "outputs": {
+    "png": {
+      "path": "figures/proximity/policy_proximity_comparison.png",
+      "sha256": "63920e4433f13216c85680fc4de73e8b16a814fae357de0b3773bf9af15c8495"
+    },
+    "svg": {
+      "path": "figures/proximity/policy_proximity_comparison.svg",
+      "sha256": "9c37377724c4dcc6273e755afe029ff9fe3e78fa052262da4d86f3d9269933c2"
+    },
+    "pdf": {
+      "path": "figures/proximity/policy_proximity_comparison.pdf",
+      "sha256": "ef6dd7ec74c25993dcbc0138161eaefd4492f4a2adf1e4f82bf25e4dcff7f1f5"
+    }
+  }
+}

@@ -1,0 +1,1408 @@
+group,group_label,teacher,teacher_label,step,opd_loss,validation_metric_1,validation_metric_2,validation_metric_3,macro_val_accuracy_percent,teacher_macro_accuracy_percent
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,0,,0.7728658536585366,0.6514550264550265,0.15648854961832062,52.69364765772946,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,1,0.11997062712907791,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,2,0.16582177579402924,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,3,0.15207141637802124,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,4,0.1497877836227417,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,5,0.1015283614397049,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,6,0.09168774634599686,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,7,0.07609311491250992,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,8,0.07895231246948242,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,9,0.03470146656036377,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,10,0.029363948851823807,0.8185975609756098,0.6686507936507936,0.16221374045801526,54.982069836147296,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,11,0.02271871641278267,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,12,0.02593841403722763,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,13,0.017032578587532043,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,14,0.015980346128344536,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,15,0.01221870444715023,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,16,0.00922314915806055,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,17,0.010654998943209648,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,18,0.014021630398929119,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,19,0.015130853280425072,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,20,0.014023149386048317,0.8521341463414634,0.7109788359788359,0.2538167938931298,60.564325873780966,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,21,0.01304381713271141,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,22,0.011674120090901852,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,23,0.010671081952750683,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,24,0.008539198897778988,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,25,0.007275891490280628,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,26,0.0065703196451067924,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,27,0.005529291462153196,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,28,0.0050500198267400265,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,29,0.004795336630195379,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,30,0.005114398431032896,0.8475609756097561,0.6845238095238095,0.22709923664122136,58.6394673924929,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,31,0.005071392748504877,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,32,0.00460952240973711,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,33,0.004715621471405029,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,34,0.004500246606767178,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,35,0.003866038750857115,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,36,0.003725726157426834,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,37,0.003649578196927905,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,38,0.003117853309959173,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,39,0.0027868987526744604,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,40,0.002948044566437602,0.8521341463414634,0.6997354497354498,0.22137404580152673,59.108121395948,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,41,0.002587344963103533,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,42,0.0025623065885156393,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,43,0.0023518980015069246,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,44,0.0022524346131831408,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,45,0.002451130421832204,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,46,0.002020501531660557,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,47,0.0020159438718110323,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,48,0.0017073247581720352,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,49,0.002052596304565668,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,50,0.001739412546157837,0.864329268292683,0.7083333333333334,0.23091603053435114,60.11928773867892,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,51,0.0019279499538242817,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,52,0.0017825406976044178,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,53,0.0015795114450156689,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,54,0.001995296450331807,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,55,0.0017615389078855515,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,56,0.0018017806578427553,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,57,0.001815191120840609,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,58,0.0015881754225119948,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,59,0.0016141487285494804,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,60,0.0014366669347509742,0.8658536585365854,0.6990740740740741,0.22519083969465647,59.67061907684387,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,61,0.001374430488795042,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,62,0.0013273537624627352,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,63,0.0014581236755475402,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,64,0.001345488941296935,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,65,0.0014003150863572955,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,66,0.0012997782323509455,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,67,0.001417522318661213,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,68,0.0012636773753911257,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,69,0.0013381384778767824,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,70,0.0012192386202514172,0.8536585365853658,0.6937830687830688,0.23473282442748092,59.40581432653052,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,71,0.0012189665576443076,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,72,0.0012619653716683388,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,73,0.0012024542083963752,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,74,0.0011460556415840983,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,75,0.0010951119475066662,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,76,0.0011987515026703477,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,77,0.0010648890165612102,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,78,0.0011622697347775102,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,79,0.0011927655432373285,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,80,0.0010641871485859156,0.8475609756097561,0.7182539682539683,0.23091603053435114,59.891032479935845,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,81,0.0010645753936842084,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,82,0.0010618146043270826,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,83,0.0010917673353105783,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,84,0.0010399466846138239,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,85,0.0010650495532900095,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,86,0.0010545158293098211,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,87,0.0010588656878098845,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,88,0.0009341879631392658,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,89,0.0010440554469823837,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,90,0.0009749265154823661,0.8628048780487805,0.6898148148148148,0.23282442748091603,59.51480401148371,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,91,0.0010030014673247933,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,92,0.000977290328592062,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,93,0.0009344532736577094,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,94,0.0009522929321974516,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,95,0.0009244377142749727,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,96,0.000970476190559566,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,97,0.0010035793529823422,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,98,0.0008739837212488055,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,99,0.0010689698392525315,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,100,0.0009752667974680662,0.8689024390243902,0.6970899470899471,0.22137404580152673,59.57888106386214,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,101,0.0009505587513558567,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,102,0.0009130550315603614,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,103,0.0008835814660415053,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,104,0.0009406120516359806,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,105,0.0009052524692378938,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,106,0.0008884260314516723,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,107,0.0008428659639321268,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,108,0.0009364240104332566,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,109,0.0008343835361301899,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,110,0.0009223695960827172,0.8445121951219512,0.6931216931216931,0.2366412213740458,59.14250365392301,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,111,0.0009176595485769212,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,112,0.0008327680407091975,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,113,0.0008806906407698989,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,114,0.0008641259628348053,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,115,0.0008444777340628207,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,116,0.0008262406336143613,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,117,0.0009058882715180516,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,118,0.0008591617224738002,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,119,0.0008791302680037916,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,120,0.0008361907093785703,0.8567073170731707,0.6898148148148148,0.24045801526717558,59.56600490517203,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,121,0.000749251979868859,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,122,0.0008651659591123462,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,123,0.0008620932349003851,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,124,0.000836223247461021,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,125,0.0008575049578212202,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,126,0.000819577369838953,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,127,0.0007902352954261005,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,128,0.0008679604507051408,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,129,0.000829489843454212,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,130,0.0008530270424671471,0.8490853658536586,0.6990740740740741,0.24045801526717558,59.620581839830265,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,131,0.0008226286736316979,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,132,0.0008470216416753829,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,133,0.0008320893975906074,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,134,0.0007849916582927108,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,135,0.0007647573947906494,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,136,0.0008398866630159318,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,137,0.0008494973881170154,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,138,0.0008071227348409593,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,139,0.0008071209886111319,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,140,0.0007811254472471774,0.8567073170731707,0.701058201058201,0.24618320610687022,60.13162414127474,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,141,0.0008063126006163657,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,142,0.0008351469878107309,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,143,0.0007688062032684684,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,144,0.0008180285803973675,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,145,0.0007318350835703313,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,146,0.0007117583882063627,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,147,0.000775698630604893,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,148,0.0007475439342670143,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,149,0.0007622662815265357,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,150,0.0007758410647511482,0.8521341463414634,0.6878306878306878,0.24427480916030533,59.47465477774855,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,151,0.0007815624703653157,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,152,0.0008179984870366752,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,153,0.0008033875492401421,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,154,0.0007407801458612084,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,155,0.0007868970278650522,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,156,0.0008322279900312424,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,157,0.0007284640450961888,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,158,0.0007140609668567777,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,159,0.0007074052118696272,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,160,0.0007594464113935828,0.8429878048780488,0.6964285714285714,0.25,59.647212543554005,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,161,0.0007299561984837055,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,162,0.0007652359781786799,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,163,0.0007882731733843684,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,164,0.000720530457329005,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,165,0.0007141701644286513,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,166,0.0007509015849791467,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,167,0.0007314190734177828,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,168,0.0007125910487957299,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,169,0.0007369833765551448,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,170,0.0007292386144399643,0.8780487804878049,0.6871693121693122,0.2480916030534351,60.44365652368507,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,171,0.0007419685134664178,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,172,0.0007244233274832368,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,173,0.0007293543894775212,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,174,0.0006802405696362257,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,175,0.0006786283338442445,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,176,0.0006720868987031281,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,177,0.0006650894647464156,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,178,0.0006921442109160125,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,179,0.0007107871933840215,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,180,0.0007298655691556633,0.8460365853658537,0.7023809523809523,0.24618320610687022,59.82002479512254,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,181,0.0007354696281254292,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,182,0.0007277531549334526,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,183,0.000672999070957303,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,184,0.0007542994571849704,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,185,0.0006847616168670356,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,186,0.0007150787860155106,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,187,0.0006724292761646211,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,188,0.0006569562247022986,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,189,0.0006587671232409775,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,190,0.0006942547624930739,0.8414634146341463,0.6997354497354498,0.24236641221374045,59.45217588611121,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,191,0.0007145738927647471,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,192,0.0007132271421141922,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,193,0.000713670626282692,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,194,0.0006915771518833935,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,195,0.0006748027517460287,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,196,0.0006513047846965492,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,197,0.0006752982153557241,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,198,0.0006461328011937439,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,199,0.0006638476043008268,,,,,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,rl4b,Qwen3-4B-RL-Code,200,0.0006960757891647518,0.8612804878048781,0.7043650793650794,0.24618320610687022,60.394292442560925,62.64526827232406
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),0,,0.7728658536585366,0.6514550264550265,0.15648854961832062,52.69364765772946,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),1,0.1357598453760147,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),2,0.19287583231925964,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),3,0.17490413784980774,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),4,0.17798681557178497,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),5,0.16371749341487885,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),6,0.1685497909784317,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),7,0.16297855973243713,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),8,0.15718267858028412,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),9,0.15160058438777924,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),10,0.13983485102653503,0.7789634146341463,0.6501322751322751,0.15076335877862596,52.66196828483492,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),11,0.13407418131828308,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),12,0.14377017319202423,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),13,0.1429259479045868,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),14,0.14286336302757263,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),15,0.12968182563781738,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),16,0.12962530553340912,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),17,0.1362602859735489,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),18,0.12633906304836273,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),19,0.12465275079011917,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),20,0.1296420842409134,0.774390243902439,0.6369047619047619,0.14694656488549618,51.94138568975657,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),21,0.12091909348964691,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),22,0.14047309756278992,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),23,0.12749779224395752,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),24,0.12060443311929703,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),25,0.11803712695837021,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),26,0.11524154990911484,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),27,0.1133938878774643,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),28,0.1156308725476265,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),29,0.10742678493261337,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),30,0.10275562107563019,0.7759146341463414,0.6395502645502645,0.15076335877862596,52.20760858250773,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),31,0.11478891223669052,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),32,0.11183523386716843,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),33,0.11080238223075867,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),34,0.11831360310316086,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),35,0.10710076242685318,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),36,0.10746102780103683,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),37,0.1132710725069046,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),38,0.10716576874256134,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),39,0.10640522092580795,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),40,0.10544972121715546,0.774390243902439,0.6428571428571429,0.15076335877862596,52.26702485127359,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),41,0.11799399554729462,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),42,0.10847620666027069,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),43,0.10990854352712631,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),44,0.11012928187847137,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),45,0.09827328473329544,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),46,0.10219692438840866,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),47,0.11215164512395859,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),48,0.10711075365543365,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),49,0.10369881242513657,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),50,0.11253959685564041,0.7804878048780488,0.6369047619047619,0.16030534351145037,52.589930343142036,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),51,0.11175914853811264,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),52,0.10972654819488525,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),53,0.11663114279508591,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),54,0.10106978565454483,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),55,0.1040734276175499,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),56,0.11568527668714523,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),57,0.11241204291582108,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),58,0.10761968046426773,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),59,0.1028890535235405,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),60,0.10459037870168686,0.7926829268292683,0.6541005291005291,0.15267175572519084,53.31517372183294,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),61,0.10567692667245865,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),62,0.10518353432416916,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),63,0.11247869580984116,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),64,0.10725389420986176,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),65,0.1114668995141983,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),66,0.10221518576145172,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),67,0.10674107074737549,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),68,0.11329582333564758,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),69,0.11661925911903381,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),70,0.09632725268602371,0.7774390243902439,0.6408730158730159,0.15076335877862596,52.302513301396196,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),71,0.10799018293619156,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),72,0.11238589137792587,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),73,0.1100265309214592,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),74,0.11132825165987015,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),75,0.10379880666732788,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),76,0.10272563993930817,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),77,0.11517941951751709,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),78,0.1135430559515953,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),79,0.10279396176338196,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),80,0.1083599179983139,0.7926829268292683,0.6507936507936508,0.16221374045801526,53.523010602697816,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),81,0.10996537655591965,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),82,0.10745038837194443,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),83,0.10880627483129501,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),84,0.10166538506746292,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),85,0.10489439964294434,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),86,0.10442174971103668,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),87,0.10186745971441269,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),88,0.10548053681850433,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),89,0.10951027274131775,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),90,0.10209232568740845,0.7667682926829268,0.6461640211640212,0.16793893129770993,52.695708171488604,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),91,0.0975932627916336,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),92,0.10389381647109985,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),93,0.10349354147911072,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),94,0.09772580862045288,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),95,0.0991801917552948,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),96,0.10036271065473557,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),97,0.10094500333070755,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),98,0.0973205715417862,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),99,0.10313373059034348,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),100,0.10593269765377045,0.788109756097561,0.6567460317460317,0.16221374045801526,53.568984276720265,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),101,0.09330441057682037,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),102,0.10761148482561111,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),103,0.10306031256914139,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),104,0.10375485569238663,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),105,0.10350584238767624,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),106,0.1056521013379097,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),107,0.10102122277021408,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),108,0.1018165796995163,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),109,0.10679784417152405,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),110,0.11018076539039612,0.7713414634146342,0.6421957671957672,0.15648854961832062,52.334192674290726,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),111,0.09777671843767166,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),112,0.10466758906841278,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),113,0.10222041606903076,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),114,0.10930173844099045,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),115,0.10701895505189896,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),116,0.09758266806602478,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),117,0.10282502323389053,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),118,0.10049927979707718,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),119,0.10685944557189941,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),120,0.10476366430521011,0.7652439024390244,0.6501322751322751,0.14885496183206107,52.141037980112024,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),121,0.10426246374845505,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),122,0.10228458046913147,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),123,0.1052221953868866,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),124,0.11415594816207886,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),125,0.09895509481430054,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),126,0.09641418606042862,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),127,0.10689772665500641,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),128,0.10610441863536835,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),129,0.10348576307296753,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),130,0.1113428846001625,0.7789634146341463,0.6468253968253969,0.16030534351145037,52.86980516569978,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),131,0.10281053185462952,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),132,0.10178626328706741,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),133,0.1115545853972435,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),134,0.09790626913309097,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),135,0.09681538492441177,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),136,0.10251487046480179,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),137,0.1061551570892334,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),138,0.10479556024074554,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),139,0.10358565300703049,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),140,0.10512399673461914,0.7820121951219512,0.6607142857142857,0.16030534351145037,53.43439414492291,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),141,0.10334973782300949,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),142,0.11863166838884354,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),143,0.10195495933294296,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),144,0.11752592772245407,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),145,0.09989268332719803,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),146,0.10138529539108276,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),147,0.11351685225963593,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),148,0.1010763868689537,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),149,0.10161877423524857,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),150,0.10795172303915024,0.7667682926829268,0.6673280423280423,0.15267175572519084,52.892269691205335,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),151,0.10888337343931198,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),152,0.10458461195230484,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),153,0.1035599410533905,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),154,0.08075140416622162,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),155,0.1179773211479187,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),156,0.11608245968818665,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),157,0.1002635508775711,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),158,0.10693848133087158,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),159,0.09611397236585617,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),160,0.10812801867723465,0.7682926829268293,0.6593915343915344,0.16412213740458015,53.06021182409813,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),161,0.10283676534891129,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),162,0.09799788892269135,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),163,0.1021219938993454,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),164,0.10229342430830002,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),165,0.08136476576328278,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),166,0.10505003482103348,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),167,0.10786529630422592,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),168,0.10961257666349411,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),169,0.10569165647029877,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),170,0.10149650275707245,0.7804878048780488,0.6514550264550265,0.15458015267175573,52.8840994668277,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),171,0.10280486941337585,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),172,0.10947274416685104,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),173,0.10699022561311722,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),174,0.10266721248626709,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),175,0.10189331322908401,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),176,0.10032188147306442,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),177,0.10359644144773483,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),178,0.1056821271777153,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),179,0.09685522317886353,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),180,0.10172197222709656,0.7759146341463414,0.6567460317460317,0.16603053435114504,53.289706674783936,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),181,0.103251151740551,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),182,0.10106221586465836,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),183,0.09596241265535355,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),184,0.10036703199148178,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),185,0.10366441309452057,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),186,0.10787741094827652,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),187,0.11072791367769241,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),188,0.102948859333992,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),189,0.10657073557376862,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),190,0.10656120628118515,0.7804878048780488,0.6501322751322751,0.16412213740458015,53.15807391383013,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),191,0.10843013226985931,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),192,0.10493533313274384,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),193,0.10933315753936768,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),194,0.11376521736383438,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),195,0.10493817180395126,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),196,0.09602717310190201,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),197,0.10058039426803589,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),198,0.09646353870630264,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),199,0.10676610469818115,,,,,58.44851071647758
+code_qwen4b,Code / Qwen3-4B student,qwen14b,Qwen3-14B (Non-thinking),200,0.10064544528722763,0.7926829268292683,0.6541005291005291,0.15648854961832062,53.44240018493727,58.44851071647758
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),0,,0.11666666666666667,0.10833333333333334,0.40813253012048195,21.104417670682732,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),1,0.2634744942188263,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),2,0.2461121529340744,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),3,0.2433868646621704,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),4,0.24823160469532013,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),5,0.23160408437252045,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),6,0.21545840799808502,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),7,0.21474458277225494,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),8,0.24307550489902496,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),9,0.21879297494888306,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),10,0.18772581219673157,0.175,0.1125,0.4442771084337349,24.392570281124495,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),11,0.18173526227474213,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),12,0.18232658505439758,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),13,0.20065852999687195,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),14,0.20499764382839203,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),15,0.17643508315086365,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),16,0.18087781965732574,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),17,0.13178308308124542,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),18,0.13400930166244507,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),19,0.12572479248046875,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),20,0.1333174854516983,0.3333333333333333,0.19583333333333333,0.5903614457831325,37.31760374832664,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),21,0.13168670237064362,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),22,0.12559355795383453,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),23,0.1359098255634308,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),24,0.13101886212825775,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),25,0.12744592130184174,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),26,0.1367548704147339,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),27,0.12812171876430511,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),28,0.1274690330028534,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),29,0.1248103603720665,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),30,0.13247431814670563,0.3541666666666667,0.275,0.6837349397590361,43.76338688085675,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),31,0.13286735117435455,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),32,0.13194486498832703,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),33,0.13272270560264587,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),34,0.1319485306739807,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),35,0.12982696294784546,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),36,0.13629943132400513,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),37,0.1325644701719284,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),38,0.1308843493461609,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),39,0.12549786269664764,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),40,0.13699088990688324,0.37083333333333335,0.2833333333333333,0.6942771084337349,44.948125836680056,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),41,0.12597346305847168,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),42,0.12280426919460297,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),43,0.12386779487133026,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),44,0.11736331880092621,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),45,0.12394394725561142,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),46,0.11968325823545456,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),47,0.11892905831336975,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),48,0.1238250583410263,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),49,0.12328920513391495,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),50,0.12088631093502045,0.3875,0.2791666666666667,0.6731927710843374,44.6619812583668,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),51,0.1149335727095604,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),52,0.11489434540271759,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),53,0.1168912947177887,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),54,0.10916654020547867,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),55,0.1224978119134903,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),56,0.11346866935491562,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),57,0.12434836477041245,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),58,0.11940834671258926,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),59,0.11558568477630615,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),60,0.1117069274187088,0.4041666666666667,0.2833333333333333,0.697289156626506,46.15963855421687,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),61,0.11878048628568649,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),62,0.11276784539222717,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),63,0.11535300314426422,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),64,0.11301205307245255,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),65,0.11371366679668427,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),66,0.11770783364772797,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),67,0.11218934506177902,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),68,0.12029486894607544,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),69,0.11556579917669296,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),70,0.10756278783082962,0.37083333333333335,0.29583333333333334,0.6731927710843374,44.6619812583668,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),71,0.12184982001781464,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),72,0.11400360614061356,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),73,0.11769513785839081,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),74,0.11697357892990112,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),75,0.12051855772733688,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),76,0.11854645609855652,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),77,0.1066872850060463,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),78,0.12264568358659744,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),79,0.11491797119379044,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),80,0.11330439150333405,0.35,0.2916666666666667,0.6792168674698795,44.02945113788487,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),81,0.11779461055994034,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),82,0.12583212554454803,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),83,0.10875716805458069,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),84,0.11632996052503586,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),85,0.12365768104791641,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),86,0.119304358959198,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),87,0.12437082827091217,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),88,0.11670961230993271,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),89,0.10860539972782135,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),90,0.10993943363428116,0.3625,0.3,0.7003012048192772,45.426706827309246,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),91,0.11031200736761093,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),92,0.10687020421028137,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),93,0.11115565150976181,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),94,0.10953681915998459,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),95,0.10805890709161758,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),96,0.10397808998823166,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),97,0.11072227358818054,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),98,0.11349509656429291,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),99,0.10609602928161621,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),100,0.11472556740045547,0.37083333333333335,0.29583333333333334,0.7018072289156626,45.615796519410985,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),101,0.1025955080986023,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),102,0.10820533335208893,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),103,0.10525360703468323,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),104,0.10360567271709442,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),105,0.10685326904058456,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),106,0.10435955971479416,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),107,0.10104154795408249,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),108,0.10126003623008728,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),109,0.092009536921978,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),110,0.10705138742923737,0.3875,0.26666666666666666,0.7018072289156626,45.199129852744306,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),111,0.0981220230460167,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),112,0.10889127105474472,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),113,0.1180684044957161,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),114,0.12374583631753922,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),115,0.11697234958410263,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),116,0.12089948356151581,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),117,0.12030027061700821,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),118,0.12011534720659256,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),119,0.11182469129562378,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),120,0.1078639104962349,0.38333333333333336,0.30416666666666664,0.697289156626506,46.15963855421687,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),121,0.11622999608516693,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),122,0.11383066326379776,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),123,0.12709033489227295,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),124,0.12120968103408813,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),125,0.10910957306623459,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),126,0.1141611710190773,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),127,0.1238342672586441,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),128,0.11620097607374191,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),129,0.11230581998825073,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),130,0.11625785380601883,0.4083333333333333,0.2625,0.6701807228915663,44.70046854082999,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),131,0.11637737601995468,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),132,0.11087861657142639,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),133,0.10510893911123276,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),134,0.11234209686517715,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),135,0.11322439461946487,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),136,0.10989617556333542,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),137,0.10700255632400513,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),138,0.1106707751750946,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),139,0.11189533770084381,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),140,0.10867085307836533,0.38333333333333336,0.2625,0.6701807228915663,43.86713520749665,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),141,0.11137031763792038,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),142,0.11549729108810425,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),143,0.11199931800365448,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),144,0.10923174768686295,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),145,0.11519674211740494,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),146,0.11068759858608246,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),147,0.11086802184581757,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),148,0.11137386411428452,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),149,0.11172567307949066,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),150,0.1150926947593689,0.375,0.275,0.6746987951807228,44.1566265060241,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),151,0.10770395398139954,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),152,0.1085960865020752,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),153,0.1105118989944458,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),154,0.12056350708007812,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),155,0.11029806733131409,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),156,0.11334017664194107,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),157,0.11424291878938675,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),158,0.11469635367393494,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),159,0.11217009276151657,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),160,0.1086132600903511,0.3375,0.3,0.6867469879518072,44.141566265060234,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),161,0.11364033818244934,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),162,0.11317542940378189,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),163,0.10415666550397873,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),164,0.11566748470067978,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),165,0.10940127074718475,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),166,0.10965888947248459,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),167,0.11127191036939621,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),168,0.10864198207855225,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),169,0.10850678384304047,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),170,0.1132044568657875,0.3625,0.3416666666666667,0.6957831325301205,46.66499330655957,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),171,0.10796746611595154,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),172,0.11330968141555786,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),173,0.11285002529621124,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),174,0.11246884614229202,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),175,0.11191999167203903,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),176,0.11380238085985184,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),177,0.13412748277187347,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),178,0.14545224606990814,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),179,0.1307571828365326,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),180,0.1184009313583374,0.3625,0.2916666666666667,0.6882530120481928,44.74732262382865,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),181,0.1340060979127884,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),182,0.1414216160774231,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),183,0.14653699100017548,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),184,0.1449851244688034,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),185,0.1338234841823578,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),186,0.13210469484329224,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),187,0.12595351040363312,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),188,0.13367332518100739,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),189,0.1317107230424881,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),190,0.13747918605804443,0.3416666666666667,0.275,0.697289156626506,43.798527443105755,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),191,0.13358727097511292,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),192,0.13821493089199066,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),193,0.1513618677854538,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),194,0.14455142617225647,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),195,0.1401452273130417,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),196,0.1553017795085907,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),197,0.14024010300636292,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),198,0.15017069876194,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),199,0.14733222126960754,,,,,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,rlmath4b,RL-Math teacher (4B),200,0.11760024726390839,0.3541666666666667,0.26666666666666666,0.697289156626506,43.93741633199465,69.17
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,0,,0.12916666666666668,0.09166666666666666,0.3990963855421687,20.664323962516733,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,1,0.09871328622102737,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,2,0.09216002374887466,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,3,0.10120895504951477,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,4,0.09758263826370239,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,5,0.10411529242992401,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,6,0.09380006790161133,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,7,0.0983991026878357,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,8,0.09380928426980972,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,9,0.09089767932891846,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,10,0.07646647095680237,0.15,0.125,0.43373493975903615,23.62449799196787,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,11,0.08543650060892105,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,12,0.09854685515165329,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,13,0.09154711663722992,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,14,0.09832838177680969,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,15,0.08076507598161697,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,16,0.08994962275028229,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,17,0.0826927125453949,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,18,0.09204915910959244,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,19,0.0827537551522255,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,20,0.08829629421234131,0.14166666666666666,0.1375,0.4427710843373494,24.06459170013387,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,21,0.08811870217323303,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,22,0.08352197706699371,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,23,0.09832767397165298,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,24,0.0861198902130127,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,25,0.09106319397687912,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,26,0.09687699377536774,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,27,0.08807611465454102,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,28,0.08513785898685455,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,29,0.0871887058019638,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,30,0.09008120745420456,0.16666666666666666,0.11666666666666667,0.42620481927710846,23.651271753681392,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,31,0.0933740884065628,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,32,0.08889604359865189,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,33,0.08645962923765182,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,34,0.09338288754224777,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,35,0.08206111192703247,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,36,0.08927197754383087,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,37,0.0942002385854721,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,38,0.0803261399269104,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,39,0.07698391377925873,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,40,0.09526430815458298,0.16666666666666666,0.12083333333333333,0.42168674698795183,23.639558232931726,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,41,0.08979237079620361,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,42,0.08328171819448471,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,43,0.0881216749548912,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,44,0.08294103294610977,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,45,0.08770082890987396,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,46,0.08263739198446274,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,47,0.08828718215227127,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,48,0.08403917402029037,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,49,0.08096200227737427,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,50,0.08542102575302124,0.14166666666666666,0.09166666666666666,0.40963855421686746,21.43239625167336,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,51,0.08699046820402145,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,52,0.08575508743524551,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,53,0.08285614103078842,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,54,0.07570593804121017,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,55,0.08502482622861862,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,56,0.08515475690364838,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,57,0.09752151370048523,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,58,0.08923924714326859,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,59,0.08424701541662216,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,60,0.0765732079744339,0.14166666666666666,0.0875,0.44728915662650603,22.548527443105755,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,61,0.08587286621332169,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,62,0.07884784787893295,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,63,0.07816249132156372,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,64,0.08598940819501877,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,65,0.07840116322040558,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,66,0.08218976855278015,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,67,0.07927292585372925,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,68,0.08930667489767075,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,69,0.07500224560499191,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,70,0.08418425172567368,0.15,0.08333333333333333,0.39006024096385544,20.779785809906294,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,71,0.08203466981649399,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,72,0.08092222362756729,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,73,0.08279761672019958,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,74,0.0808253064751625,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,75,0.08083033561706543,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,76,0.08675192296504974,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,77,0.08091306686401367,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,78,0.08842235803604126,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,79,0.0880289226770401,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,80,0.07805512845516205,0.15416666666666667,0.09583333333333334,0.42771084337349397,22.590361445783135,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,81,0.0817316547036171,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,82,0.09406169503927231,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,83,0.0787750780582428,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,84,0.09122081100940704,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,85,0.09781670570373535,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,86,0.08242568373680115,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,87,0.09846670925617218,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,88,0.07991022616624832,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,89,0.08022560924291611,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,90,0.0811755582690239,0.15833333333333333,0.12083333333333333,0.45481927710843373,24.46619812583668,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,91,0.08153343945741653,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,92,0.07769667357206345,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,93,0.08334001153707504,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,94,0.080096535384655,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,95,0.07377422600984573,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,96,0.07032554596662521,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,97,0.072593092918396,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,98,0.07906278222799301,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,99,0.0764278769493103,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,100,0.07909318804740906,0.1375,0.11666666666666667,0.43373493975903615,22.93005354752343,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,101,0.07118985056877136,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,102,0.07925141602754593,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,103,0.07939960807561874,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,104,0.07573974132537842,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,105,0.07498045265674591,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,106,0.07537247985601425,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,107,0.07227537781000137,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,108,0.06878259032964706,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,109,0.06874332576990128,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,110,0.07363435626029968,0.14583333333333334,0.12083333333333333,0.4382530120481928,23.49732262382865,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,111,0.07167340815067291,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,112,0.08247872442007065,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,113,0.08311119675636292,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,114,0.10247025638818741,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,115,0.08713911473751068,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,116,0.08585736900568008,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,117,0.08932140469551086,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,118,0.08980926871299744,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,119,0.07733429968357086,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,120,0.08222469687461853,0.15416666666666667,0.10416666666666667,0.4352409638554217,23.11914323962517,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,121,0.08814457058906555,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,122,0.08809038251638412,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,123,0.09254885464906693,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,124,0.08587164431810379,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,125,0.07960813492536545,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,126,0.0877266451716423,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,127,0.09994573146104813,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,128,0.08350150287151337,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,129,0.0834178701043129,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,130,0.07717008143663406,0.13333333333333333,0.10833333333333334,0.4141566265060241,21.86077643908969,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,131,0.08298632502555847,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,132,0.0745154470205307,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,133,0.07173826545476913,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,134,0.0763564333319664,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,135,0.0841892883181572,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,136,0.07869255542755127,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,137,0.07409331202507019,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,138,0.07989829033613205,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,139,0.07233118265867233,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,140,0.07759342342615128,0.14583333333333334,0.13333333333333333,0.44126506024096385,24.01439089692102,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,141,0.07981307804584503,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,142,0.08227100968360901,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,143,0.08370059728622437,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,144,0.08600558340549469,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,145,0.08190761506557465,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,146,0.07958956807851791,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,147,0.07872044295072556,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,148,0.08275432139635086,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,149,0.07631241530179977,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,150,0.09334161877632141,0.19166666666666668,0.13333333333333333,0.4427710843373494,25.592369477911646,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,151,0.07836490869522095,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,152,0.07656682282686234,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,153,0.08543896675109863,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,154,0.09091395884752274,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,155,0.0811036229133606,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,156,0.08397882431745529,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,157,0.08531534671783447,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,158,0.08220743387937546,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,159,0.07731129229068756,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,160,0.07966490089893341,0.15833333333333333,0.12083333333333333,0.4141566265060241,23.11077643908969,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,161,0.0843738466501236,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,162,0.0800333321094513,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,163,0.07250414788722992,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,164,0.09002549201250076,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,165,0.07332505285739899,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,166,0.0877896398305893,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,167,0.0872621089220047,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,168,0.07408856600522995,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,169,0.07133916020393372,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,170,0.07917943596839905,0.15416666666666667,0.1375,0.4397590361445783,24.380856760374833,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,171,0.07174821197986603,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,172,0.08512362092733383,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,173,0.08383665233850479,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,174,0.08848036825656891,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,175,0.08341600745916367,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,176,0.0762428566813469,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,177,0.10301349312067032,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,178,0.11767812073230743,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,179,0.1073671355843544,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,180,0.08952150493860245,0.175,0.10416666666666667,0.4367469879518072,23.863788487282463,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,181,0.09760107100009918,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,182,0.11335529386997223,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,183,0.10782670974731445,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,184,0.11124295741319656,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,185,0.09663407504558563,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,186,0.09130246192216873,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,187,0.08646753430366516,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,188,0.10218602418899536,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,189,0.10201521962881088,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,190,0.10534511506557465,0.12083333333333333,0.10833333333333334,0.4171686746987952,21.54451137884873,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,191,0.1039866954088211,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,192,0.10250966250896454,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,193,0.12088759988546371,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,194,0.11818397790193558,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,195,0.11560160666704178,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,196,0.12579725682735443,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,197,0.11596743017435074,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,198,0.11263511329889297,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,199,0.10636827349662781,,,,,35.13
+math_qwen1p7b,Math / Qwen3-1.7B student,qwen4b,Qwen3-4B teacher,200,0.0925554409623146,0.12916666666666668,0.10416666666666667,0.44879518072289154,22.737617135207497,35.13
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),0,,0.2916666666666667,0.24583333333333332,0.6581325301204819,39.85441767068273,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),1,0.455453097820282,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),2,0.4428612291812897,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),3,0.42729929089546204,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),4,0.44052523374557495,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),5,0.4218701720237732,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),6,0.44408589601516724,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),7,0.44138386845588684,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),8,0.4004058241844177,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),9,0.39550867676734924,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),10,0.44947299361228943,0.29583333333333334,0.24583333333333332,0.6551204819277109,39.892904953145916,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),11,0.41633930802345276,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),12,0.40338757634162903,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),13,0.39160239696502686,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),14,0.4175570607185364,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),15,0.39412549138069153,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),16,0.4016040861606598,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),17,0.41634947061538696,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),18,0.41626471281051636,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),19,0.3823144733905792,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),20,0.3778128921985626,0.30833333333333335,0.2375,0.6536144578313253,39.98159303882196,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),21,0.40007251501083374,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),22,0.352462500333786,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),23,0.38617122173309326,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),24,0.3582201302051544,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),25,0.39217811822891235,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),26,0.35565105080604553,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),27,0.38235801458358765,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),28,0.3549841344356537,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),29,0.34047049283981323,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),30,0.33239418268203735,0.31666666666666665,0.26666666666666666,0.6852409638554217,42.28580990629184,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),31,0.31937727332115173,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),32,0.32894107699394226,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),33,0.27727222442626953,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),34,0.25591105222702026,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),35,0.2646462321281433,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),36,0.2727528512477875,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),37,0.23384521901607513,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),38,0.23608432710170746,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),39,0.2227199375629425,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),40,0.22762590646743774,0.3416666666666667,0.2875,0.6957831325301205,44.16499330655957,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),41,0.23069994151592255,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),42,0.2327275276184082,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),43,0.24456878006458282,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),44,0.20842546224594116,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),45,0.2501543164253235,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),46,0.2239101678133011,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),47,0.18762019276618958,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),48,0.22375714778900146,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),49,0.19848822057247162,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),50,0.21623574197292328,0.3375,0.2708333333333333,0.7063253012048193,43.821954484605094,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),51,0.19183726608753204,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),52,0.19784897565841675,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),53,0.1872592568397522,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),54,0.1707768440246582,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),55,0.18035858869552612,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),56,0.14985142648220062,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),57,0.17560306191444397,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),58,0.15091587603092194,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),59,0.1366579830646515,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),60,0.14587078988552094,0.3458333333333333,0.2916666666666667,0.713855421686747,45.045180722891565,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),61,0.1463635414838791,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),62,0.13388782739639282,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),63,0.12453552335500717,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),64,0.12110687047243118,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),65,0.10839112102985382,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),66,0.11998800933361053,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),67,0.1090744361281395,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),68,0.09680770337581635,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),69,0.09003232419490814,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),70,0.08043701946735382,0.37916666666666665,0.32916666666666666,0.713855421686747,47.40629183400267,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),71,0.08655199408531189,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),72,0.09361229091882706,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),73,0.09270738065242767,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),74,0.08046293258666992,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),75,0.1347743421792984,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),76,0.09219138324260712,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),77,0.07444234937429428,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),78,0.08076240867376328,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),79,0.08974416553974152,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),80,0.07645498961210251,0.3458333333333333,0.30833333333333335,0.7289156626506024,46.10274431057564,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),81,0.07637623697519302,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),82,0.0645909532904625,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),83,0.06900445371866226,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),84,0.08293291181325912,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),85,0.06913242489099503,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),86,0.08381680399179459,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),87,0.06911274790763855,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),88,0.08609054982662201,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),89,0.06457372009754181,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),90,0.05930253863334656,0.375,0.2916666666666667,0.7424698795180723,46.971218206157964,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),91,0.06186458840966225,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),92,0.06959965825080872,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),93,0.07216819375753403,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),94,0.06995560228824615,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),95,0.06687212735414505,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),96,0.07298845052719116,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),97,0.06796561181545258,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),98,0.06305928528308868,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),99,0.06003085523843765,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),100,0.06093717738986015,0.4125,0.30416666666666664,0.7620481927710844,49.29049531459169,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),101,0.06438016891479492,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),102,0.0500514879822731,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),103,0.048694297671318054,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),104,0.04537715017795563,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),105,0.04064508154988289,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),106,0.0482088178396225,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),107,0.04460618272423744,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),108,0.04943620041012764,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),109,0.04321642592549324,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),110,0.03914075717329979,0.4125,0.3,0.7484939759036144,48.69979919678715,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),111,0.039750270545482635,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),112,0.05313412845134735,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),113,0.05864199995994568,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),114,0.056021083146333694,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),115,0.054299287497997284,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),116,0.049359362572431564,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),117,0.05813626945018768,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),118,0.056480035185813904,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),119,0.042896490544080734,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),120,0.051203690469264984,0.42083333333333334,0.3416666666666667,0.7424698795180723,50.16566265060241,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),121,0.05782715603709221,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),122,0.05557767674326897,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),123,0.05040046572685242,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),124,0.053832221776247025,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),125,0.05786696821451187,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),126,0.03879224881529808,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),127,0.050262510776519775,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),128,0.05266533046960831,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),129,0.0435677170753479,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),130,0.03649894520640373,0.42083333333333334,0.31666666666666665,0.7680722891566265,50.18574297188755,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),131,0.038492560386657715,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),132,0.043172743171453476,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),133,0.08746769279241562,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),134,0.04382932931184769,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),135,0.031213970854878426,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),136,0.041133277118206024,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),137,0.027937211096286774,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),138,0.025880316272377968,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),139,0.03534919396042824,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),140,0.02441706694662571,0.4375,0.2916666666666667,0.7710843373493976,50.00836680053548,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),141,0.03424413129687309,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),142,0.03176857531070709,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),143,0.02897859364748001,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),144,0.031056661158800125,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),145,0.02490607649087906,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),146,0.030923044309020042,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),147,0.02409558929502964,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),148,0.037573911249637604,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),149,0.03098057396709919,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),150,0.027324171736836433,0.425,0.35833333333333334,0.7786144578313253,52.06492637215529,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),151,0.020014021545648575,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),152,0.029840394854545593,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),153,0.03041529841721058,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),154,0.025419095531105995,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),155,0.034598130732774734,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),156,0.024926625192165375,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),157,0.030757717788219452,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),158,0.029127418994903564,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),159,0.027372965589165688,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),160,0.023095667362213135,0.42916666666666664,0.32916666666666666,0.7846385542168675,51.43239625167336,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),161,0.02828723005950451,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),162,0.02518698200583458,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),163,0.023457853123545647,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),164,0.024763435125350952,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),165,0.021882053464651108,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),166,0.020618092268705368,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),167,0.02206013724207878,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),168,0.023240795359015465,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),169,0.01832086406648159,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),170,0.029062675312161446,0.4791666666666667,0.3458333333333333,0.7680722891566265,53.102409638554214,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),171,0.026371212676167488,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),172,0.021091803908348083,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),173,0.02319534681737423,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),174,0.01689421385526657,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),175,0.024964984506368637,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),176,0.02201393060386181,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),177,0.06172165274620056,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),178,0.04009242728352547,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),179,0.031286854296922684,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),180,0.03487098962068558,0.42916666666666664,0.35833333333333334,0.7560240963855421,51.450803212851405,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),181,0.03207381069660187,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),182,0.03293440118432045,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),183,0.028934355825185776,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),184,0.05863664671778679,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),185,0.02573697455227375,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),186,0.043497610837221146,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),187,0.030602918937802315,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),188,0.037608347833156586,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),189,0.029144568368792534,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),190,0.041719041764736176,0.4,0.3416666666666667,0.7816265060240963,50.776439089692104,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),191,0.029700249433517456,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),192,0.03667636588215828,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),193,0.025990411639213562,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),194,0.03522573783993721,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),195,0.03534701094031334,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),196,0.02946382761001587,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),197,0.026793355122208595,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),198,0.02997271902859211,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),199,0.028564976528286934,,,,,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,justrl1p5b,JustRL teacher (1.5B),200,0.03212021291255951,0.44166666666666665,0.31666666666666665,0.7981927710843374,51.88420348058903,56.86244979919679
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),0,,0.2916666666666667,0.24583333333333332,0.6581325301204819,39.85441767068273,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),1,0.21041400730609894,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),2,0.21052612364292145,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),3,0.21253971755504608,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),4,0.20285475254058838,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),5,0.20610617101192474,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),6,0.20656661689281464,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),7,0.19926898181438446,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),8,0.20007848739624023,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),9,0.1997671276330948,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),10,0.19257637858390808,0.325,0.25,0.641566265060241,40.55220883534137,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),11,0.19219975173473358,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),12,0.21223725378513336,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),13,0.2026648074388504,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),14,0.20417068898677826,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),15,0.20078034698963165,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),16,0.20227409899234772,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),17,0.1878080815076828,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),18,0.19132234156131744,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),19,0.1822780966758728,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),20,0.18819762766361237,0.31666666666666665,0.24166666666666667,0.6370481927710844,39.84605087014725,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),21,0.18827521800994873,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),22,0.18064481019973755,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),23,0.1864033192396164,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),24,0.19053328037261963,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),25,0.18555913865566254,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),26,0.1849220097064972,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),27,0.1871986985206604,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),28,0.18202702701091766,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),29,0.1843280792236328,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),30,0.18611285090446472,0.32083333333333336,0.25416666666666665,0.6295180722891566,40.15060240963856,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),31,0.18149955570697784,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),32,0.17568746209144592,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),33,0.16712476313114166,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),34,0.16212217509746552,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),35,0.1646607369184494,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),36,0.16542194783687592,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),37,0.15678881108760834,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),38,0.14906643331050873,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),39,0.15891368687152863,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),40,0.16027535498142242,0.32083333333333336,0.26666666666666666,0.6280120481927711,40.51706827309237,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),41,0.15497323870658875,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),42,0.15324783325195312,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),43,0.15754465758800507,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),44,0.152525395154953,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),45,0.16453270614147186,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),46,0.1547083705663681,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),47,0.15526072680950165,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),48,0.16091980040073395,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),49,0.15748348832130432,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),50,0.1561097800731659,0.3541666666666667,0.2791666666666667,0.6686746987951807,43.40026773761713,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),51,0.1502305418252945,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),52,0.15752288699150085,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),53,0.1480414718389511,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),54,0.15004126727581024,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),55,0.1579395830631256,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),56,0.14689825475215912,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),57,0.16095347702503204,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),58,0.15998338162899017,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),59,0.15461212396621704,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),60,0.14155201613903046,0.375,0.275,0.6762048192771084,44.20682730923695,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),61,0.15025147795677185,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),62,0.14976030588150024,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),63,0.15563881397247314,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),64,0.15281255543231964,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),65,0.15331722795963287,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),66,0.15183165669441223,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),67,0.14752767980098724,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),68,0.15671955049037933,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),69,0.14967265725135803,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),70,0.1405438780784607,0.375,0.2875,0.6927710843373494,45.175702811244975,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),71,0.15182387828826904,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),72,0.14874902367591858,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),73,0.15213333070278168,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),74,0.14804530143737793,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),75,0.1528746634721756,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),76,0.1502564251422882,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),77,0.1430867612361908,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),78,0.1516929417848587,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),79,0.15194205939769745,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),80,0.1492738425731659,0.325,0.29583333333333334,0.6927710843373494,43.78681392235609,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),81,0.1474052518606186,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),82,0.1520811766386032,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),83,0.141432523727417,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),84,0.15003414452075958,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),85,0.1539050191640854,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),86,0.1506805121898651,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),87,0.1533050537109375,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),88,0.1468847692012787,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),89,0.1425687074661255,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),90,0.14998938143253326,0.3875,0.2708333333333333,0.6957831325301205,45.1372155287818,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),91,0.14416177570819855,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),92,0.14032363891601562,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),93,0.14673098921775818,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),94,0.1461588442325592,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),95,0.1424538493156433,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),96,0.14052864909172058,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),97,0.14088821411132812,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),98,0.15109938383102417,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),99,0.14318925142288208,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),100,0.14820913970470428,0.3875,0.3125,0.7228915662650602,47.429718875502004,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),101,0.1338302493095398,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),102,0.146906778216362,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),103,0.1400703638792038,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),104,0.13589522242546082,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),105,0.13861122727394104,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),106,0.142607182264328,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),107,0.14103107154369354,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),108,0.14005602896213531,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),109,0.13500089943408966,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),110,0.1418534517288208,0.325,0.2833333333333333,0.6746987951807228,42.767737617135204,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),111,0.1339978724718094,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),112,0.14073853194713593,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),113,0.15230485796928406,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),114,0.15161719918251038,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),115,0.1438877135515213,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),116,0.14603877067565918,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),117,0.14939461648464203,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),118,0.15011349320411682,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),119,0.14222046732902527,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),120,0.13965308666229248,0.3541666666666667,0.3,0.7078313253012049,45.39993306559572,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),121,0.14546115696430206,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),122,0.15064795315265656,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),123,0.1541450172662735,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),124,0.1485370397567749,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),125,0.1392851620912552,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),126,0.1436414122581482,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),127,0.1578800529241562,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),128,0.15066342055797577,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),129,0.14283710718154907,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),130,0.14666548371315002,0.3958333333333333,0.3,0.6927710843373494,46.28681392235609,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),131,0.1455633044242859,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),132,0.14712238311767578,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),133,0.13696610927581787,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),134,0.14486545324325562,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),135,0.14281556010246277,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),136,0.1399439424276352,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),137,0.1344144344329834,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),138,0.13824991881847382,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),139,0.14411042630672455,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),140,0.13484127819538116,0.375,0.2833333333333333,0.6927710843373494,45.03681392235609,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),141,0.13766951858997345,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),142,0.14553646743297577,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),143,0.13967029750347137,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),144,0.1389082968235016,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),145,0.14370980858802795,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),146,0.13700039684772491,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),147,0.13913917541503906,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),148,0.13887810707092285,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),149,0.13774628937244415,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),150,0.1483328938484192,0.39166666666666666,0.29583333333333334,0.7123493975903614,46.66164658634538,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),151,0.1375015825033188,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),152,0.13497702777385712,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),153,0.1428002268075943,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),154,0.15037523210048676,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),155,0.14366260170936584,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),156,0.1310460865497589,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),157,0.1454704999923706,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),158,0.14098799228668213,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),159,0.13816577196121216,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),160,0.14005517959594727,0.32916666666666666,0.3125,0.7003012048192772,44.732262382864796,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),161,0.14298240840435028,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),162,0.13747861981391907,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),163,0.1390387862920761,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),164,0.14656108617782593,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),165,0.13594846427440643,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),166,0.13750603795051575,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),167,0.14362193644046783,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),168,0.13157089054584503,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),169,0.1381395310163498,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),170,0.1425624042749405,0.4,0.29583333333333334,0.6927710843373494,46.28681392235609,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),171,0.13744096457958221,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),172,0.13872742652893066,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),173,0.1386781930923462,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),174,0.14237084984779358,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),175,0.13580214977264404,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),176,0.14649970829486847,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),177,0.16870245337486267,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),178,0.19811855256557465,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),179,0.16751518845558167,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),180,0.15809611976146698,0.39166666666666666,0.2833333333333333,0.7168674698795181,46.39558232931727,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),181,0.17047686874866486,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),182,0.18366439640522003,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),183,0.17659692466259003,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),184,0.1819041669368744,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),185,0.15786567330360413,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),186,0.16847503185272217,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),187,0.14716710150241852,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),188,0.16879934072494507,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),189,0.15562082827091217,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),190,0.17368027567863464,0.35,0.29583333333333334,0.713855421686747,45.32295850066934,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),191,0.16157911717891693,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),192,0.16741354763507843,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),193,0.19360779225826263,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),194,0.1832689493894577,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),195,0.17725293338298798,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),196,0.19927172362804413,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),197,0.18090027570724487,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),198,0.18932974338531494,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),199,0.18574385344982147,,,,,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,skywork7b,Skywork teacher (7B),200,0.16015581786632538,0.39166666666666666,0.2916666666666667,0.7003012048192772,46.12115127175368,70.85341365461846
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),0,,0.2916666666666667,0.24583333333333332,0.6581325301204819,39.85441767068273,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),1,0.13586676120758057,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),2,0.13288651406764984,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),3,0.13274848461151123,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),4,0.12608160078525543,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),5,0.13192550837993622,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),6,0.12728694081306458,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),7,0.12675358355045319,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),8,0.12421814352273941,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),9,0.1209564357995987,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),10,0.12147201597690582,0.3,0.22083333333333333,0.6521084337349398,39.098058902275774,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),11,0.12011846154928207,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),12,0.13130436837673187,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),13,0.12537959218025208,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),14,0.1316843181848526,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),15,0.1242872104048729,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),16,0.12661591172218323,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),17,0.11625390499830246,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),18,0.11922935396432877,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),19,0.11383741348981857,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),20,0.12337805330753326,0.26666666666666666,0.25,0.625,38.05555555555555,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),21,0.11635182797908783,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),22,0.11600066721439362,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),23,0.11895773559808731,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),24,0.12333139777183533,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),25,0.11657369136810303,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),26,0.12362676113843918,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),27,0.12139393389225006,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),28,0.1158580407500267,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),29,0.1174951121211052,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),30,0.11892787367105484,0.25833333333333336,0.225,0.6340361445783133,37.24564926372156,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),31,0.11667173355817795,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),32,0.1210479810833931,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),33,0.11606069654226303,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),34,0.11658462136983871,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),35,0.11417071521282196,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),36,0.11814829707145691,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),37,0.11553799360990524,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),38,0.11121482402086258,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),39,0.11253731697797775,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),40,0.11915938556194305,0.32083333333333336,0.26666666666666666,0.6536144578313253,41.37048192771085,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),41,0.10876213759183884,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),42,0.10987009108066559,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),43,0.11075221002101898,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),44,0.109671950340271,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),45,0.11616130918264389,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),46,0.10427793115377426,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),47,0.11092741042375565,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),48,0.11313777416944504,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),49,0.10779032856225967,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),50,0.10664846748113632,0.30416666666666664,0.2625,0.641566265060241,40.27443105756358,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),51,0.10755342245101929,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),52,0.10892582684755325,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),53,0.10504425317049026,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),54,0.1041569709777832,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),55,0.10982684791088104,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),56,0.10282883048057556,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),57,0.11472805589437485,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),58,0.11095431447029114,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),59,0.10916449874639511,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),60,0.1004742905497551,0.3458333333333333,0.2833333333333333,0.6234939759036144,41.755354752342704,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),61,0.10702060908079147,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),62,0.10301753133535385,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),63,0.104655422270298,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),64,0.1056320071220398,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),65,0.10738755762577057,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),66,0.10744202882051468,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),67,0.10310550779104233,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),68,0.10548108071088791,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),69,0.10627735406160355,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),70,0.09966155886650085,0.31666666666666665,0.25833333333333336,0.6340361445783133,40.3012048192771,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),71,0.10897988826036453,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),72,0.1067662313580513,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),73,0.10872506350278854,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),74,0.10504135489463806,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),75,0.1090378686785698,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),76,0.10871833562850952,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),77,0.10229574888944626,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),78,0.10906332731246948,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),79,0.10657815635204315,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),80,0.10516173392534256,0.30416666666666664,0.2791666666666667,0.6340361445783133,40.57898259705488,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),81,0.10560155659914017,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),82,0.11162416636943817,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),83,0.10024800151586533,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),84,0.10544903576374054,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),85,0.10969329625368118,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),86,0.11232269555330276,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),87,0.11298336833715439,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),88,0.1099090501666069,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),89,0.10037846118211746,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),90,0.10423701256513596,0.2791666666666667,0.24166666666666667,0.641566265060241,38.74665327978581,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),91,0.10075516253709793,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),92,0.10359834879636765,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),93,0.10163529962301254,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),94,0.1013852208852768,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),95,0.09738852083683014,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),96,0.09728915244340897,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),97,0.10274770110845566,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),98,0.10545948147773743,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),99,0.09885714203119278,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),100,0.10153753310441971,0.30416666666666664,0.2375,0.6280120481927711,38.989290495314584,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),101,0.0928594172000885,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),102,0.09383802115917206,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),103,0.09368134289979935,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),104,0.09220320731401443,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),105,0.0950123518705368,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),106,0.09702206403017044,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),107,0.09292291849851608,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),108,0.09263131767511368,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),109,0.08920086920261383,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),110,0.09766601026058197,0.3,0.22916666666666666,0.6521084337349398,39.375836680053546,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),111,0.09087634831666946,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),112,0.09703293442726135,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),113,0.11151536554098129,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),114,0.10866658389568329,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),115,0.10529635101556778,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),116,0.105862095952034,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),117,0.10879795998334885,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),118,0.10986361652612686,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),119,0.10101336240768433,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),120,0.10168751329183578,0.25416666666666665,0.2625,0.6234939759036144,38.005354752342704,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),121,0.10451411455869675,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),122,0.10848764330148697,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),123,0.11278487741947174,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),124,0.10724025964736938,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),125,0.10171520709991455,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),126,0.1008719652891159,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),127,0.11464250832796097,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),128,0.10707871615886688,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),129,0.10084518790245056,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),130,0.1039033904671669,0.31666666666666665,0.275,0.661144578313253,41.76037483266399,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),131,0.10172447562217712,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),132,0.10170666873455048,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),133,0.09266733378171921,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),134,0.10114747285842896,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),135,0.0982074961066246,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),136,0.09811752289533615,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),137,0.09299078583717346,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),138,0.09194774180650711,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),139,0.09722160547971725,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),140,0.09436774253845215,0.2875,0.225,0.6521084337349398,38.820281124497996,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),141,0.09584309905767441,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),142,0.10288457572460175,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),143,0.096232108771801,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),144,0.09667312353849411,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),145,0.09805180877447128,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),146,0.09447769075632095,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),147,0.09530948847532272,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),148,0.09705979377031326,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),149,0.0953231230378151,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),150,0.10096751898527145,0.325,0.24166666666666667,0.6430722891566265,40.32463186077644,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),151,0.09288574010133743,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),152,0.09479091316461563,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),153,0.0981997698545456,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),154,0.1040336936712265,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),155,0.09719427675008774,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),156,0.09414513409137726,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),157,0.09753043204545975,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),158,0.09944073855876923,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),159,0.09485866129398346,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),160,0.09865692257881165,0.3,0.23333333333333334,0.6445783132530121,39.263721552878174,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),161,0.10165949910879135,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),162,0.09691824018955231,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),163,0.09564121067523956,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),164,0.10270531475543976,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),165,0.0946386307477951,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),166,0.09623362123966217,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),167,0.09652479737997055,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),168,0.09501463919878006,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),169,0.09463247656822205,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),170,0.09581758826971054,0.32916666666666666,0.275,0.661144578313253,42.17704149933066,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),171,0.09676840901374817,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),172,0.09454428404569626,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),173,0.09720736742019653,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),174,0.10045384615659714,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),175,0.0959114283323288,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),176,0.10211177915334702,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),177,0.12147143483161926,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),178,0.14721554517745972,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),179,0.12329015135765076,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),180,0.11720169335603714,0.30416666666666664,0.23333333333333334,0.6340361445783133,39.05120481927711,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),181,0.1316421777009964,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),182,0.14196404814720154,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),183,0.13808608055114746,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),184,0.14326605200767517,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),185,0.1272152066230774,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),186,0.13196496665477753,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),187,0.11270906776189804,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),188,0.1262594759464264,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),189,0.11995720118284225,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),190,0.13160941004753113,0.32083333333333336,0.225,0.6490963855421686,39.8309906291834,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),191,0.12582829594612122,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),192,0.12750937044620514,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),193,0.1438891738653183,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),194,0.13758514821529388,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),195,0.12874984741210938,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),196,0.15103593468666077,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),197,0.13586343824863434,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),198,0.13721351325511932,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),199,0.13637606799602509,,,,,57.79953145917002
+math_r1_1p5b,Math / R1-Distill-1.5B student,r1_7b,R1-Distill teacher (7B),200,0.1169317439198494,0.29583333333333334,0.31666666666666665,0.6671686746987951,42.65562248995983,57.79953145917002

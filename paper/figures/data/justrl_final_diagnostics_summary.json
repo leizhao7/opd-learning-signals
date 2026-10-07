@@ -1,0 +1,112 @@
+{
+  "source": "figures/data/raw/wandb_g1/opd_analysis/zd36kge3.json",
+  "source_sha256": "c2577d8229af8ecf79457a49fd68dbe5f6a52ddd89e6930fd560fa719f7d4778",
+  "wandb_run_id": "zd36kge3",
+  "wandb_url": "https://wandb.ai/orchestration/opd_analysis/runs/zd36kge3",
+  "history_export": {
+    "training": {
+      "mode": "scan_history",
+      "fallback_error": null,
+      "per_key": {
+        "actor/pg_loss": {
+          "mode": "scan_history",
+          "fallback_error": null,
+          "schema_retry_errors": []
+        },
+        "actor/grad_norm": {
+          "mode": "scan_history",
+          "fallback_error": null,
+          "schema_retry_errors": []
+        },
+        "critic/advantages/mean_sum_over_k": {
+          "mode": "scan_history",
+          "fallback_error": null,
+          "schema_retry_errors": []
+        },
+        "response_length/mean": {
+          "mode": "scan_history",
+          "fallback_error": null,
+          "schema_retry_errors": []
+        }
+      }
+    },
+    "validation": {
+      "mode": "scan_history",
+      "fallback_error": null,
+      "per_key": {
+        "val-core/AIME24/acc/mean@8": {
+          "mode": "scan_history",
+          "fallback_error": null,
+          "schema_retry_errors": []
+        },
+        "val-core/AIME25/acc/mean@8": {
+          "mode": "scan_history",
+          "fallback_error": null,
+          "schema_retry_errors": []
+        },
+        "val-core/AMC23/acc/mean@8": {
+          "mode": "scan_history",
+          "fallback_error": null,
+          "schema_retry_errors": []
+        }
+      }
+    }
+  },
+  "training_steps": [
+    1,
+    200
+  ],
+  "validation_steps": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200
+  ],
+  "pg_loss": {
+    "initial": 0.07624767386975388,
+    "final": 0.008064337729592808,
+    "minimum": 0.005589390503397833,
+    "initial_to_final_reduction": 9.454920717166424
+  },
+  "nu_raw": {
+    "initial": 48.01218742753933,
+    "final": 3.5876940177097927,
+    "median": 3.361416709651266,
+    "minimum": 0.681169966694615,
+    "maximum": 50.08012881389132
+  },
+  "nu_clip1": {
+    "initial": 17.743833315688388,
+    "final": 3.5876940177097927,
+    "median": 3.361416709651266,
+    "minimum": 0.681169966694615,
+    "maximum": 18.41512412091396
+  },
+  "validation": {
+    "initial_macro": 0.3989290495314592,
+    "final_macro": 0.5188420348058903,
+    "peak_macro": 0.5310240963855422,
+    "peak_macro_step": 170,
+    "final": {
+      "AIME 2024": 0.44166666666666665,
+      "AIME 2025": 0.31666666666666665,
+      "AMC 2023": 0.7981927710843374
+    }
+  }
+}

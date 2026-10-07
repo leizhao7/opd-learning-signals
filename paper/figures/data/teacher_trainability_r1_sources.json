@@ -1,0 +1,19 @@
+{
+  "source_set": "clean_g1_reproduction",
+  "max_step": 200,
+  "horizon_note": "Complete clean G=1 reproductions with validation every ten updates.",
+  "runs": {
+    "justrl1p5b": {
+      "wandb_run_id": "zd36kge3",
+      "path": "figures/data/raw/wandb_g1/opd_analysis/zd36kge3.json"
+    },
+    "skywork7b": {
+      "wandb_run_id": "hzihv2gn",
+      "path": "figures/data/raw/wandb_g1/opd_analysis/hzihv2gn.json"
+    },
+    "r1_7b": {
+      "wandb_run_id": "g2mzepcb",
+      "path": "figures/data/raw/wandb_g1/opd_analysis/g2mzepcb.json"
+    }
+  }
+}

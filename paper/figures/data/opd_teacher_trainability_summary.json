@@ -1,0 +1,27 @@
+{
+  "common_max_step": 140,
+  "loss_metric": "actor/pg_loss (token-mean top-16 OPD training objective)",
+  "validation_metric": "Unweighted macro-average of HumanEval+, MBPP+, and LiveCodeBench reward/mean@4, in percent",
+  "runs": {
+    "rl": {
+      "label": "RL teacher (4B)",
+      "loss_step_1": 0.16793787106871605,
+      "loss_step_140": 0.00025677746210324887,
+      "loss_reduction_factor": 654.0210721499736,
+      "macro_accuracy_step_10": 54.42248437539507,
+      "macro_accuracy_step_140": 60.05332872303641,
+      "macro_accuracy_change_points": 5.630844347641336,
+      "best_macro_accuracy": 60.94917196900068
+    },
+    "large": {
+      "label": "Large teacher (14B)",
+      "loss_step_1": 0.09108674216258805,
+      "loss_step_140": 0.1055885273963213,
+      "loss_reduction_factor": 0.862657567149303,
+      "macro_accuracy_step_10": 52.66196828483492,
+      "macro_accuracy_step_140": 53.43439414492291,
+      "macro_accuracy_change_points": 0.7724258600879921,
+      "best_macro_accuracy": 53.568984276720265
+    }
+  }
+}

@@ -1,0 +1,28 @@
+% Source: figures/data/signal_collapse_late_level.json (figures/analysis/signal_collapse_stats.py).
+\begin{table}[htbp]
+  \centering
+  \normalsize
+  \setlength{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{1.08}
+  \caption{Learning signal $\widehat\mu_m$ around a split step $s$.  For each run of Figure~\ref{fig:signal-collapse-timeseries} we report
+  the median learning signal $\widehat\mu_m$ before the split step $s$ (steps
+  1 to $s$), in the 30 steps after $s$, and in the last 50 steps of the run;
+  the drop is the ratio of the first two; loss left is the smoothed remaining
+  loss $\widehat{\mathcal L}_m/\widehat{\mathcal L}_1$ at step $s$.  Here $s=15$
+  for Code and $s=30$ for Math.  $^{\dagger}$ marks self-RL teachers.}
+  \label{tab:learning-signal}
+  \begin{tabular}{@{}lccccc@{}}
+    \hline
+    Teacher & Before $s$ & After $s$ & Drop & Loss left at $s$ & Last 50 steps \\
+    \hline
+    \multicolumn{6}{@{}l}{\emph{Code, $s=15$}} \\
+    \QwenRLCode{}$^{\dagger}$ & $272$ & $40.9$ & $6.7\times$ & $12.6\%$ & $2.37$ \\
+    Qwen3-14B & $60.7$ & $5.05$ & $12.0\times$ & $98.8\%$ & $3.78$ \\
+    \hline
+    \multicolumn{6}{@{}l}{\emph{Math, $s=30$}} \\
+    JustRL-1.5B$^{\dagger}$ & $7.11$ & $3.37$ & $2$$\times$ & $73.0\%$ & $0.56$ \\
+    \SkyworkTeacher{} & $3.73$ & $0.38$ & $10$$\times$ & $86.5\%$ & $0.090$ \\
+    R1-Distill-7B & $1.14$ & $0.121$ & $9$$\times$ & $86.5\%$ & $0.056$ \\
+    \hline
+  \end{tabular}
+\end{table}

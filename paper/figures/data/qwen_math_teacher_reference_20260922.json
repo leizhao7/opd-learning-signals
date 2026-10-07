@@ -1,0 +1,20 @@
+{
+ "provided_on": "2026-09-22",
+ "source": "author-supplied teacher evaluation for the Math / Qwen3-1.7B group under the matched student validation protocol (avg@8, temperature 0.7, top-p 0.95, 31,744-token cap)",
+ "teachers": {
+  "rlmath4b": {
+   "name": "Qwen3-4B-RL-math",
+   "AIME24": 63.75,
+   "AIME25": 56.25,
+   "AMC23": 87.5,
+   "macro": 69.17
+  },
+  "qwen4b": {
+   "name": "Qwen3-4B (Non-thinking)",
+   "AIME24": 25.42,
+   "AIME25": 19.58,
+   "AMC23": 60.39,
+   "macro": 35.13
+  }
+ }
+}

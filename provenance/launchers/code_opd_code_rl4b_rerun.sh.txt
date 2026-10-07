@@ -1,0 +1,113 @@
+# Historical source reference only; use scripts/train.py to launch.
+#!/bin/bash
+# 复现 2026-07-10 的 opd_code_n1（老师 Qwen3-4B-Non-Thinking-RL-Code-Step300 → 学生 Qwen3-4B，Eurus code）。
+# hydra 覆盖项逐项照抄原始 console log（opd_code_n1.log.att_1057 第 88 行的命令），只改：
+#   路径映射到 ZQ PVC；GPUS 0,1（原 0,1,2,3）；run 名；
+#   val_kwargs.n=8（原 4，用户要求 avg@8）；free_cache_engine=True（原 False；2 卡下 update_actor CUDA OOM，第 3 组同栈用 True 跑满 200 步）；val_before_train=True（多一次 step-0 验证，不影响训练）。
+set -x
+BASE=${CLUSTER_WORKSPACE}
+OPD=$BASE/agent1/migrated_from_30023_20260818/opd_theory/OPD
+PY=$BASE/runtime/old_home/envs/py312/bin/python
+LEGACY_SITE=$BASE/runtime/old_home/Doing-XSearcher/.venv/lib/python3.12/site-packages
+EXPERIMENT=$BASE/experiments/opd_code_rl4b_rerun_20260923
+RUN_TAG=${RUN_TAG:-opd_code_rl4b_n1_top16_p64_tr16384_val16384_s200_2xh200_20260923}
+RUN_ROOT=$EXPERIMENT/runs/$RUN_TAG
+export PYTHONPATH=${VERL_REPO:-$OPD/verl}:$LEGACY_SITE
+export CUDA_HOME=$BASE/runtime/old_home/envs/py312
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib:${LD_LIBRARY_PATH:-}
+export LIBRARY_PATH=$CUDA_HOME/lib:$CUDA_HOME/lib64:${LIBRARY_PATH:-}
+export TORCH_CUDA_ARCH_LIST=9.0
+export HF_ENDPOINT=https://hf-mirror.com HF_HUB_DISABLE_XET=1
+export TOKENIZERS_PARALLELISM=true PYTHONUNBUFFERED=1 HYDRA_FULL_ERROR=1
+export RAY_memory_usage_threshold=0.99
+export TORCH_NCCL_BLOCKING_WAIT=1 NCCL_TIMEOUT=7200 NCCL_DEBUG=WARN
+export OUTLINES_CACHE_DIR=$RUN_ROOT/cache/outlines
+# Credential/account setup omitted from public source reference.
+export WANDB_MODE=online WANDB_DIR=$RUN_ROOT WANDB_RESUME=allow
+# 文件日志器在这棵老树里不能序列化 Tensor（2026-09-23 第一次启动因此崩在 step 1），改回原始的 console+wandb，loss 从 console log 解析
+export MPLBACKEND=Agg MPLCONFIGDIR=$RUN_ROOT/cache/matplotlib
+unset RAY_ADDRESS
+PROJECT_NAME=opd_analysis
+GPUS=${GPUS:-0,1}
+export CUDA_VISIBLE_DEVICES=$GPUS
+NGPU=$(awk -F, '{print NF}' <<< "$GPUS")
+mkdir -p "$RUN_ROOT/cache/outlines" "$RUN_ROOT/cache/matplotlib" "$RUN_ROOT/checkpoints" "$RUN_ROOT/val_log"
+cd "$OPD"
+$PY -m verl.trainer.main_ppo \
+    algorithm.adv_estimator=token_reward_direct \
+    algorithm.grpo_outcome_weight=1.0 \
+    actor_rollout_ref.nccl_timeout=7200 \
+    data.shuffle=False \
+    data.train_files=datasets/eurus_code/train.parquet \
+    'data.val_files=["datasets/bench_val/humanevalplus.parquet","datasets/bench_val/mbppplus.parquet","datasets/bench_val/livecodebench_v6.parquet"]' \
+    data.train_batch_size=64 \
+    data.max_prompt_length=2048 \
+    data.max_response_length=16384 \
+    data.filter_overlong_prompts=True \
+    data.truncation=error \
+    data.return_raw_chat=True \
+    +data.apply_chat_template_kwargs.enable_thinking=False \
+    actor_rollout_ref.model.path=$BASE/models/Qwen3-4B \
+    actor_rollout_ref.model.use_remove_padding=True \
+    actor_rollout_ref.model.enable_activation_offload=True \
+    actor_rollout_ref.model.enable_gradient_checkpointing=True \
+    actor_rollout_ref.actor.optim.lr=1e-6 \
+    actor_rollout_ref.actor.ppo_mini_batch_size=64 \
+    actor_rollout_ref.actor.use_dynamic_bsz=True \
+    actor_rollout_ref.actor.ppo_micro_batch_size_per_gpu=1 \
+    actor_rollout_ref.actor.ppo_max_token_len_per_gpu=32768 \
+    actor_rollout_ref.actor.ulysses_sequence_parallel_size=1 \
+    actor_rollout_ref.actor.use_kl_loss=False \
+    actor_rollout_ref.actor.loss_agg_mode=token-mean \
+    actor_rollout_ref.actor.fsdp_config.param_offload=False \
+    actor_rollout_ref.actor.fsdp_config.optimizer_offload=False \
+    actor_rollout_ref.actor.fsdp_config.forward_prefetch=True \
+    actor_rollout_ref.actor.fsdp_config.model_dtype=fp32 \
+    actor_rollout_ref.rollout.max_num_batched_tokens=32768 \
+    actor_rollout_ref.ref.fsdp_config.param_offload=True \
+    actor_rollout_ref.ref.fsdp_config.model_dtype=fp32 \
+    actor_rollout_ref.ref.log_prob_use_dynamic_bsz=True \
+    actor_rollout_ref.rollout.name=sglang \
+    actor_rollout_ref.rollout.temperature=1.0 \
+    actor_rollout_ref.rollout.log_prob_use_dynamic_bsz=True \
+    +actor_rollout_ref.rollout.log_prob_top_k=16 \
+    +actor_rollout_ref.rollout.top_k_strategy=only_stu \
+    +actor_rollout_ref.rollout.reward_weight_mode=student_p \
+    +actor_rollout_ref.rollout.teacher_temperature=1.0 \
+    actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
+    actor_rollout_ref.rollout.gpu_memory_utilization=0.4 \
+    actor_rollout_ref.rollout.free_cache_engine=True \
+    actor_rollout_ref.rollout.max_model_len=18432 \
+    actor_rollout_ref.rollout.n=1 \
+    actor_rollout_ref.rollout.val_kwargs.do_sample=True \
+    +actor_rollout_ref.rollout.val_kwargs.max_tokens=16384 \
+    actor_rollout_ref.rollout.val_kwargs.n=8 \
+    actor_rollout_ref.rollout.val_kwargs.temperature=1.0 \
+    actor_rollout_ref.rollout.val_kwargs.top_p=1.0 \
+    actor_rollout_ref.rollout.repetition_penalty=1.0 \
+    actor_rollout_ref.rollout.calculate_log_probs=True \
+    actor_rollout_ref.ref.log_prob_micro_batch_size_per_gpu=1 \
+    reward_model.enable=True \
+    reward_model.reward_manager=prime \
+    reward_model.model.path=$BASE/models/Qwen3-4B-Non-Thinking-RL-Code-Step300 \
+    reward_model.model.input_tokenizer=null \
+    reward_model.model.use_remove_padding=True \
+    reward_model.model.fsdp_config.param_offload=True \
+    +reward_model.model.dtype=fp32 \
+    reward_model.micro_batch_size_per_gpu=24 \
+    custom_reward_function.path=null \
+    trainer.val_before_train=${VAL_BEFORE_TRAIN:-True} \
+    trainer.log_val_generations=2 \
+    'trainer.logger=[console,wandb]' \
+    trainer.project_name=$PROJECT_NAME \
+    trainer.experiment_name=$RUN_TAG \
+    trainer.validation_data_dir=$RUN_ROOT/val_log \
+    trainer.n_gpus_per_node=$NGPU \
+    trainer.nnodes=1 \
+    trainer.save_freq=10 \
+    trainer.test_freq=10 \
+    trainer.total_epochs=1 \
+    trainer.total_training_steps=200 \
+    trainer.default_local_dir=$RUN_ROOT/checkpoints/$RUN_TAG \
+    trainer.is_plot=True

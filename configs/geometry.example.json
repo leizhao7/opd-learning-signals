@@ -1,0 +1,41 @@
+{
+  "math_data": [
+    "/data/AIME24.parquet",
+    "/data/AIME25.parquet",
+    "/data/AMC23.parquet"
+  ],
+  "banks": {
+    "r1_math": {
+      "tokenizer": "/models/student",
+      "domain": "math",
+      "max_prompt_length": 1024
+    }
+  },
+  "pairs": [
+    {
+      "id": "r1_justrl",
+      "student_base": "/models/student",
+      "final": "/models/student-opd-200",
+      "teacher": "JustRL-1.5B",
+      "domain": "math",
+      "bank": "r1_math"
+    }
+  ],
+  "representation_pairs": {
+    "r1_justrl": [
+      "r1_math_base",
+      "r1_math_justrl"
+    ]
+  },
+  "weight_metric": {
+    "threshold_percent": [
+      0.01,
+      0.1,
+      1.0
+    ]
+  },
+  "cka": {
+    "bootstrap_seed": 42,
+    "bootstrap_replicates": 200
+  }
+}

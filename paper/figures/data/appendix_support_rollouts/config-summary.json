@@ -1,0 +1,761 @@
+{
+  "top16_rl4": {
+    "student": "Qwen3-1.7B",
+    "teacher": "Qwen3-4B-Non-Thinking-RL-Math-Step500",
+    "k": 16,
+    "n": 1,
+    "cap": 7168,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/test_data/AIME24/test.parquet",
+      "datasets/test_data/AIME25/test.parquet",
+      "datasets/test_data/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 4,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.21104417670682732,
+    "acc200": 0.43937416331994644,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "dc3ae15e0236828eb95033a68aab60e19da7ea1afdaad80e26924e5f82d3d96f"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "14ee9a0e8d79cba76c62247bc5ebee1647e023eccf60e31994e279113777dad2"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "0f933978194b73fc091bd667af7d9056d3d745c9d9e3577b5adcad77f8f1ae7c"
+      }
+    ],
+    "preflight_keys": [
+      "versions",
+      "models",
+      "data",
+      "started_at",
+      "scorer_sha256",
+      "wandb_authenticated",
+      "wandb_project",
+      "finished_at"
+    ],
+    "versions": {
+      "sglang": "0.5.3rc0",
+      "ray": "2.49.2",
+      "transformers": "4.56.1",
+      "torch": "2.8.0+cu129"
+    }
+  },
+  "top16_nt4": {
+    "student": "Qwen3-1.7B",
+    "teacher": "Qwen3-4B",
+    "k": 16,
+    "n": 1,
+    "cap": 7168,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/test_data/AIME24/test.parquet",
+      "datasets/test_data/AIME25/test.parquet",
+      "datasets/test_data/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.2066432396251673,
+    "acc200": 0.22737617135207497,
+    "eval_num": 21,
+    "preflight_keys": [
+      "versions",
+      "models",
+      "data",
+      "started_at",
+      "scorer_sha256",
+      "wandb_authenticated",
+      "wandb_project",
+      "finished_at"
+    ],
+    "versions": {
+      "sglang": "0.5.3rc0",
+      "ray": "2.49.2",
+      "transformers": "4.56.1",
+      "torch": "2.8.0+cu129"
+    }
+  },
+  "full_nt4": {
+    "student": "Qwen3-1.7B",
+    "teacher": "Qwen3-4B",
+    "k": 151936,
+    "n": 1,
+    "cap": 7168,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/test_data/AIME24/test.parquet",
+      "datasets/test_data/AIME25/test.parquet",
+      "datasets/test_data/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.21659973226238285,
+    "acc200": 0.22879852744310578,
+    "eval_num": 21,
+    "preflight_keys": [
+      "versions",
+      "models",
+      "data",
+      "started_at",
+      "scorer_sha256",
+      "wandb_authenticated",
+      "wandb_project",
+      "baseline_model_identity_verified",
+      "finished_at"
+    ],
+    "versions": {
+      "sglang": "0.5.3rc0",
+      "ray": "2.49.2",
+      "transformers": "4.56.1",
+      "torch": "2.8.0+cu129"
+    }
+  },
+  "full_rl4": {
+    "student": "Qwen3-1.7B",
+    "teacher": "Qwen3-4B-Non-Thinking-RL-Math-Step500",
+    "k": 151936,
+    "n": 1,
+    "cap": 7168,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/test_data/AIME24/test.parquet",
+      "datasets/test_data/AIME25/test.parquet",
+      "datasets/test_data/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.20548862115127176,
+    "acc200": 0.46363788487282465,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "dc3ae15e0236828eb95033a68aab60e19da7ea1afdaad80e26924e5f82d3d96f"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "14ee9a0e8d79cba76c62247bc5ebee1647e023eccf60e31994e279113777dad2"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "0f933978194b73fc091bd667af7d9056d3d745c9d9e3577b5adcad77f8f1ae7c"
+      }
+    ],
+    "preflight_keys": [
+      "versions",
+      "models",
+      "data",
+      "started_at",
+      "scorer_sha256",
+      "wandb_authenticated",
+      "wandb_project",
+      "baseline_model_identity_verified",
+      "finished_at"
+    ],
+    "versions": {
+      "sglang": "0.5.3rc0",
+      "ray": "2.49.2",
+      "transformers": "4.56.1",
+      "torch": "2.8.0+cu129"
+    }
+  },
+  "qwen_rl4_top16_g8": {
+    "student": "Qwen3-1.7B",
+    "teacher": "Qwen3-4B-Non-Thinking-RL-Math-Step500",
+    "k": 16,
+    "n": 8,
+    "cap": 7168,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/test_data/AIME24/test.parquet",
+      "datasets/test_data/AIME25/test.parquet",
+      "datasets/test_data/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.22948460508701474,
+    "acc200": 0.45205823293172687,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "dc3ae15e0236828eb95033a68aab60e19da7ea1afdaad80e26924e5f82d3d96f"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "14ee9a0e8d79cba76c62247bc5ebee1647e023eccf60e31994e279113777dad2"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "0f933978194b73fc091bd667af7d9056d3d745c9d9e3577b5adcad77f8f1ae7c"
+      }
+    ],
+    "preflight_keys": [
+      "started_at",
+      "key",
+      "models",
+      "data",
+      "versions",
+      "scorer_sha256",
+      "config_sha256",
+      "finished_at",
+      "passed"
+    ],
+    "versions": {
+      "torch": "2.8.0+cu129",
+      "transformers": "4.56.1",
+      "ray": "2.49.2",
+      "sglang": "0.5.3rc0"
+    }
+  },
+  "r1_justrl_top16_g8": {
+    "student": "DeepSeek-R1-Distill-Qwen-1.5B",
+    "teacher": "JustRL-DeepSeek-1.5B",
+    "k": 16,
+    "n": 8,
+    "cap": 21000,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/r1_modal/AIME24/test.parquet",
+      "datasets/r1_modal/AIME25/test.parquet",
+      "datasets/r1_modal/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.39854417670682735,
+    "acc200": 0.519260374832664,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "96e8f70ebaab8a82f624cea63e0316cb32cd33f380488f08673e075ba164f66c"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "77b134c34fd332401a194160726b3421d3c4aad754db9f3883d40b9c7a349ad6"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "7a3498387133b2d5adcdd25e54b746e607aa60280b5e8cbe59ae85cf8f5241b2"
+      }
+    ],
+    "preflight_keys": [
+      "started_at",
+      "key",
+      "models",
+      "data",
+      "versions",
+      "scorer_sha256",
+      "config_sha256",
+      "finished_at",
+      "passed",
+      "relocation_source_preflight_sha256",
+      "relocation_gate_pending",
+      "relocation_verified_at"
+    ],
+    "versions": {
+      "torch": "2.8.0+cu129",
+      "transformers": "4.57.6",
+      "ray": "2.49.2",
+      "vllm": "0.11.0"
+    }
+  },
+  "qwen_nt4_top16_g8": {
+    "student": "Qwen3-1.7B",
+    "teacher": "Qwen3-4B",
+    "k": 16,
+    "n": 8,
+    "cap": 7168,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/test_data/AIME24/test.parquet",
+      "datasets/test_data/AIME25/test.parquet",
+      "datasets/test_data/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.21852409638554215,
+    "acc200": 0.2487115127175368,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "dc3ae15e0236828eb95033a68aab60e19da7ea1afdaad80e26924e5f82d3d96f"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "14ee9a0e8d79cba76c62247bc5ebee1647e023eccf60e31994e279113777dad2"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "0f933978194b73fc091bd667af7d9056d3d745c9d9e3577b5adcad77f8f1ae7c"
+      }
+    ],
+    "preflight_keys": [
+      "started_at",
+      "key",
+      "models",
+      "data",
+      "versions",
+      "scorer_sha256",
+      "config_sha256",
+      "recovery_admission",
+      "finished_at",
+      "passed"
+    ],
+    "versions": {
+      "torch": "2.8.0+cu129",
+      "transformers": "4.56.1",
+      "ray": "2.49.2",
+      "sglang": "0.5.3rc0"
+    }
+  },
+  "r1_7b_full_g1": {
+    "student": "DeepSeek-R1-Distill-Qwen-1.5B",
+    "teacher": "DeepSeek-R1-Distill-Qwen-7B",
+    "k": 151936,
+    "n": 1,
+    "cap": 21000,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/r1_modal/AIME24/test.parquet",
+      "datasets/r1_modal/AIME25/test.parquet",
+      "datasets/r1_modal/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.39854417670682735,
+    "acc200": 0.4032128514056225,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "96e8f70ebaab8a82f624cea63e0316cb32cd33f380488f08673e075ba164f66c"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "77b134c34fd332401a194160726b3421d3c4aad754db9f3883d40b9c7a349ad6"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "7a3498387133b2d5adcdd25e54b746e607aa60280b5e8cbe59ae85cf8f5241b2"
+      }
+    ],
+    "preflight_keys": [
+      "started_at",
+      "key",
+      "models",
+      "data",
+      "versions",
+      "scorer_sha256",
+      "config_sha256",
+      "finished_at",
+      "passed"
+    ],
+    "versions": {
+      "torch": "2.8.0+cu129",
+      "transformers": "4.57.6",
+      "ray": "2.49.2",
+      "vllm": "0.11.0"
+    }
+  },
+  "r1_justrl_full_g1": {
+    "student": "DeepSeek-R1-Distill-Qwen-1.5B",
+    "teacher": "JustRL-DeepSeek-1.5B",
+    "k": 151936,
+    "n": 1,
+    "cap": 21000,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/r1_modal/AIME24/test.parquet",
+      "datasets/r1_modal/AIME25/test.parquet",
+      "datasets/r1_modal/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 2,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.39854417670682735,
+    "acc200": 0.5046352074966532,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "96e8f70ebaab8a82f624cea63e0316cb32cd33f380488f08673e075ba164f66c"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "77b134c34fd332401a194160726b3421d3c4aad754db9f3883d40b9c7a349ad6"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "7a3498387133b2d5adcdd25e54b746e607aa60280b5e8cbe59ae85cf8f5241b2"
+      }
+    ],
+    "preflight_keys": [
+      "started_at",
+      "key",
+      "models",
+      "data",
+      "versions",
+      "scorer_sha256",
+      "config_sha256",
+      "finished_at",
+      "passed"
+    ],
+    "versions": {
+      "torch": "2.8.0+cu129",
+      "transformers": "4.57.6",
+      "ray": "2.49.2",
+      "vllm": "0.11.0"
+    }
+  },
+  "r1_7b_top16_g8": {
+    "student": "DeepSeek-R1-Distill-Qwen-1.5B",
+    "teacher": "DeepSeek-R1-Distill-Qwen-7B",
+    "k": 16,
+    "n": 8,
+    "cap": 21000,
+    "train": "datasets/dapo-math-17k.parquet",
+    "eval": [
+      "datasets/r1_modal/AIME24/test.parquet",
+      "datasets/r1_modal/AIME25/test.parquet",
+      "datasets/r1_modal/AMC23/test.parquet"
+    ],
+    "seed": null,
+    "shuffle": false,
+    "microtoken": 32768,
+    "dtype": "bfloat16",
+    "gpus": 4,
+    "optim": {
+      "_target_": "verl.workers.config.FSDPOptimizerConfig",
+      "optimizer": "AdamW",
+      "optimizer_impl": "torch.optim",
+      "lr": 1e-06,
+      "lr_warmup_steps_ratio": 0.0,
+      "total_training_steps": -1,
+      "weight_decay": 0.01,
+      "lr_warmup_steps": -1,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "clip_grad": 1.0,
+      "min_lr_ratio": 0.0,
+      "num_cycles": 0.5,
+      "lr_scheduler_type": "constant",
+      "warmup_style": null,
+      "override_optimizer_config": null
+    },
+    "losskeys": [
+      "actor/pg_loss",
+      "opd/loss_token_mean"
+    ],
+    "acc0": 0.4038989290495314,
+    "acc200": 0.38873828647925035,
+    "eval_num": 21,
+    "data": [
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "96e8f70ebaab8a82f624cea63e0316cb32cd33f380488f08673e075ba164f66c"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 30,
+        "sha256": "77b134c34fd332401a194160726b3421d3c4aad754db9f3883d40b9c7a349ad6"
+      },
+      {
+        "path": "[cluster-source]",
+        "rows": 83,
+        "sha256": "7a3498387133b2d5adcdd25e54b746e607aa60280b5e8cbe59ae85cf8f5241b2"
+      }
+    ],
+    "preflight_keys": [
+      "started_at",
+      "key",
+      "models",
+      "data",
+      "versions",
+      "scorer_sha256",
+      "config_sha256",
+      "finished_at",
+      "passed",
+      "hardware_revision"
+    ],
+    "versions": {
+      "torch": "2.8.0+cu129",
+      "transformers": "4.57.6",
+      "ray": "2.49.2",
+      "vllm": "0.11.0"
+    }
+  }
+}

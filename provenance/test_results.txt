@@ -1,0 +1,17 @@
+test_archived_selection_and_all_21_accuracies (test_code_avg4.SamplingAudit.test_archived_selection_and_all_21_accuracies) ... ok
+test_loss_and_gradients_with_unequal_vocabularies (test_full_logits_cpu.FullLogitTests.test_loss_and_gradients_with_unequal_vocabularies) ... ok
+test_all_recipes_dry_run (test_release.ReleaseTests.test_all_recipes_dry_run) ... ok
+test_factorization (test_release.ReleaseTests.test_factorization) ... ok
+test_invalid_loss (test_release.ReleaseTests.test_invalid_loss) ... ok
+test_recipe_input_paths (test_release.ReleaseTests.test_recipe_input_paths) ... ok
+test_all_settings_equal_to_pre_refactor_recipes (test_unification.UnificationTests.test_all_settings_equal_to_pre_refactor_recipes) ... ok
+test_environment_preserves_existing_search_paths (test_unification.UnificationTests.test_environment_preserves_existing_search_paths) ... ok
+test_executed_launch_records_survive_resume (test_unification.UnificationTests.test_executed_launch_records_survive_resume) ... ok
+test_frozen_backends_are_byte_identical (test_unification.UnificationTests.test_frozen_backends_are_byte_identical) ... ok
+test_override_precedence (test_unification.UnificationTests.test_override_precedence) ... ok
+test_unified_and_legacy_cli_match_and_hydra_parses_paths (test_unification.UnificationTests.test_unified_and_legacy_cli_match_and_hydra_parses_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.516s
+
+OK

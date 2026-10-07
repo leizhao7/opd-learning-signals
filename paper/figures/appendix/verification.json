@@ -1,0 +1,138 @@
+{
+  "sources": [
+    {
+      "path": "figures/data/code_signal_collapse_occupancy.csv",
+      "sha256": "b5597fc800a9e687dfee3356d442650fbd6f3223a62d7071f3d3dc25e29fd3fc"
+    },
+    {
+      "path": "figures/data/math_signal_collapse_occupancy.csv",
+      "sha256": "672c9b434b15527ae86d7b9c456997cf2aa3b27198af41542d4387024b55a810"
+    },
+    {
+      "path": "figures/data/code_signal_collapse_training.csv",
+      "sha256": "e60662320269c711bb08398cbd6114251ae62894f948cfe56909709a7fa72cdf"
+    },
+    {
+      "path": "figures/data/math_signal_collapse_training.csv",
+      "sha256": "89389210b6f090d6705dd75dbba1ba97b7d67547ce20b318af848cb620b88efe"
+    },
+    {
+      "path": "figures/data/parameter_representation_cka.csv",
+      "sha256": "ddf20f12be5e584699b856daeb71f7c1ebb833df77dbc66382494e4e1e34c130"
+    },
+    {
+      "path": "figures/data/opd_rlcode_rerun_cka.csv",
+      "sha256": "74290ee5a39dbccc0d65f83cf7d465e361fbfaee2bf534c43e6878d01e7526e4"
+    },
+    {
+      "path": "figures/data/opd_qwen17_cka.csv",
+      "sha256": "83baad141da66b485008f0fb9a65169badc1aa277ac6a4cd6ac55a7f1de893ce"
+    },
+    {
+      "path": "figures/data/rl_teacher_cka.csv",
+      "sha256": "0bbd01c64493baec29e9725c3ceabd1703c59fb6d3436ed96a1575f97e026b94"
+    },
+    {
+      "path": "output/if_param_cka_20260925/if_result.json",
+      "sha256": "e0b7f23c61ffae4a65dca5b893686c75528ba033b6a8a5553c7a82b52f296f90"
+    }
+  ],
+  "occupancy": {
+    "Qwen3-14B": {
+      "n": 20,
+      "positive": 19,
+      "median": 1.0961254922951271,
+      "min": -0.185194808223198,
+      "max": 2.3897377050861346
+    },
+    "JustRL": {
+      "n": 20,
+      "positive": 13,
+      "median": 1.418369717301073,
+      "min": -7.408257763507219,
+      "max": 4.886026731033317
+    },
+    "Skywork": {
+      "n": 20,
+      "positive": 12,
+      "median": 0.13118242101421485,
+      "min": -8.255223613845697,
+      "max": 5.357319996361501
+    },
+    "R1-Distill-7B": {
+      "n": 20,
+      "positive": 13,
+      "median": 0.40644033197976887,
+      "min": -4.990263176009942,
+      "max": 3.486438108872595
+    }
+  },
+  "clipping": {
+    "RL-Code": {
+      "above_clip_threshold": 24,
+      "total_updates": 200
+    },
+    "Qwen3-14B": {
+      "above_clip_threshold": 64,
+      "total_updates": 200
+    },
+    "JustRL": {
+      "above_clip_threshold": 56,
+      "total_updates": 200
+    },
+    "Skywork": {
+      "above_clip_threshold": 22,
+      "total_updates": 200
+    },
+    "R1-Distill-7B": {
+      "above_clip_threshold": 0,
+      "total_updates": 200
+    }
+  },
+  "cka": {
+    "qwen4b_rlcode": {
+      "n_hidden_states": 37,
+      "min_cka": 0.997859
+    },
+    "qwen4b_code14b": {
+      "n_hidden_states": 37,
+      "min_cka": 0.98502078813
+    },
+    "qwen17_rlmath": {
+      "n_hidden_states": 29,
+      "min_cka": 0.993932
+    },
+    "qwen17_nt4": {
+      "n_hidden_states": 29,
+      "min_cka": 0.997322
+    },
+    "r1_justrl": {
+      "n_hidden_states": 29,
+      "min_cka": 0.990446763455
+    },
+    "r1_skywork": {
+      "n_hidden_states": 29,
+      "min_cka": 0.998844439081
+    },
+    "r1_r1_7b": {
+      "n_hidden_states": 29,
+      "min_cka": 0.998611709541
+    },
+    "if_ultradata": {
+      "n_hidden_states": 29,
+      "min_cka": 0.9998572285634341
+    },
+    "rlcode": {
+      "n_hidden_states": 37,
+      "min_cka": 0.99927
+    },
+    "justrl": {
+      "n_hidden_states": 29,
+      "min_cka": 0.967427
+    },
+    "ultradata_if": {
+      "n_hidden_states": 29,
+      "min_cka": 0.999826
+    }
+  }
+}

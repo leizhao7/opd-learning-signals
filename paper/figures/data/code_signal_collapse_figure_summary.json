@@ -1,0 +1,39 @@
+{
+  "source_hashes": {
+    "figures/data/raw/code_200_20260925/rlcode200-training.csv": "da5d7657e8d48e456a618e5bb0709fe3dd49a2733c77296265e7ed444b48a0d0",
+    "figures/data/raw/code_200_20260925/qwen14b-full200.json": "594d03a0f25239afcebbc645a52f20cfa8f20f43e235f7d265a1d01dc9c96144",
+    "figures/data/raw/smoke_x/b14_series_p16x8_l16384_mb64_top16_lei/series.json": "fedc5f2cb33652264dbf72118da67f5f58a0c7fe4f2a18accbc3cc8bb04f5222"
+  },
+  "training_steps": [
+    1,
+    200
+  ],
+  "training_points_per_teacher": 200,
+  "occupancy_steps": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200
+  ],
+  "training_loss_exactly_matches_figure1": true,
+  "learning_signal": "preclip gradient norm squared / (2 * raw loss)",
+  "smoothing": "Figure 2 raw; appendix time series centered 9-step median with raw faintly shown",
+  "code_sources": "RL-Code independent completed reproduction; Qwen3-14B original complete run; no splice",
+  "occupancy": "All 20 Qwen3-14B checkpoints matched to original diagnostic metrics"
+}
