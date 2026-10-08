@@ -32,10 +32,10 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 
 **Across all seven main runs**, the average final loss reductions after 200 updates are:
 
-| Teacher group | Runs | Mean final loss reduction |
-|:---|:---:|---:|
-| Larger-scale teachers | 5 | **25.1%** |
-| Self-RL teachers | 2 | **96.2%** |
+| Teacher group | Mean final loss reduction |
+|:---|---:|
+| Larger-scale teachers | **25.1%** |
+| Self-RL teachers | **96.2%** |
 
 Self-RL teachers are obtained by further RL training of the **same initial student**. The table reports the mean of each run's `(1 − loss_final / loss_start) × 100%` after 200 updates, using raw endpoints. These are descriptive results for the runs studied, not a controlled estimate of the effect of teacher size or initialization. [Numerical source →](paper/figures/data/teacher_recoverability_metrics.csv)
 
