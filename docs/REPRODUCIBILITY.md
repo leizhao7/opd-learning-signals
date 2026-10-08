@@ -10,6 +10,14 @@
 
 ## Rate and loss conventions
 
+Figure 2 shows two students and five runs, with all 200 raw, unsmoothed updates per run. Remaining loss is normalized by each run's step-1 loss.
+
+In the idealized continuous-time flow,
+
+$\displaystyle \frac{d\mathcal L}{dt}=-2\mu(1+\alpha)\mathcal L,\qquad \mu=\frac{\lVert g\rVert^2}{2\mathcal L}.$
+
+Here, $\mu$ measures gradient strength relative to remaining loss, and $\alpha$ measures whether changing rollout distributions reinforce or offset loss reduction. This identity alone does not establish why gradients become small or exclude a positive best-achievable loss.
+
 `analysis/learning_signal.py` maps archived occupancy columns into current manuscript notation. Compute mu from `g2_crossfit / (2 * F_top16)`; do not use the CSV column named `mu_crossfit` as current mu. That column used an earlier notation for gamma. Alpha is `X_dot / g2_crossfit`, gamma is `(g2_crossfit + X_dot) / (2 * F_top16)`.
 
 The training-log proxy uses a squared stochastic, pre-clipping gradient norm divided by twice the logged loss. It includes sampling variance and is not an AdamW update norm. Cross-fitting separates rollout folds on a shared prompt sample and does not automatically remove prompt-sampling uncertainty. Nonpositive cross-fitted g2 estimates must not be silently clipped to positive values. The rate calculation requires positive loss; the IF top-16 surrogate can be signed and should not be interpreted as a nonnegative full KL.

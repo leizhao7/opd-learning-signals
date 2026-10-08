@@ -59,15 +59,13 @@ Qwen3-4B-RL-Math is a **larger-scale** teacher for the Qwen3-1.7B student, even 
 - **A local recovery guarantee.** For sufficiently nearby teachers in a shared parameterization, the theory bounds loss by an exponentially decaying term plus a residual under stated regularity conditions over a local time interval.
 
 <details>
-<summary><strong>How to read the learning-signal diagnostic</strong></summary>
+<summary><strong>Reading Figure 2</strong></summary>
 
-The overview shows two students and five runs, with all 200 raw, unsmoothed updates per run. Remaining loss is normalized by each run's step-1 loss. The diagnostic contrasts signal reduction near low loss with signal reduction while substantial loss remains.
+Each dot is one training update; open circles mark the first update. Moving right means less loss remains relative to the first update. Moving down means a smaller gradient-based learning-signal proxy.
 
-In the idealized continuous-time flow,
+The key question is how much loss remains as the signal weakens. Self-RL runs reach low loss, while the larger-scale-teacher runs shown here retain substantial loss.
 
-$\displaystyle \frac{d\mathcal L}{dt}=-2\mu(1+\alpha)\mathcal L,\qquad \mu=\frac{\lVert g\rVert^2}{2\mathcal L}.$
-
-Here, $\mu$ measures gradient strength relative to remaining loss, and $\alpha$ measures whether changing rollout distributions reinforce or offset loss reduction. The plotted training-log proxy uses stochastic pre-clipping gradient norms: it includes sampling noise and is **not** an AdamW update norm. The identity alone does not establish why gradients become small or exclude a positive best-achievable loss. See [diagnostic definitions and scope](docs/REPRODUCIBILITY.md#rate-and-loss-conventions).
+See [definitions and measurement limitations](docs/REPRODUCIBILITY.md#rate-and-loss-conventions) for the technical details.
 
 </details>
 
