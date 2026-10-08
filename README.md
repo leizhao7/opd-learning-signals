@@ -25,30 +25,30 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 ## Results
 
 <a href="docs/assets/learning-signals.png">
-  <img src="docs/assets/learning-signals.png" width="100%" alt="Paper Figure 2: learning-signal proxy versus remaining loss across five Code and R1 Math runs. Each point is a training update, and open circles mark step 1. Moving right means less loss remains.">
+  <img src="docs/assets/learning-signals.png" width="100%" alt="Learning-signal proxy versus remaining loss across five Code and R1 Math runs. Each point is a training update, and open circles mark step 1.">
 </a>
 
-*Figure 2 from the paper: learning-signal proxy versus remaining loss across five runs. Each point is one update; open circles mark step 1. Moving right means less loss remains, while moving down means a weaker proxy. Click the figure to enlarge.*
+*Learning-signal proxy versus remaining OPD loss in code and math.*
 
-**Across all seven main runs**, the average final loss reductions after 200 updates are:
-
-| Teacher group | Mean final loss reduction |
+| Teacher group | Mean final loss reduction (200 updates) |
 |:---|---:|
 | Larger-scale teachers | **25.1%** |
 | Self-RL teachers | **96.2%** |
 
-Self-RL teachers are obtained by further RL training of the **same initial student**. The table reports the mean of each run's `(1 − loss_final / loss_start) × 100%` after 200 updates, using raw endpoints. These are descriptive results for the runs studied, not a controlled estimate of the effect of teacher size or initialization. [Numerical source →](paper/figures/data/teacher_recoverability_metrics.csv)
+Self-RL teachers are obtained by further RL training of the initial student.
 
 <details>
-<summary>Full training curves and evaluation protocol — all seven runs</summary>
+<summary>Reading the plot and result details</summary>
 
-![Validation accuracy and OPD loss over 200 updates for three students and seven teacher–student runs.](docs/assets/teacher-trainability.png)
+The plot shows five runs across two students. Each dot is one training update; open circles mark the first update. Moving right means less loss remains relative to the first update. Moving down means a smaller gradient-based learning-signal proxy.
 
-*Figure 1 from the paper. Top: student validation accuracy; bottom: OPD loss. Dashed lines mark standalone teacher accuracy.*
+The key question is how much loss remains as the signal weakens. Self-RL runs reach low loss, while the larger-scale-teacher runs shown here retain substantial loss.
 
-Loss curves use centered 9-step rolling medians, with raw per-step values shown faintly. Within each of panels (a) and (c), the teacher runs share a step-zero evaluation of that panel’s initial student, shown in black. Code reports avg@4; math reports macro-averaged avg@8 over AIME24, AIME25, and AMC23. The base Qwen3 models use non-thinking mode. See the [experiment map](docs/EXPERIMENTS.md) for the fixed four-of-eight Code evaluation protocol and run provenance.
+The table summarizes all seven main runs: five with larger-scale teachers and two with self-RL teachers. It averages each run's `(1 − loss_final / loss_start) × 100%` using raw endpoints after 200 updates. This differs from maximum loss reduction, which uses the lowest recorded loss. Qwen3-4B-RL-Math is a larger-scale teacher for the Qwen3-1.7B student, rather than a self-RL teacher.
 
-Qwen3-4B-RL-Math is a **larger-scale** teacher for the Qwen3-1.7B student, even though it was RL-trained. “Self-RL” does not mean every teacher with RL in its name. Final loss reduction above differs from maximum loss reduction, which uses the lowest recorded loss.
+These are descriptive results for the runs studied, not a controlled estimate of the effect of teacher size or initialization.
+
+[Full training curves](docs/assets/teacher-trainability.png) · [Evaluation protocol](docs/EXPERIMENTS.md) · [Metric definitions and limitations](docs/REPRODUCIBILITY.md#rate-and-loss-conventions) · [Source data](paper/figures/data/teacher_recoverability_metrics.csv)
 
 </details>
 
@@ -57,17 +57,6 @@ Qwen3-4B-RL-Math is a **larger-scale** teacher for the Qwen3-1.7B student, even 
 - **A recurring plateau.** In the larger-scale-teacher runs studied, loss reduction stalls while substantial teacher–student differences remain. Self-RL teachers support much greater loss reduction and improved validation accuracy.
 - **A diagnostic view of learning.** We track gradient strength relative to the remaining loss and separate it from the effect of changing rollout distributions. The idealized flow relates loss decay to both quantities.
 - **A local recovery guarantee.** For sufficiently nearby teachers in a shared parameterization, the theory bounds loss by an exponentially decaying term plus a residual under stated regularity conditions over a local time interval.
-
-<details>
-<summary><strong>Reading Figure 2</strong></summary>
-
-Each dot is one training update; open circles mark the first update. Moving right means less loss remains relative to the first update. Moving down means a smaller gradient-based learning-signal proxy.
-
-The key question is how much loss remains as the signal weakens. Self-RL runs reach low loss, while the larger-scale-teacher runs shown here retain substantial loss.
-
-See [definitions and measurement limitations](docs/REPRODUCIBILITY.md#rate-and-loss-conventions) for the technical details.
-
-</details>
 
 ## Quick start
 
@@ -82,7 +71,7 @@ pip install -r requirements-analysis.txt
 python -m opd figures
 ```
 
-Plots are written under `paper/figures/`, using the committed numerical inputs. No model download or GPU is needed. To rebuild the learning-signal figures shown here, use `python -m opd figures --group signal`.
+Plots are written under `paper/figures/`, using the committed numerical inputs. No model download or GPU is needed. To rebuild the overview plot, use `python -m opd figures --group signal`.
 
 ### Run an OPD experiment
 
