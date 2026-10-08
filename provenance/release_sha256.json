@@ -1,7 +1,7 @@
 {
   ".github/workflows/checks.yml": "9f1090dff21397cbbd73e0c3c8468b92040b163c2ca514d57ee8c46a791c8314",
   ".gitignore": "c7d176ef4f92a18442de7ce5ce4c01b20825587a3b1f45d5366850291449aaed",
-  "README.md": "32aafb56c85251077c5106262f928cb9c50ce0d08b50cb2386daa420d791ea00",
+  "README.md": "6cec7ff7fc1673860a44e5e9d93d8fdf64d6af53dcbe507c4e3f3faf72fd8047",
   "THIRD_PARTY.md": "8342af9f80d3fa061071555bb2d6facfdbb09cce15f78ee8911bced0f42b24b2",
   "analysis/diagnostics/measure_functional_distance.py": "37377b4155de712cfe302e5ab71f24c6f5284628f8f8b80ff7dc4267b2340d2d",
   "analysis/diagnostics/measure_interpolation_geometry.py": "f455f8457b0e62ec8516d3f0b21fce780dbe798e772b336557aeed169e083466",
@@ -38,6 +38,9 @@
   "docs/INSTALL.md": "64a6efd139c864c53fe273e6a9dec4d4e7280e87477be84a759fd17880c05202",
   "docs/ORGANIZATION.md": "ba6e8e3d68feda4999096778532a3b15285c660d0796e86a8db680b351106c92",
   "docs/REPRODUCIBILITY.md": "2f3cdad176dda1bc683023e1e95fc87a025c0c98b6bd0e73650dd4d505705fce",
+  "docs/assets/README.md": "d259063c2ee7f191165b2fcbb73511b620284b58cafbbee56511a519e122918c",
+  "docs/assets/learning-signals.png": "2313124925c1089b47b06640a129825f608e0f26e4e5427b4ef95fdcc04dda2e",
+  "docs/assets/teacher-trainability.png": "c6662e114e2249d07dd0ef9e94b4283668dec537a7793cfaa307c13d8d30f894",
   "evaluation/audit_code_avg4.py": "9ad5b5228469e5336c69cf0a64519e708d6bc61142663d7723701c5bda486dcd",
   "evaluation/if/MULTI_IF_LICENSE": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
   "evaluation/if/if_reward.py": "d145fabd4bd762f2e4ebf4a575d032e59d694ef5a0f9a0d375202d9f199f5205",
