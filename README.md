@@ -155,6 +155,8 @@ The manuscript is in preparation. Until a public paper identifier is available:
 
 ## Acknowledgments and license
 
-This work builds on the third-party projects preserved under [`vendor/`](vendor/), including veRL and LLaMA-Factory. Their licenses remain with their source trees; see [third-party notices](THIRD_PARTY.md). A license for the authors' code has not yet been selected.
+The authors' original code is licensed under the [MIT License](LICENSE).
+
+This work builds on the third-party projects preserved under [`vendor/`](vendor/), including veRL and LLaMA-Factory. Third-party components retain their original licenses and copyright notices; see [third-party notices](THIRD_PARTY.md).
 
 Contact: [Lei Zhao](mailto:leizhao7@upenn.edu).
