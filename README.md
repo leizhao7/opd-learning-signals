@@ -24,11 +24,13 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 
 ## Results
 
-<a href="docs/assets/teacher-trainability.png">
-  <img src="docs/assets/teacher-trainability.png" width="100%" alt="Validation accuracy and OPD loss over 200 updates for three students and seven teacher–student runs. Teachers obtained by further RL training of the initial student achieve much greater loss reduction than the larger-scale teachers studied.">
+<a href="docs/assets/learning-signals.png">
+  <img src="docs/assets/learning-signals.png" width="100%" alt="Paper Figure 2: learning-signal proxy versus remaining loss across five Code and R1 Math runs. Each point is a training update, and open circles mark step 1. Moving right means less loss remains.">
 </a>
 
-*Three students, seven teacher–student runs, 200 updates. Top: student validation accuracy; bottom: OPD loss. Dashed lines mark teacher accuracy. Click the figure to enlarge.*
+*Figure 2 from the paper: learning-signal proxy versus remaining loss across five runs. Each point is one update; open circles mark step 1. Moving right means less loss remains, while moving down means a weaker proxy. Click the figure to enlarge.*
+
+**Across all seven main runs**, the average final loss reductions after 200 updates are:
 
 | Teacher group | Runs | Mean final loss reduction |
 |:---|:---:|---:|
@@ -38,7 +40,11 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 Self-RL teachers are obtained by further RL training of the **same initial student**. The table reports the mean of each run's `(1 − loss_final / loss_start) × 100%` after 200 updates, using raw endpoints. These are descriptive results for the runs studied, not a controlled estimate of the effect of teacher size or initialization. [Numerical source →](paper/figures/data/teacher_recoverability_metrics.csv)
 
 <details>
-<summary>Figure conventions and evaluation protocol</summary>
+<summary>Full training curves and evaluation protocol — all seven runs</summary>
+
+![Validation accuracy and OPD loss over 200 updates for three students and seven teacher–student runs.](docs/assets/teacher-trainability.png)
+
+*Figure 1 from the paper. Top: student validation accuracy; bottom: OPD loss. Dashed lines mark standalone teacher accuracy.*
 
 Loss curves use centered 9-step rolling medians, with raw per-step values shown faintly. Within each of panels (a) and (c), the teacher runs share a step-zero evaluation of that panel’s initial student, shown in black. Code reports avg@4; math reports macro-averaged avg@8 over AIME24, AIME25, and AMC23. The base Qwen3 models use non-thinking mode. See the [experiment map](docs/EXPERIMENTS.md) for the fixed four-of-eight Code evaluation protocol and run provenance.
 
@@ -53,11 +59,9 @@ Qwen3-4B-RL-Math is a **larger-scale** teacher for the Qwen3-1.7B student, even 
 - **A local recovery guarantee.** For sufficiently nearby teachers in a shared parameterization, the theory bounds loss by an exponentially decaying term plus a residual under stated regularity conditions over a local time interval.
 
 <details>
-<summary><strong>Explore the learning-signal diagnostics</strong></summary>
+<summary><strong>How to read the learning-signal diagnostic</strong></summary>
 
-![Learning-signal proxy versus remaining loss for the Code and R1 Math runs. Each point is a training step, with the first step highlighted by an open circle.](docs/assets/learning-signals.png)
-
-Moving right means less loss remains; moving down means a smaller learning-signal proxy. Each point is one training step. The open circle marks the first step. The diagnostic contrasts signal reduction near low loss with signal reduction while substantial loss remains.
+The overview shows two students and five runs, with all 200 raw, unsmoothed updates per run. Remaining loss is normalized by each run's step-1 loss. The diagnostic contrasts signal reduction near low loss with signal reduction while substantial loss remains.
 
 In the idealized continuous-time flow,
 
@@ -80,7 +84,7 @@ pip install -r requirements-analysis.txt
 python -m opd figures
 ```
 
-Plots are written under `paper/figures/`, using the committed numerical inputs. No model download or GPU is needed. To rebuild only the overview figure, use `python -m opd figures --group main`.
+Plots are written under `paper/figures/`, using the committed numerical inputs. No model download or GPU is needed. To rebuild the learning-signal figures shown here, use `python -m opd figures --group signal`.
 
 ### Run an OPD experiment
 
