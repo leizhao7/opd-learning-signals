@@ -61,9 +61,7 @@ Moving right means less loss remains; moving down means a smaller learning-signa
 
 In the idealized continuous-time flow,
 
-```math
-\frac{d\mathcal L}{dt}=-2\mu(1+\alpha)\mathcal L,\qquad \mu=\frac{\lVert g\rVert^2}{2\mathcal L}.
-```
+$\displaystyle \frac{d\mathcal L}{dt}=-2\mu(1+\alpha)\mathcal L,\qquad \mu=\frac{\lVert g\rVert^2}{2\mathcal L}.$
 
 Here, $\mu$ measures gradient strength relative to remaining loss, and $\alpha$ measures whether changing rollout distributions reinforce or offset loss reduction. The plotted training-log proxy uses stochastic pre-clipping gradient norms: it includes sampling noise and is **not** an AdamW update norm. The identity alone does not establish why gradients become small or exclude a positive best-achievable loss. See [diagnostic definitions and scope](docs/REPRODUCIBILITY.md#rate-and-loss-conventions).
 
