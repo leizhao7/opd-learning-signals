@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
 ap=argparse.ArgumentParser()
-ap.add_argument('--data',type=Path,default=Path(__file__).with_name('support_rollout_curves.csv'))
+ap.add_argument('--data',type=Path,default=Path(__file__).resolve().parents[2]/'data/appendix_support_rollouts/support_rollout_curves.csv')
 ap.add_argument('--output-dir',type=Path,default=Path(__file__).parent)
 args=ap.parse_args()
 rows=list(csv.DictReader(args.data.open()))

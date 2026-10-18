@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 P=Path(__file__).resolve().parent
-data=json.loads((P/'support_rollout_metrics.json').read_text())
+data=json.loads((P.parents[1]/'data/appendix_support_rollouts/support_rollout_metrics.json').read_text())
 lines=[r'''% Generated from support_rollout_metrics.json; values use unsmoothed native losses.
 \begin{table}[tbp]
 \centering

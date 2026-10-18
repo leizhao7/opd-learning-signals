@@ -2,6 +2,7 @@
 import json
 import re
 
+from .backends import BACKENDS
 from .paths import ROOT
 
 PLACEHOLDER = re.compile(r"\$\{([A-Z_]+)\}")
@@ -39,11 +40,8 @@ def load_recipe(name):
         if len(keys) != len(set(keys)):
             raise ValueError(f'Duplicate assignments in {name}')
     recipe['overrides'] = merge_overrides(base, recipe['overrides'])
-    vendor = ROOT / 'vendor' / recipe['vendor']
-    if recipe['vendor'] not in {'verl-original', 'verl-code', 'verl-qwen', 'verl-full'}:
+    if recipe['vendor'] not in BACKENDS:
         raise ValueError(f'Unknown backend: {recipe["vendor"]}')
-    if not (vendor / 'verl/version/version').is_file():
-        raise ValueError(f'Missing backend: {vendor}')
     return recipe
 
 

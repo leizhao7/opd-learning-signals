@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Code and reproducibility artifacts for Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals"
+type: software
+license: MIT
+repository-code: "https://github.com/leizhao7/opd-learning-signals"
+authors:
+  - family-names: Zhao
+    given-names: Lei
+    affiliation: University of Pennsylvania
+  - family-names: Zhao
+    given-names: Qichao
+    affiliation: Tsinghua University
+  - family-names: Zuo
+    given-names: Bowen
+    affiliation: "University of California, Riverside"
+  - family-names: Zhan
+    given-names: Qishi
+    affiliation: Marquette University
+keywords:
+  - on-policy distillation
+  - knowledge distillation
+  - large language models
+  - reinforcement learning
+  - verl
+preferred-citation:
+  type: unpublished
+  title: "Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals"
+  year: 2026
+  notes: "Manuscript in preparation"
+  authors:
+    - family-names: Zhao
+      given-names: Lei
+    - family-names: Zhao
+      given-names: Qichao
+    - family-names: Zuo
+      given-names: Bowen
+    - family-names: Zhan
+      given-names: Qishi

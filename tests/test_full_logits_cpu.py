@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 @unittest.skipIf(torch is None,'Install torch to run kernel checks')
 class FullLogitTests(unittest.TestCase):
     def test_loss_and_gradients_with_unequal_vocabularies(self):
-        spec=importlib.util.spec_from_file_location('full_logits',ROOT/'vendor/verl-full/verl/workers/full_logits.py')
+        spec=importlib.util.spec_from_file_location('full_logits',ROOT/'vendor/overlays/verl-full/verl/workers/full_logits.py')
         m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
         torch.manual_seed(42)
         for chunk in [1,3,10]:

@@ -11,6 +11,13 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 </p>
 
 <p>
+<a href="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml"><img src="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml/badge.svg" alt="CPU reproduction checks"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
+<img src="https://img.shields.io/badge/python-3.12-blue.svg" alt="Python 3.12">
+</p>
+
+<p>
+<a href="#findings">Findings</a> &nbsp;•&nbsp;
 <a href="#results">Results</a> &nbsp;•&nbsp;
 <a href="#quick-start">Quick start</a> &nbsp;•&nbsp;
 <a href="docs/EXPERIMENTS.md">Experiments</a> &nbsp;•&nbsp;
@@ -20,43 +27,54 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 
 </div>
 
-**Why can distillation stall while the student still differs substantially from its teacher?** We study on-policy distillation (OPD) across code generation and mathematical reasoning, combining training diagnostics with a continuous-time analysis. This repository contains the training recipes, analysis tools, and numerical inputs for the paper's figures.
+**Why can on-policy distillation (OPD) stall while the student still differs substantially from its teacher?** We study OPD for code generation and mathematical reasoning. We combine training diagnostics with a continuous-time analysis. This repository contains the training recipes, analysis tools and numerical inputs for the paper's figures. The figures rebuild on a CPU without any model download.
 
-## Results
+## Findings
+
+**1. With larger-scale teachers, OPD often plateaus; with self-RL teachers it does not.** Each student is trained for 200 updates.
+- With the larger-scale teachers studied, OPD loss stalls while substantial teacher–student differences remain.
+- Teachers obtained by further RL training of the student itself (*self-RL teachers*) allow far larger loss reduction and accuracy gains.
+- Mean final loss reduction is **25.1%** for the five larger-scale-teacher runs and **96.2%** for the two self-RL runs.
+
+**2. The plateau shows up as a vanishing learning signal.** We track the gradient strength relative to the remaining loss, $\mu = \lVert g\rVert^2 / 2\mathcal{L}$. The key question is how much loss remains as the signal weakens. In the self-RL runs, the loss reaches low values. In the larger-scale-teacher runs, the signal weakens while substantial loss remains.
 
 <a href="docs/assets/learning-signals.png">
   <img src="docs/assets/learning-signals.png" width="100%" alt="Learning-signal proxy versus remaining loss across five Code and R1 Math runs. Each point is a training update, and open circles mark step 1.">
 </a>
 
-*Learning-signal proxy versus remaining OPD loss in code and math.*
+*Each dot is one update. Open circles mark step 1. Moving right means less loss remains; moving down means a weaker learning signal.*
 
-| Teacher group | Mean final loss reduction (200 updates) |
-|:---|---:|
-| Larger-scale teachers | **25.1%** |
-| Self-RL teachers | **96.2%** |
+**3. Two quantities govern loss decay.** The idealized OPD flow obeys
 
-Self-RL teachers are obtained by further RL training of the initial student.
+$$\frac{d\mathcal L}{dt}=-2\mu(1+\alpha)\mathcal L.$$
+
+Here $\alpha$ measures whether the changing rollout distribution reinforces or offsets the gradient step. Under stated regularity conditions, a sufficiently nearby teacher with a shared parameterization gives a local recovery guarantee. The loss is then bounded by an exponentially decaying term plus a residual.
+
+## Results
+
+Loss and accuracy after 200 OPD updates. Code accuracy is avg@4, macro-averaged over HumanEval+, MBPP+ and LiveCodeBench. Math accuracy is avg@8, macro-averaged over AIME24, AIME25 and AMC23. † marks self-RL teachers.
+
+| Task / student | Teacher | Max loss reduction | Final loss reduction | Accuracy: student → after OPD (teacher) | Gain (pp) | Gap recovery |
+|:---|:---|---:|---:|:---:|---:|---:|
+| Code / Qwen3-4B (Non-thinking) | Qwen3-4B-RL-Code † | **99.5%** | **99.4%** | 52.7 → 60.4 (62.6) | **+7.70** | **77.4%** |
+| | Qwen3-14B (Non-thinking) | 40.5% | 25.9% | 52.7 → 53.4 (58.4) | +0.75 | 13.0% |
+| Math / Qwen3-1.7B (Non-thinking) | Qwen3-4B-RL-Math | **65.1%** | **55.4%** | 21.1 → 43.9 (69.2) | **+22.83** | **47.5%** |
+| | Qwen3-4B (Non-thinking) | 30.4% | 6.2% | 20.7 → 22.7 (35.1) | +2.07 | 14.3% |
+| Math / R1-Distill-1.5B | JustRL-1.5B † | **96.3%** | **92.9%** | 39.9 → 51.9 (56.9) | **+12.03** | **70.7%** |
+| | Skywork-7B | 37.7% | 23.9% | 39.9 → 46.1 (70.9) | +6.27 | 20.2% |
+| | R1-Distill-7B | 34.3% | 13.9% | 39.9 → 42.7 (57.8) | +2.80 | 15.6% |
 
 <details>
-<summary>Reading the plot and result details</summary>
+<summary>Metric definitions and caveats</summary>
 
-The plot shows five runs across two students. Each dot is one training update; open circles mark the first update. Moving right means less loss remains relative to the first update. Moving down means a smaller gradient-based learning-signal proxy.
+- **Max loss reduction** is `1 − min loss / step-1 loss`. **Final loss reduction** uses the step-200 loss instead. Both use raw, unsmoothed losses.
+- **Gap recovery** is `(accuracy after OPD − base student) / (teacher − base student)`.
+- Qwen3-4B-RL-Math is a larger-scale teacher for the 1.7B student, not a self-RL teacher.
+- These are descriptive results for the runs studied. They are not a controlled estimate of the effect of teacher size or initialization.
 
-The key question is how much loss remains as the signal weakens. Self-RL runs reach low loss, while the larger-scale-teacher runs shown here retain substantial loss.
-
-The table summarizes all seven main runs: five with larger-scale teachers and two with self-RL teachers. It averages each run's `(1 − loss_final / loss_start) × 100%` using raw endpoints after 200 updates. This differs from maximum loss reduction, which uses the lowest recorded loss. Qwen3-4B-RL-Math is a larger-scale teacher for the Qwen3-1.7B student, rather than a self-RL teacher.
-
-These are descriptive results for the runs studied, not a controlled estimate of the effect of teacher size or initialization.
-
-[Full training curves](docs/assets/teacher-trainability.png) · [Evaluation protocol](docs/EXPERIMENTS.md) · [Metric definitions and limitations](docs/REPRODUCIBILITY.md#rate-and-loss-conventions) · [Source data](paper/figures/data/teacher_recoverability_metrics.csv)
+Source data: [`teacher_recoverability_metrics.csv`](paper/figures/data/teacher_recoverability_metrics.csv). See also the [full training curves](docs/assets/teacher-trainability.png) and the [metric conventions](docs/REPRODUCIBILITY.md#rate-and-loss-conventions).
 
 </details>
-
-## What we find
-
-- **A recurring plateau.** In the larger-scale-teacher runs studied, loss reduction stalls while substantial teacher–student differences remain. Self-RL teachers support much greater loss reduction and improved validation accuracy.
-- **A diagnostic view of learning.** We track gradient strength relative to the remaining loss and separate it from the effect of changing rollout distributions. The idealized flow relates loss decay to both quantities.
-- **A local recovery guarantee.** For sufficiently nearby teachers in a shared parameterization, the theory bounds loss by an exponentially decaying term plus a residual under stated regularity conditions over a local time interval.
 
 ## Quick start
 
@@ -71,11 +89,11 @@ pip install -r requirements-analysis.txt
 python -m opd figures
 ```
 
-Plots are written under `paper/figures/`, using the committed numerical inputs. No model download or GPU is needed. To rebuild the overview plot, use `python -m opd figures --group signal`.
+Plots are written under `paper/figures/` from the committed numerical inputs. No model download or GPU is needed. `python -m opd figures --group signal` rebuilds only the plot above.
 
 ### Run an OPD experiment
 
-Prepare the GPU environment and model/data checkpoints using the [installation guide](docs/INSTALL.md). Preview a launch with:
+Prepare the GPU environment, models and data with the [installation guide](docs/INSTALL.md). Preview a launch with:
 
 ```bash
 python -m opd train --recipe qwen_math \
@@ -85,10 +103,13 @@ python -m opd train --recipe qwen_math \
   --output /results/qwen-opd --name qwen17-qwen4
 ```
 
-Add `--execute` to start training. Use `python -m opd recipes` to list all 11 recipes. Each executed launch saves its resolved configuration and backend in the output directory. Run commands from the repository root.
+Add `--execute` to start training. Run commands from the repository root.
+- `python -m opd recipes` lists all 11 recipes.
+- Each executed launch saves its resolved configuration and backend in the output directory.
+- The [experiment map](docs/EXPERIMENTS.md#expected-results) lists the loss reduction each recipe reached in the paper, so you can check your run against it.
 
 <details>
-<summary>CPU checks and configuration overrides</summary>
+<summary>CPU checks, configuration overrides and a smaller first run</summary>
 
 ```bash
 pip install -r requirements-test.txt
@@ -97,9 +118,17 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 python -m unittest discover -s tests -v
 ```
 
-Configuration precedence is **shared settings → recipe → CLI overrides**. For example, `--override trainer.total_training_steps=200` overrides the training horizon. Logging defaults to console. Choose one veRL snapshot at a time as described in the installation guide. The launchers do not allocate cluster resources automatically.
+Configuration precedence is **shared settings → recipe → CLI overrides**. For example, `--override trainer.total_training_steps=200` overrides the training horizon. Logging defaults to console.
 
-See the [organization guide](docs/ORGANIZATION.md) for all unified commands and extension rules, or the [CPU workflow](.github/workflows/checks.yml) for CI checks.
+To check your environment end to end before a full run, shorten the run and the sequences, for example:
+
+```bash
+python -m opd train --recipe qwen_math ... \
+  --override trainer.total_training_steps=5 --override trainer.test_freq=5 \
+  --override data.max_response_length=1024 --override +actor_rollout_ref.rollout.val_kwargs.max_tokens=1024
+```
+
+This smaller run is not a reproduction and has not been tested on GPU by the authors. The launchers do not allocate cluster resources. See the [organization guide](docs/ORGANIZATION.md) for all commands, and the [CPU workflow](.github/workflows/checks.yml) for the CI checks.
 
 </details>
 
@@ -108,28 +137,30 @@ See the [organization guide](docs/ORGANIZATION.md) for all unified commands and 
 | Goal | Start here |
 |:---|:---|
 | Reproduce Code and Math OPD | [11 training recipes](configs/recipes/) · [experiment map](docs/EXPERIMENTS.md) |
+| See exactly what the OPD backends change in veRL | [Backend overlays](vendor/overlays/README.md) |
 | Compare top-16 / full-logit and rollout counts | [Ablation figures](paper/figures/ablations/support/) · [recipe provenance](docs/EXPERIMENTS.md) |
 | Run SFT → OPD | [SFT setup](docs/INSTALL.md#sft) · [`sft_opd_qwen`](configs/recipes/sft_opd_qwen.json) · [`sft_opd_r1`](configs/recipes/sft_opd_r1.json) |
 | Analyze learning signals and occupancy | [Signal analysis](analysis/learning_signal.py) · [definitions](docs/REPRODUCIBILITY.md#rate-and-loss-conventions) |
 | Measure parameter changes and CKA | [Geometry tools](analysis/geometry/) · [example configuration](configs/geometry.example.json) |
 | Audit Code avg@4 | [Evaluation audit](evaluation/audit_code_avg4.py) · [protocol](docs/EXPERIMENTS.md#important-measurement-distinctions) |
 
+## Related work
+
+- **Rethinking OPD.** [Rethinking On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2604.13016) ([code](https://github.com/thunlp/OPD)) also studies when OPD fails. It looks at thinking-pattern compatibility, at whether the teacher offers new capabilities, and at token-level overlap. Our analysis is complementary: we follow the gradient-based learning signal relative to the remaining loss, and give a local recovery guarantee for nearby teachers.
+- **OPD in upstream veRL.** veRL now supports OPD natively; see its [OPD documentation](https://github.com/verl-project/verl/blob/main/docs/algo/opd.md). This repository keeps the exact historical backends used for the paper. New OPD experiments may prefer upstream veRL.
+
 ## Reproduction status
 
-CPU figure reconstruction, numerical checks, and dry-run launchers have been verified. Full GPU retraining and all external evaluation dependencies have **not** been rerun from this package. The experiments use a fixed training horizon and do not establish that the observed plateaus persist under every training configuration.
+The following have been verified:
+- reconstruction of the figures on CPU;
+- the numerical checks;
+- the dry-run launchers.
 
-<details>
-<summary>Included artifacts and known gaps</summary>
+The following have **not** been rerun from this package:
+- full retraining on GPU;
+- all external evaluation dependencies.
 
-- Included: training snapshots, portable launchers, evaluation/geometry utilities, audited plotting inputs, and [source hashes](provenance/).
-- Models, training datasets, raw benchmark responses, and cluster orchestration are not bundled. Some recipes are reconstructed convenience launchers; the [experiment map](docs/EXPERIMENTS.md) labels their provenance.
-- The standalone all-parameter occupancy measurement driver was not recovered. Recorded occupancy values and reanalysis tools are included; the supplementary suffix-gradient probe is not a replacement.
-- The historical instruction-following protocol has training/evaluation source overlap; its results do not establish held-out generalization.
-- Small parameter changes and high representation similarity are observations. Their role in causing signal collapse remains a hypothesis. The local theorem concerns an idealized flow and nearby teachers with shared parameterization.
-
-Read the [reproduction notes](docs/REPRODUCIBILITY.md) before interpreting or extending these diagnostics.
-
-</details>
+The experiments use a fixed horizon of 200 updates. They do not show that the plateaus persist under every training configuration. [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) lists the included artifacts, the known gaps (including the instruction-following protocol's train/eval overlap) and the scope of the theory.
 
 ## Citation
 
@@ -144,10 +175,12 @@ The manuscript is in preparation. Until a public paper identifier is available:
 }
 ```
 
+GitHub's "Cite this repository" button uses [`CITATION.cff`](CITATION.cff).
+
 ## Acknowledgments and license
 
 The authors' original code is licensed under the [MIT License](LICENSE).
 
-This work builds on the third-party projects preserved under [`vendor/`](vendor/), including veRL and LLaMA-Factory. Third-party components retain their original licenses and copyright notices; see [third-party notices](THIRD_PARTY.md).
+This work builds on veRL and LLaMA-Factory, which are preserved under [`vendor/`](vendor/). Third-party components keep their original licenses and copyright notices; see the [third-party notices](THIRD_PARTY.md).
 
 Contact: [Lei Zhao](mailto:leizhao7@upenn.edu).

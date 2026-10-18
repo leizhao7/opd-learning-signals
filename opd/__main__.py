@@ -23,6 +23,7 @@ def main(argv=None):
         for name, description in [('train', 'Render or execute a training recipe'),
                                   ('figures', 'Reproduce all or selected figures'),
                                   ('recipes', 'Validate and list available recipes'),
+                                  ('backend', 'Assemble a veRL backend and print its path'),
                                   *[(k, v[1]) for k, v in TOOLS.items()]]:
             print(f'  {name:18} {description}')
         return
@@ -40,6 +41,11 @@ def main(argv=None):
         for name in recipe_names():
             recipe = load_recipe(name)
             print(f'{name:20} {recipe["vendor"]:16} {len(recipe["overrides"]):3} settings')
+    elif command == 'backend':
+        from .backends import BACKENDS, backend_path
+        if len(rest) != 1 or rest[0] not in BACKENDS:
+            raise SystemExit(f'Usage: python -m opd backend {{{",".join(BACKENDS)}}}')
+        print(backend_path(rest[0]))
     elif command in TOOLS:
         result = subprocess.run([sys.executable, str(ROOT / TOOLS[command][0]), *rest])
         raise SystemExit(result.returncode)

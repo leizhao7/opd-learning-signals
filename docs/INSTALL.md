@@ -8,13 +8,13 @@ Use Python 3.12; the recovered training sources include Python 3.12 syntax. Inst
 
 Training requires a Linux CUDA environment with PyTorch, FlashAttention, Ray and the rollout backend in the selected recipe. The paper runs used H200 GPUs. GPU count, rollout memory settings and sequence limits remain in each recipe; changing them can change resource requirements and numerical behavior.
 
-Install only the snapshot selected by the recipe, for example:
+Install only the backend selected by the recipe (`python -m opd recipes` lists them), for example:
 
 ```bash
-pip install -e vendor/verl-qwen
+pip install -e "$(python -m opd backend verl-qwen)"
 ```
 
-The recipes load their selected snapshot through `PYTHONPATH`. Installing arbitrary latest versions of PyTorch, transformers and vLLM together is not a verified reproduction environment. The recovered dependency constraints are in each vendor directory. `provenance/runtime_versions.json` records the package metadata that remained accessible at export time: the full-logit runtime overlay contained vLLM 0.11.0 and transformers 4.57.6. The complete old Python environment was not recoverable as an installable lockfile. The manuscript reports PyTorch 2.8.0 and Ray 2.49.0 for the support/rollout additions; these are provenance, not a claim that one stack covers every experiment.
+Backends other than `verl-original` are assembled from the shared base plus a small overlay under `vendor/.build/` and verified against the frozen hash manifest; see [`vendor/overlays/README.md`](../vendor/overlays/README.md). The recipes load their selected backend through `PYTHONPATH`. Installing arbitrary latest versions of PyTorch, transformers and vLLM together is not a verified reproduction environment. The recovered dependency constraints are in `vendor/verl-original/` (`requirements*.txt`, `setup.py`). `provenance/runtime_versions.json` records the package metadata that remained accessible at export time: the full-logit runtime overlay contained vLLM 0.11.0 and transformers 4.57.6. The complete old Python environment was not recoverable as an installable lockfile. The manuscript reports PyTorch 2.8.0 and Ray 2.49.0 for the support/rollout additions; these are provenance, not a claim that one stack covers every experiment.
 
 Before a full run, verify imports of the selected snapshot, CUDA/PyTorch compatibility, FlashAttention, the selected vLLM or SGLang backend, and the reward backend on a small job in your own environment. This package has not run a fresh GPU smoke test.
 

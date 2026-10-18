@@ -1,4 +1,4 @@
-"""Rebuild appendix figures from the colocated, audited normalized data.
+"""Rebuild appendix figures from the audited normalized data in figures/data/appendix_sft/.
 
 Usage: bundled Python build_sft_figures.py [--output-dir DIR].
 Output canvas width is the paper text width (5.5 inches); all ordinary labels
@@ -14,12 +14,13 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
 HERE=Path(__file__).resolve().parent
+DATA=HERE.parent/'data/appendix_sft'
 ap=argparse.ArgumentParser(description=__doc__)
 ap.add_argument('--output-dir',type=Path,default=HERE)
 OUT=ap.parse_args().output_dir;OUT.mkdir(parents=True,exist_ok=True)
-SFT=list(csv.DictReader((HERE/'sft_curves.csv').open()))
-OPD=list(csv.DictReader((HERE/'opd_curves.csv').open()))
-EVIDENCE=json.loads((HERE/'sft_evidence.json').read_text())
+SFT=list(csv.DictReader((DATA/'sft_curves.csv').open()))
+OPD=list(csv.DictReader((DATA/'opd_curves.csv').open()))
+EVIDENCE=json.loads((DATA/'sft_evidence.json').read_text())
 COLORS={'justrl':'#0072B2','r1_7b':'#666666',
         'qwen_math_rl':'#0072B2','qwen4b_nt':'#D55E00'}
 NAMES={'justrl':'JustRL-1.5B','r1_7b':'R1-Distill-7B',

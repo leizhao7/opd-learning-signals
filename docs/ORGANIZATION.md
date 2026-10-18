@@ -1,11 +1,12 @@
 # Code organization
 
-Run `python -m opd COMMAND` from the repository root. CLI startup and recipe dry-runs need only Python's standard library; training and analysis dependencies are loaded by the selected command.
+Run `python -m opd COMMAND` from the repository root. After `pip install -e .`, the same commands are available as `opd COMMAND`. CLI startup and recipe dry-runs need only Python's standard library; training and analysis dependencies are loaded by the selected command.
 
 | Command | Implementation / purpose |
 |---|---|
 | `train` | `opd/train.py`: resolve configuration, print command, optionally execute |
 | `recipes` | Validate all configurations and list their frozen backends |
+| `backend NAME` | `opd/backends.py`: assemble a veRL backend from base + overlay, verify hashes, print its path |
 | `figures --group all` | Rebuild the paper figures; groups: main, signal, if, diagnostics, sft, rollouts |
 | `sft` | `training/sft.py`; requires an already resolved SFT configuration and the installed LLaMA-Factory environment |
 | `signals` | `analysis/learning_signal.py`; archived cross-fitted diagnostics |
@@ -24,9 +25,9 @@ The loader rejects unknown recipes, unsupported backends and duplicate assignmen
 
 Use recipe-specific overrides for new experiments. If a shared setting needs changing for only one experiment, keep the base unchanged. Retain the original launcher hash and mark derived configurations explicitly. Execution records include the resolved command, settings, backend and configuration hashes; prior launch records survive in `OUTPUT/launches/` when a run is resumed.
 
-## Why the backend snapshots remain separate
+## Why the backends remain separate
 
-The four veRL trees encode distinct historical training and evaluation implementations. A common interface does not establish that their algorithms are interchangeable. They remain frozen under `vendor/`, with their third-party licenses. Refactoring regression tests verify every file against `provenance/frozen_vendor_sha256.json`. No full-logit kernel, reward implementation, optimizer or training-loop code was modified by this organization pass.
+The four veRL trees encode distinct historical training and evaluation implementations. A common interface does not establish that their algorithms are interchangeable, so each recipe still selects exactly one backend. Because the trees differ in only nine files, the repository stores `vendor/verl-original/` once and keeps the differing files under `vendor/overlays/NAME/`. `opd/backends.py` assembles each backend under `vendor/.build/` and verifies every file against `provenance/frozen_vendor_sha256.json` before use. [`vendor/overlays/README.md`](../vendor/overlays/README.md) describes each overlay and the two documented departures from the recovered snapshots. No full-logit kernel, reward implementation, optimizer or training-loop code was modified.
 
 ## Regression checks
 

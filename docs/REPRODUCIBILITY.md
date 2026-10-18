@@ -8,6 +8,15 @@
 - Code avg@4 is independently recomputed from all 21 checkpoints' archived eight-response reward records. Selected response ordinals match the original reward-independent SHA256 rule, and all macro accuracies match Figure 1's input CSV.
 - Python syntax and the release's credential-pattern checks are performed. These are not a guarantee against all possible sensitive content.
 
+## Included artifacts and known gaps
+
+- Included: training backends, portable launchers, evaluation/geometry utilities, audited plotting inputs, and [source hashes](../provenance/).
+- Models, training datasets, raw benchmark responses, and cluster orchestration are not bundled. Some recipes are reconstructed convenience launchers; the [experiment map](EXPERIMENTS.md) labels their provenance.
+- The standalone all-parameter occupancy measurement driver was not recovered. Recorded occupancy values and reanalysis tools are included; the supplementary suffix-gradient probe is not a replacement.
+- The historical instruction-following protocol has training/evaluation source overlap; its results do not establish held-out generalization.
+- Small parameter changes and high representation similarity are observations. Their role in causing signal collapse remains a hypothesis. The local theorem concerns an idealized flow and nearby teachers with shared parameterization.
+- The experiments use a fixed 200-update horizon and do not establish that the observed plateaus persist under every training configuration.
+
 ## Rate and loss conventions
 
 Figure 2 shows two students and five runs, with all 200 raw, unsmoothed updates per run. Remaining loss is normalized by each run's step-1 loss.
@@ -32,6 +41,6 @@ The suffix-gradient consistency probe in `analysis/diagnostics` uses the paramet
 
 ## Changes made for portability
 
-No OPD loss or optimizer implementation was intentionally changed. Launch recipes replace storage/model/data paths with CLI inputs; W&B is disabled by default; plotting during training is disabled; cluster watchdogs, GPU reservations, transfers and credential-loading code are excluded. The full-logit checkpoint storage hook now checks free space without requiring a particular cluster directory name. The SFT response worker uses caller-managed GPU scheduling instead of the cluster reservation protocol; filtering logic is preserved. Figure model names no longer depend on reading the paper's LaTeX source. Geometry bank/pair mappings can be supplied through the existing experiment contract.
+No OPD loss or optimizer implementation was intentionally changed. The veRL backends are stored as one base tree plus per-backend overlays and are reassembled and hash-verified before use; the recovered `verl-code` snapshot lacked three unmodified veRL directories that its FSDP worker imports, which are now taken from the shared base ([details](../vendor/overlays/README.md#changes-from-the-recovered-snapshots)). Launch recipes replace storage/model/data paths with CLI inputs; W&B is disabled by default; plotting during training is disabled; cluster watchdogs, GPU reservations, transfers and credential-loading code are excluded. The full-logit checkpoint storage hook now checks free space without requiring a particular cluster directory name. The SFT response worker uses caller-managed GPU scheduling instead of the cluster reservation protocol; filtering logic is preserved. Figure model names no longer depend on reading the paper's LaTeX source. Geometry bank/pair mappings can be supplied through the existing experiment contract.
 
 The recovered source trees are dated snapshots, not verified upstream commits. Hash manifests identify included files. Reconstructed recipes are marked in their JSON files and experiment map. A newly trained checkpoint is not expected to match the archived curves bit-for-bit, particularly across hardware, checkpoint resumes, sampler state and library versions.

@@ -9,6 +9,7 @@ import subprocess
 import sys
 from uuid import uuid4
 
+from .backends import backend_path
 from .config import load_recipe, merge_overrides, recipe_names, render_overrides
 from .paths import ROOT
 
@@ -39,7 +40,7 @@ def main(argv=None):
     parser.add_argument('--execute', action='store_true')
     args = parser.parse_args(argv)
     recipe = load_recipe(args.recipe)
-    vendor = ROOT / 'vendor' / recipe['vendor']
+    vendor = backend_path(recipe['vendor'])
     output = args.output.resolve()
     # JSON quoting keeps commas, spaces and '=' inside user-provided scalar values.
     def quote(value):

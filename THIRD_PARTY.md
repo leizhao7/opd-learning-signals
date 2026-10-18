@@ -2,7 +2,7 @@
 
 The authors' original code is licensed under the root [MIT License](LICENSE). Third-party components remain subject to their own licenses and copyright notices, including any file-specific notices.
 
-- `vendor/verl-*`: recovered experiment snapshots of veRL, with their LICENSE and Notice.txt. These include local experimental modifications. They are not claimed to be clean upstream Git revisions.
+- `vendor/verl-original` and `vendor/overlays/verl-*`: recovered experiment snapshots of veRL (Apache-2.0), stored as one base tree with its LICENSE and Notice.txt plus per-backend overlay files. These include local experimental modifications. They are not claimed to be clean upstream Git revisions.
 - `vendor/llamafactory`: recovered LLaMA-Factory source and original LICENSE. The training wrapper/configuration is separate.
 - `evaluation/if/multiif_ifeval.py`: Meta Multi-IF checker, with its copyright header and `MULTI_IF_LICENSE`.
 - Other copied sources retain their existing copyright notices.

@@ -1,6 +1,5 @@
 """Protect historical settings and frozen backend behavior during organization."""
 import gzip
-import hashlib
 import io
 import tempfile
 import json
@@ -13,6 +12,7 @@ from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+from opd.backends import BACKENDS, MANIFEST, backend_path, tree_hashes
 from opd.config import load_recipe, merge_overrides, override_key, render_overrides
 from opd.train import build_environment
 
@@ -30,11 +30,18 @@ class UnificationTests(unittest.TestCase):
                 self.assertEqual(original['source_sha256'], recipe['source_sha256'])
 
     def test_frozen_backends_are_byte_identical(self):
-        hashes = json.loads((ROOT / 'provenance/frozen_vendor_sha256.json').read_text())
-        actual = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
-                  for p in (ROOT / 'vendor').rglob('*') if p.is_file()
-                  and '__pycache__' not in p.parts and p.suffix != '.pyc'}
+        hashes = json.loads(MANIFEST.read_text())
+        actual = tree_hashes(ROOT / 'vendor/llamafactory', 'vendor/llamafactory')
+        for name in BACKENDS:
+            actual.update(tree_hashes(backend_path(name), f'vendor/{name}'))
         self.assertEqual(hashes, actual)
+
+    def test_assembled_backends_import_their_own_modules(self):
+        # Every module imported at the top of the FSDP worker must exist in each backend tree.
+        for name in BACKENDS:
+            root = backend_path(name) / 'verl'
+            for module in ('models/transformers/monkey_patch.py', 'third_party/torch/distributed/checkpoint/state_dict.py'):
+                self.assertTrue((root / module).is_file(), f'{name}: {module}')
 
     def test_override_precedence(self):
         self.assertEqual(merge_overrides(['+a=1', 'b=2'], ['a=3', '+a=4']), ['+a=4', 'b=2'])
@@ -47,7 +54,7 @@ class UnificationTests(unittest.TestCase):
 
     def test_environment_preserves_existing_search_paths(self):
         with patch.dict('os.environ', {'PYTHONPATH': '/custom', 'WANDB_MODE': 'offline'}, clear=True):
-            env = build_environment(ROOT / 'vendor/verl-code', Path('/tmp/opd'))
+            env = build_environment(backend_path('verl-code'), Path('/tmp/opd'))
         self.assertTrue(env['PYTHONPATH'].endswith('/custom'))
         self.assertEqual(env['WANDB_MODE'], 'offline')
         self.assertEqual(env['VERL_FILE_LOGGER_PATH'], '/tmp/opd/metrics.jsonl')
