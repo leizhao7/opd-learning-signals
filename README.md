@@ -21,25 +21,25 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 
 <p>
 <a href="https://arxiv.org/abs/2610.11247">📄 Paper</a> &nbsp;•&nbsp;
-<a href="#news">🎉 News</a> &nbsp;•&nbsp;
-<a href="#findings">🔍 Findings</a> &nbsp;•&nbsp;
-<a href="#results">📊 Results</a> &nbsp;•&nbsp;
-<a href="#quick-start">🚀 Quick start</a> &nbsp;•&nbsp;
+<a href="#-news">🎉 News</a> &nbsp;•&nbsp;
+<a href="#-findings">🔍 Findings</a> &nbsp;•&nbsp;
+<a href="#-results">📊 Results</a> &nbsp;•&nbsp;
+<a href="#-quick-start">🚀 Quick start</a> &nbsp;•&nbsp;
 <a href="docs/EXPERIMENTS.md">🧪 Experiments</a> &nbsp;•&nbsp;
 <a href="docs/REPRODUCIBILITY.md">🔁 Reproducibility</a> &nbsp;•&nbsp;
-<a href="#citation">📌 Citation</a>
+<a href="#-citation">📌 Citation</a>
 </p>
 
 </div>
 
 **Why can on-policy distillation (OPD) stall while the student still differs substantially from its teacher?** We study OPD for code generation and mathematical reasoning. We combine training diagnostics with a continuous-time analysis. This repository contains the training recipes, analysis tools and numerical inputs for the paper's figures. The figures rebuild on a CPU without any model download.
 
-## News
+## 🎉 News
 
 - **[2026-10-18]** Release update: expected results for every recipe, a single veRL base with per-backend overlays, and a fixed `code_rl` backend.
 - **[2026-10-08]** Paper released on [arXiv](https://arxiv.org/abs/2610.11247).
 
-## Findings
+## 🔍 Findings
 
 **1. With larger-scale teachers, OPD often plateaus; with self-RL teachers it does not.** Each student is trained for 200 updates.
 - With the larger-scale teachers studied, OPD loss stalls while substantial teacher–student differences remain.
@@ -60,7 +60,7 @@ $$\frac{d\mathcal L}{dt}=-2\mu(1+\alpha)\mathcal L.$$
 
 Here $\alpha$ measures whether the changing rollout distribution reinforces or offsets the gradient step. Under stated regularity conditions, a sufficiently nearby teacher with a shared parameterization gives a local recovery guarantee. The loss is then bounded by an exponentially decaying term plus a residual.
 
-## Results
+## 📊 Results
 
 Loss and accuracy after 200 OPD updates. Code accuracy is avg@4, macro-averaged over HumanEval+, MBPP+ and LiveCodeBench. Math accuracy is avg@8, macro-averaged over AIME24, AIME25 and AMC23. † marks self-RL teachers.
 
@@ -86,9 +86,9 @@ Source data: [`teacher_recoverability_metrics.csv`](paper/figures/data/teacher_r
 
 </details>
 
-## Quick start
+## 🚀 Quick start
 
-### Recreate the figures on CPU
+### 💻 Recreate the figures on CPU
 
 ```bash
 git clone https://github.com/leizhao7/opd-learning-signals.git
@@ -101,7 +101,7 @@ python -m opd figures
 
 Plots are written under `paper/figures/` from the committed numerical inputs. No model download or GPU is needed. `python -m opd figures --group signal` rebuilds only the plot above.
 
-### Run an OPD experiment
+### 🏃 Run an OPD experiment
 
 Prepare the GPU environment, models and data with the [installation guide](docs/INSTALL.md). Preview a launch with:
 
@@ -142,7 +142,7 @@ This smaller run is not a reproduction and has not been tested on GPU by the aut
 
 </details>
 
-## Find your experiment
+## 🧭 Find your experiment
 
 | Goal | Start here |
 |:---|:---|
@@ -154,12 +154,12 @@ This smaller run is not a reproduction and has not been tested on GPU by the aut
 | Measure parameter changes and CKA | [Geometry tools](analysis/geometry/) · [example configuration](configs/geometry.example.json) |
 | Audit Code avg@4 | [Evaluation audit](evaluation/audit_code_avg4.py) · [protocol](docs/EXPERIMENTS.md#important-measurement-distinctions) |
 
-## Related work
+## 🔗 Related work
 
 - **Rethinking OPD.** [Rethinking On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2604.13016) ([code](https://github.com/thunlp/OPD)) also studies when OPD fails. It looks at thinking-pattern compatibility, at whether the teacher offers new capabilities, and at token-level overlap. Our analysis is complementary: we follow the gradient-based learning signal relative to the remaining loss, and give a local recovery guarantee for nearby teachers.
 - **OPD in upstream veRL.** veRL now supports OPD natively; see its [OPD documentation](https://github.com/verl-project/verl/blob/main/docs/algo/opd.md). This repository keeps the exact historical backends used for the paper. New OPD experiments may prefer upstream veRL.
 
-## Reproduction status
+## 🔁 Reproduction status
 
 The following have been verified:
 - reconstruction of the figures on CPU;
@@ -172,7 +172,7 @@ The following have **not** been rerun from this package:
 
 The experiments use a fixed horizon of 200 updates. They do not show that the plateaus persist under every training configuration. [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) lists the included artifacts, the known gaps (including the instruction-following protocol's train/eval overlap) and the scope of the theory.
 
-## Citation
+## 📌 Citation
 
 ```bibtex
 @article{zhao2026opd,
@@ -185,7 +185,7 @@ The experiments use a fixed horizon of 200 updates. They do not show that the pl
 
 GitHub's "Cite this repository" button uses [`CITATION.cff`](CITATION.cff).
 
-## Acknowledgments and license
+## 🙏 Acknowledgments and license
 
 The authors' original code is licensed under the [MIT License](LICENSE).
 
