@@ -1,35 +1,43 @@
 <div align="center">
 
+<img src="docs/assets/logo.svg" width="300" alt="A large teacher circle sends a stream of dots that shrink and fade before reaching a small student circle">
+
 <h1>Why On-Policy Distillation Sometimes Fails:<br>Vanishing Learning Signals</h1>
 
 <p>
 Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qishi Zhan<sup>4</sup>
 </p>
 <p>
-<sup>1</sup>University of Pennsylvania &nbsp; <sup>2</sup>Tsinghua University<br>
-<sup>3</sup>University of California, Riverside &nbsp; <sup>4</sup>Marquette University
+<img src="https://www.google.com/s2/favicons?domain=www.upenn.edu&sz=64" height="16" alt=""> <sup>1</sup>University of Pennsylvania &nbsp;&nbsp; <img src="https://www.google.com/s2/favicons?domain=www.tsinghua.edu.cn&sz=64" height="16" alt=""> <sup>2</sup>Tsinghua University<br>
+<img src="https://www.google.com/s2/favicons?domain=www.ucr.edu&sz=64" height="16" alt=""> <sup>3</sup>University of California, Riverside &nbsp;&nbsp; <img src="https://www.google.com/s2/favicons?domain=www.marquette.edu&sz=64" height="16" alt=""> <sup>4</sup>Marquette University
 </p>
 
 <p>
-<a href="https://arxiv.org/abs/2610.11247"><img src="https://img.shields.io/badge/arXiv-2610.11247-b31b1b.svg" alt="arXiv 2610.11247"></a>
-<a href="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml"><img src="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml/badge.svg" alt="CPU reproduction checks"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
-<img src="https://img.shields.io/badge/python-3.12-blue.svg" alt="Python 3.12">
+<a href="https://arxiv.org/abs/2610.11247"><img src="https://img.shields.io/badge/arXiv-2610.11247-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv 2610.11247"></a>
+<a href="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/leizhao7/opd-learning-signals/checks.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CPU%20checks" alt="CPU reproduction checks"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-0A8AA0?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT license"></a>
+<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12">
 </p>
 
 <p>
-<a href="https://arxiv.org/abs/2610.11247">Paper</a> &nbsp;•&nbsp;
-<a href="#findings">Findings</a> &nbsp;•&nbsp;
-<a href="#results">Results</a> &nbsp;•&nbsp;
-<a href="#quick-start">Quick start</a> &nbsp;•&nbsp;
-<a href="docs/EXPERIMENTS.md">Experiments</a> &nbsp;•&nbsp;
-<a href="docs/REPRODUCIBILITY.md">Reproducibility</a> &nbsp;•&nbsp;
-<a href="#citation">Citation</a>
+<a href="https://arxiv.org/abs/2610.11247">📄 Paper</a> &nbsp;•&nbsp;
+<a href="#news">🎉 News</a> &nbsp;•&nbsp;
+<a href="#findings">🔍 Findings</a> &nbsp;•&nbsp;
+<a href="#results">📊 Results</a> &nbsp;•&nbsp;
+<a href="#quick-start">🚀 Quick start</a> &nbsp;•&nbsp;
+<a href="docs/EXPERIMENTS.md">🧪 Experiments</a> &nbsp;•&nbsp;
+<a href="docs/REPRODUCIBILITY.md">🔁 Reproducibility</a> &nbsp;•&nbsp;
+<a href="#citation">📌 Citation</a>
 </p>
 
 </div>
 
 **Why can on-policy distillation (OPD) stall while the student still differs substantially from its teacher?** We study OPD for code generation and mathematical reasoning. We combine training diagnostics with a continuous-time analysis. This repository contains the training recipes, analysis tools and numerical inputs for the paper's figures. The figures rebuild on a CPU without any model download.
+
+## News
+
+- **[2026-10-18]** Release update: expected results for every recipe, a single veRL base with per-backend overlays, and a fixed `code_rl` backend.
+- **[2026-10-08]** Paper released on [arXiv](https://arxiv.org/abs/2610.11247).
 
 ## Findings
 
