@@ -4,6 +4,7 @@ title: "Code and reproducibility artifacts for Why On-Policy Distillation Someti
 type: software
 license: MIT
 repository-code: "https://github.com/leizhao7/opd-learning-signals"
+url: "https://arxiv.org/abs/2610.11247"
 authors:
   - family-names: Zhao
     given-names: Lei
@@ -24,10 +25,17 @@ keywords:
   - reinforcement learning
   - verl
 preferred-citation:
-  type: unpublished
+  type: article
   title: "Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals"
   year: 2026
-  notes: "Manuscript in preparation"
+  journal: "arXiv preprint arXiv:2610.11247"
+  url: "https://arxiv.org/abs/2610.11247"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.11247"
+      description: arXiv identifier
+    - type: doi
+      value: 10.48550/arXiv.2610.11247
   authors:
     - family-names: Zhao
       given-names: Lei

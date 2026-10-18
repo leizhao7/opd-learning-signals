@@ -11,12 +11,14 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 </p>
 
 <p>
+<a href="https://arxiv.org/abs/2610.11247"><img src="https://img.shields.io/badge/arXiv-2610.11247-b31b1b.svg" alt="arXiv 2610.11247"></a>
 <a href="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml"><img src="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml/badge.svg" alt="CPU reproduction checks"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
 <img src="https://img.shields.io/badge/python-3.12-blue.svg" alt="Python 3.12">
 </p>
 
 <p>
+<a href="https://arxiv.org/abs/2610.11247">Paper</a> &nbsp;•&nbsp;
 <a href="#findings">Findings</a> &nbsp;•&nbsp;
 <a href="#results">Results</a> &nbsp;•&nbsp;
 <a href="#quick-start">Quick start</a> &nbsp;•&nbsp;
@@ -164,14 +166,12 @@ The experiments use a fixed horizon of 200 updates. They do not show that the pl
 
 ## Citation
 
-The manuscript is in preparation. Until a public paper identifier is available:
-
 ```bibtex
-@unpublished{zhao2026opd,
-  title  = {Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals},
-  author = {Zhao, Lei and Zhao, Qichao and Zuo, Bowen and Zhan, Qishi},
-  year   = {2026},
-  note   = {Manuscript in preparation}
+@article{zhao2026opd,
+  title   = {Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals},
+  author  = {Zhao, Lei and Zhao, Qichao and Zuo, Bowen and Zhan, Qishi},
+  journal = {arXiv preprint arXiv:2610.11247},
+  year    = {2026}
 }
 ```
 
