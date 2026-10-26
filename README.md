@@ -5,15 +5,18 @@
 <h1>Why On-Policy Distillation Sometimes Fails:<br>Vanishing Learning Signals</h1>
 
 <p>
-Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qishi Zhan<sup>4</sup>
+Lei Zhao<sup>1,*</sup> · Qichao Zhao<sup>2,*</sup> · Bowen Zuo<sup>3</sup> · Qishi Zhan<sup>4</sup>
 </p>
 <p>
 <img src="https://www.google.com/s2/favicons?domain=www.upenn.edu&sz=64" height="16" alt=""> <sup>1</sup>University of Pennsylvania &nbsp;&nbsp; <img src="https://www.google.com/s2/favicons?domain=www.tsinghua.edu.cn&sz=64" height="16" alt=""> <sup>2</sup>Tsinghua University<br>
 <img src="https://www.google.com/s2/favicons?domain=www.ucr.edu&sz=64" height="16" alt=""> <sup>3</sup>University of California, Riverside &nbsp;&nbsp; <img src="https://www.google.com/s2/favicons?domain=www.marquette.edu&sz=64" height="16" alt=""> <sup>4</sup>Marquette University
 </p>
+<p><sup>*</sup>Equal contribution</p>
 
 <p>
 <a href="https://arxiv.org/abs/2610.11247"><img src="https://img.shields.io/badge/arXiv-2610.11247-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv 2610.11247"></a>
+<a href="https://leizhao7.github.io/opd-learning-signals/"><img src="https://img.shields.io/badge/Project-Website-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"></a>
+<a href="https://huggingface.co/collections/leizhao7/opd-learning-signals-6adf7a79a2ccaa4deb1a2d02"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Checkpoints-7_models-FCD022?style=for-the-badge" alt="Hugging Face checkpoints"></a>
 <a href="https://github.com/leizhao7/opd-learning-signals/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/leizhao7/opd-learning-signals/checks.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CPU%20checks" alt="CPU reproduction checks"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-0A8AA0?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT license"></a>
 <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12">
@@ -25,6 +28,7 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 <a href="#-news">🎉 News</a> &nbsp;•&nbsp;
 <a href="#-findings">🔍 Findings</a> &nbsp;•&nbsp;
 <a href="#-results">📊 Results</a> &nbsp;•&nbsp;
+<a href="#-checkpoints">🤗 Checkpoints</a> &nbsp;•&nbsp;
 <a href="#-quick-start">🚀 Quick start</a> &nbsp;•&nbsp;
 <a href="docs/EXPERIMENTS.md">🧪 Experiments</a> &nbsp;•&nbsp;
 <a href="docs/REPRODUCIBILITY.md">🔁 Reproducibility</a> &nbsp;•&nbsp;
@@ -37,6 +41,8 @@ Lei Zhao<sup>1</sup> · Qichao Zhao<sup>2</sup> · Bowen Zuo<sup>3</sup> · Qish
 
 ## 🎉 News
 
+- **[2026-10-26]** 🤗 All seven step-200 student checkpoints are on Hugging Face ([collection](https://huggingface.co/collections/leizhao7/opd-learning-signals-6adf7a79a2ccaa4deb1a2d02)); see [Checkpoints](#-checkpoints).
+- **[2026-10-26]** 🌐 The [project website](https://leizhao7.github.io/opd-learning-signals/) is live, with interactive training curves.
 - **[2026-10-18]** Release update: expected results for every recipe, a single veRL base with per-backend overlays, and a fixed `code_rl` backend.
 - **[2026-10-08]** Paper released on [arXiv](https://arxiv.org/abs/2610.11247).
 
@@ -86,6 +92,40 @@ Loss and accuracy after 200 OPD updates. Code accuracy is avg@4, macro-averaged 
 Source data: [`teacher_recoverability_metrics.csv`](paper/figures/data/teacher_recoverability_metrics.csv). See also the [full training curves](docs/assets/teacher-trainability.png) and the [metric conventions](docs/REPRODUCIBILITY.md#rate-and-loss-conventions).
 
 </details>
+
+## 🤗 Checkpoints
+
+We release the **final student of every run in the results table**, saved after 200 OPD updates. All seven are in the 🤗 [OPD Learning Signals collection](https://huggingface.co/collections/leizhao7/opd-learning-signals-6adf7a79a2ccaa4deb1a2d02). Teacher weights are not included.
+
+| Checkpoint | Task | Student | Teacher | Final loss reduction | Accuracy: student → step 200 |
+|:---|:---|:---|:---|---:|:---:|
+| [Qwen3-4B-OPD-RL-Code-Step200](https://huggingface.co/leizhao7/Qwen3-4B-OPD-RL-Code-Step200) | Code | Qwen3-4B | Qwen3-4B-RL-Code † | **99.4%** | 52.7 → **60.4** |
+| [Qwen3-4B-OPD-Qwen3-14B-Step200](https://huggingface.co/leizhao7/Qwen3-4B-OPD-Qwen3-14B-Step200) | Code | Qwen3-4B | Qwen3-14B | 25.9% | 52.7 → 53.4 |
+| [Qwen3-1.7B-OPD-RL-Math-Step200](https://huggingface.co/leizhao7/Qwen3-1.7B-OPD-RL-Math-Step200) | Math | Qwen3-1.7B | Qwen3-4B-RL-Math | **55.4%** | 21.1 → **43.9** |
+| [Qwen3-1.7B-OPD-Qwen3-4B-Step200](https://huggingface.co/leizhao7/Qwen3-1.7B-OPD-Qwen3-4B-Step200) | Math | Qwen3-1.7B | Qwen3-4B | 6.2% | 20.7 → 22.7 |
+| [R1-Distill-Qwen-1.5B-OPD-JustRL-Step200](https://huggingface.co/leizhao7/R1-Distill-Qwen-1.5B-OPD-JustRL-Step200) | Math | R1-Distill-Qwen-1.5B | JustRL-1.5B † | **92.9%** | 39.9 → **51.9** |
+| [R1-Distill-Qwen-1.5B-OPD-Skywork-7B-Step200](https://huggingface.co/leizhao7/R1-Distill-Qwen-1.5B-OPD-Skywork-7B-Step200) | Math | R1-Distill-Qwen-1.5B | Skywork-7B | 23.9% | 39.9 → 46.1 |
+| [R1-Distill-Qwen-1.5B-OPD-R1-7B-Step200](https://huggingface.co/leizhao7/R1-Distill-Qwen-1.5B-OPD-R1-7B-Step200) | Math | R1-Distill-Qwen-1.5B | R1-Distill-7B | 13.9% | 39.9 → 42.7 |
+
+† Self-RL teacher. Accuracy uses the protocol of the [results table](#-results) (Code avg@4, Math avg@8). The numbers are archived paper-run metrics; the uploaded checkpoints have not been re-evaluated separately. Each model card lists the training settings, per-benchmark scores, chat template, provenance and SHA-256 checksums.
+
+```bash
+huggingface-cli download leizhao7/Qwen3-1.7B-OPD-RL-Math-Step200 --local-dir checkpoints/Qwen3-1.7B-OPD-RL-Math-Step200
+```
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_id = "leizhao7/Qwen3-1.7B-OPD-RL-Math-Step200"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype="auto", device_map="auto")
+messages = [{"role": "user", "content": "Find the sum of the first 20 positive integers."}]
+# Qwen3 students use the non-thinking template; drop enable_thinking for the R1-Distill students.
+inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, enable_thinking=False,
+                                       return_dict=True, return_tensors="pt").to(model.device)
+output = model.generate(**inputs, max_new_tokens=1024, do_sample=True, temperature=1.0, top_p=1.0)
+print(tokenizer.decode(output[0, inputs["input_ids"].shape[-1]:], skip_special_tokens=True))
+```
 
 ## 🚀 Quick start
 
