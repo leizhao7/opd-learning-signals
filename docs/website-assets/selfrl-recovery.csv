@@ -1,0 +1,5 @@
+run,task,student,teacher,support,rollouts_per_prompt,updates,relative_teacher_distance_pct,objective_start,objective_min,objective_final,max_loss_reduction_pct,final_loss_reduction_pct,notes
+rl4b,Code,Qwen3-4B (Non-thinking),Qwen3-4B-RL-Code,Top-16,1,200,0.03,0.11997062712907791,0.0006461328011937439,0.0006960757891647518,99.46142416968567,99.41979482326467,Main run; relative distance is a pair-level measurement.
+justrl1p5b,Math,R1-Distill-1.5B,JustRL-1.5B,Top-16,1,200,0.497,0.455453097820282,0.01689421385526657,0.03212021291255951,96.29067977885774,92.94763542804272,Same teacher/student pair across configurations; relative distance is measured once. 
+justrl-full,Math,R1-Distill-1.5B,JustRL-1.5B,Full logits,1,200,0.497,0.44614550471305847,0.01685616932809353,0.03658821061253548,96.22182244356924,91.79904084519076,Same teacher/student pair across configurations; relative distance is measured once. 
+justrl-n8,Math,R1-Distill-1.5B,JustRL-1.5B,Top-16,8,200,0.497,0.4584561884403229,0.01753588579595089,0.31592413783073425,96.17501383161424,31.089568469887062,Same teacher/student pair across configurations; relative distance is measured once. Late loss increase.
