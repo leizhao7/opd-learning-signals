@@ -43,7 +43,7 @@ Lei Zhao<sup>1,*</sup> · Qichao Zhao<sup>2,*</sup> · Bowen Zuo<sup>3</sup> · 
 
 - **[2026-10-26]** 🤗 All seven step-200 student checkpoints are on Hugging Face ([collection](https://huggingface.co/collections/leizhao7/opd-learning-signals-6adf7a79a2ccaa4deb1a2d02)); see [Checkpoints](#-checkpoints).
 - **[2026-10-26]** 🌐 The [project website](https://leizhao7.github.io/opd-learning-signals/) is live, with interactive training curves.
-- **[2026-10-18]** Release update: expected results for every recipe, a single veRL base with per-backend overlays, and a fixed `code_rl` backend.
+- **[2026-10-18]** Every training recipe now lists the loss reduction it reached in the paper ([experiment map](docs/EXPERIMENTS.md#expected-results)), so you can check your own run against it.
 - **[2026-10-08]** Paper released on [arXiv](https://arxiv.org/abs/2610.11247).
 
 ## 🔍 Findings
