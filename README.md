@@ -37,6 +37,10 @@ Lei Zhao<sup>1,*</sup> · Qichao Zhao<sup>2,*</sup> · Bowen Zuo<sup>3</sup> · 
 
 </div>
 
+**Watch the 58-second overview**
+
+https://github.com/user-attachments/assets/dc8e687d-cdf7-4a62-abaa-8a52c2c35e47
+
 **Why can on-policy distillation (OPD) stall while the student still differs substantially from its teacher?** We study OPD for code generation and mathematical reasoning. We combine training diagnostics with a continuous-time analysis. This repository contains the training recipes, analysis tools and numerical inputs for the paper's figures. The figures rebuild on a CPU without any model download.
 
 ## 🎉 News
